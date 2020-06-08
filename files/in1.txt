@@ -1,0 +1,4 @@
+log out1.txt
+size 9 6 
+steps 120
+item monster 2 2 5
