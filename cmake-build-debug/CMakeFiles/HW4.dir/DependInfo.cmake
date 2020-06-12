@@ -1,16 +1,17 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.c" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/mini_gui.c.o"
-  "/Users/shlomishetrit/Documents/GitHub/HW4/sample.c" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/sample.c.o"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/files/drawable.cpp.o"
+  "/Users/shlomishetrit/Documents/GitHub/HW4/files/main.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/files/main.cpp.o"
+  "/Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/files/mini_gui.cpp.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
   )
 

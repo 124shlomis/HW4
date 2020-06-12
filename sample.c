@@ -51,7 +51,7 @@ int main() {
 
 	// Wait for user to kill the program
 	while (1) {
-		// Sleep 500 ms
+		// Sleep 300 ms
 		mini_gui_sleep(mg, 300);
 		// Clear the text in the current recangle
 		mini_gui_clear_rect(mg, moving_rectangle);

@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/shlomishetrit/Documents/GitHub/HW4/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -66,6 +67,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/shlomishetrit/Documents/GitHub/HW4/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -80,13 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.c">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/apple.h">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.h">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/ascii_objects.h">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/sample.c">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.cpp">
+			<Option target="HW4"/>
+		</Unit>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.h">
+			<Option target="HW4"/>
+		</Unit>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable_list.h">
+			<Option target="HW4"/>
+		</Unit>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/main.cpp">
+			<Option target="HW4"/>
+		</Unit>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.cpp">
+			<Option target="HW4"/>
+		</Unit>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.h">
 			<Option target="HW4"/>
 		</Unit>
 		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/CMakeLists.txt">

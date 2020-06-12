@@ -74,12 +74,12 @@ clean: CMakeFiles/HW4.dir/clean
 CMakeFiles/HW4.dir/all:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/depend
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target HW4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target HW4"
 .PHONY : CMakeFiles/HW4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HW4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HW4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/HW4.dir/rule

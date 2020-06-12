@@ -1,11 +1,15 @@
 cmake_minimum_required(VERSION 3.16)
-project(HW4 C)
+project(HW4)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
 
 include_directories(.)
 
 add_executable(HW4
-        mini_gui.c
-        mini_gui.h
-        sample.c)
+        files/mini_gui.cpp
+        files/mini_gui.h
+        files/ascii_objects.h
+        files/drawable.h
+        files/drawable.cpp
+        files/drawable_list.h
+        files/main.cpp files/apple.h)

@@ -123,59 +123,86 @@ HW4/fast:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/build
 .PHONY : HW4/fast
 
-mini_gui.o: mini_gui.c.o
+files/drawable.o: files/drawable.cpp.o
 
-.PHONY : mini_gui.o
-
-# target to build an object file
-mini_gui.c.o:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/mini_gui.c.o
-.PHONY : mini_gui.c.o
-
-mini_gui.i: mini_gui.c.i
-
-.PHONY : mini_gui.i
-
-# target to preprocess a source file
-mini_gui.c.i:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/mini_gui.c.i
-.PHONY : mini_gui.c.i
-
-mini_gui.s: mini_gui.c.s
-
-.PHONY : mini_gui.s
-
-# target to generate assembly for a file
-mini_gui.c.s:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/mini_gui.c.s
-.PHONY : mini_gui.c.s
-
-sample.o: sample.c.o
-
-.PHONY : sample.o
+.PHONY : files/drawable.o
 
 # target to build an object file
-sample.c.o:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/sample.c.o
-.PHONY : sample.c.o
+files/drawable.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/drawable.cpp.o
+.PHONY : files/drawable.cpp.o
 
-sample.i: sample.c.i
+files/drawable.i: files/drawable.cpp.i
 
-.PHONY : sample.i
+.PHONY : files/drawable.i
 
 # target to preprocess a source file
-sample.c.i:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/sample.c.i
-.PHONY : sample.c.i
+files/drawable.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/drawable.cpp.i
+.PHONY : files/drawable.cpp.i
 
-sample.s: sample.c.s
+files/drawable.s: files/drawable.cpp.s
 
-.PHONY : sample.s
+.PHONY : files/drawable.s
 
 # target to generate assembly for a file
-sample.c.s:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/sample.c.s
-.PHONY : sample.c.s
+files/drawable.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/drawable.cpp.s
+.PHONY : files/drawable.cpp.s
+
+files/main.o: files/main.cpp.o
+
+.PHONY : files/main.o
+
+# target to build an object file
+files/main.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/main.cpp.o
+.PHONY : files/main.cpp.o
+
+files/main.i: files/main.cpp.i
+
+.PHONY : files/main.i
+
+# target to preprocess a source file
+files/main.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/main.cpp.i
+.PHONY : files/main.cpp.i
+
+files/main.s: files/main.cpp.s
+
+.PHONY : files/main.s
+
+# target to generate assembly for a file
+files/main.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/main.cpp.s
+.PHONY : files/main.cpp.s
+
+files/mini_gui.o: files/mini_gui.cpp.o
+
+.PHONY : files/mini_gui.o
+
+# target to build an object file
+files/mini_gui.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/mini_gui.cpp.o
+.PHONY : files/mini_gui.cpp.o
+
+files/mini_gui.i: files/mini_gui.cpp.i
+
+.PHONY : files/mini_gui.i
+
+# target to preprocess a source file
+files/mini_gui.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/mini_gui.cpp.i
+.PHONY : files/mini_gui.cpp.i
+
+files/mini_gui.s: files/mini_gui.cpp.s
+
+.PHONY : files/mini_gui.s
+
+# target to generate assembly for a file
+files/mini_gui.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/mini_gui.cpp.s
+.PHONY : files/mini_gui.cpp.s
 
 # Help Target
 help:
@@ -186,12 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HW4"
-	@echo "... mini_gui.o"
-	@echo "... mini_gui.i"
-	@echo "... mini_gui.s"
-	@echo "... sample.o"
-	@echo "... sample.i"
-	@echo "... sample.s"
+	@echo "... files/drawable.o"
+	@echo "... files/drawable.i"
+	@echo "... files/drawable.s"
+	@echo "... files/main.o"
+	@echo "... files/main.i"
+	@echo "... files/main.s"
+	@echo "... files/mini_gui.o"
+	@echo "... files/mini_gui.i"
+	@echo "... files/mini_gui.s"
 .PHONY : help
 
 

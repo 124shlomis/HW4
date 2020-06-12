@@ -57,45 +57,60 @@ include CMakeFiles/HW4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HW4.dir/flags.make
 
-CMakeFiles/HW4.dir/mini_gui.c.o: CMakeFiles/HW4.dir/flags.make
-CMakeFiles/HW4.dir/mini_gui.c.o: ../mini_gui.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HW4.dir/mini_gui.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW4.dir/mini_gui.c.o   -c /Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.c
+CMakeFiles/HW4.dir/files/mini_gui.cpp.o: CMakeFiles/HW4.dir/flags.make
+CMakeFiles/HW4.dir/files/mini_gui.cpp.o: ../files/mini_gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HW4.dir/files/mini_gui.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/files/mini_gui.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.cpp
 
-CMakeFiles/HW4.dir/mini_gui.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW4.dir/mini_gui.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.c > CMakeFiles/HW4.dir/mini_gui.c.i
+CMakeFiles/HW4.dir/files/mini_gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/files/mini_gui.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.cpp > CMakeFiles/HW4.dir/files/mini_gui.cpp.i
 
-CMakeFiles/HW4.dir/mini_gui.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW4.dir/mini_gui.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.c -o CMakeFiles/HW4.dir/mini_gui.c.s
+CMakeFiles/HW4.dir/files/mini_gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/files/mini_gui.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.cpp -o CMakeFiles/HW4.dir/files/mini_gui.cpp.s
 
-CMakeFiles/HW4.dir/sample.c.o: CMakeFiles/HW4.dir/flags.make
-CMakeFiles/HW4.dir/sample.c.o: ../sample.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HW4.dir/sample.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW4.dir/sample.c.o   -c /Users/shlomishetrit/Documents/GitHub/HW4/sample.c
+CMakeFiles/HW4.dir/files/drawable.cpp.o: CMakeFiles/HW4.dir/flags.make
+CMakeFiles/HW4.dir/files/drawable.cpp.o: ../files/drawable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW4.dir/files/drawable.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/files/drawable.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.cpp
 
-CMakeFiles/HW4.dir/sample.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW4.dir/sample.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/sample.c > CMakeFiles/HW4.dir/sample.c.i
+CMakeFiles/HW4.dir/files/drawable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/files/drawable.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.cpp > CMakeFiles/HW4.dir/files/drawable.cpp.i
 
-CMakeFiles/HW4.dir/sample.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW4.dir/sample.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/sample.c -o CMakeFiles/HW4.dir/sample.c.s
+CMakeFiles/HW4.dir/files/drawable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/files/drawable.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.cpp -o CMakeFiles/HW4.dir/files/drawable.cpp.s
+
+CMakeFiles/HW4.dir/files/main.cpp.o: CMakeFiles/HW4.dir/flags.make
+CMakeFiles/HW4.dir/files/main.cpp.o: ../files/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HW4.dir/files/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/files/main.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/files/main.cpp
+
+CMakeFiles/HW4.dir/files/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/files/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/files/main.cpp > CMakeFiles/HW4.dir/files/main.cpp.i
+
+CMakeFiles/HW4.dir/files/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/files/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/files/main.cpp -o CMakeFiles/HW4.dir/files/main.cpp.s
 
 # Object files for target HW4
 HW4_OBJECTS = \
-"CMakeFiles/HW4.dir/mini_gui.c.o" \
-"CMakeFiles/HW4.dir/sample.c.o"
+"CMakeFiles/HW4.dir/files/mini_gui.cpp.o" \
+"CMakeFiles/HW4.dir/files/drawable.cpp.o" \
+"CMakeFiles/HW4.dir/files/main.cpp.o"
 
 # External object files for target HW4
 HW4_EXTERNAL_OBJECTS =
 
-HW4: CMakeFiles/HW4.dir/mini_gui.c.o
-HW4: CMakeFiles/HW4.dir/sample.c.o
+HW4: CMakeFiles/HW4.dir/files/mini_gui.cpp.o
+HW4: CMakeFiles/HW4.dir/files/drawable.cpp.o
+HW4: CMakeFiles/HW4.dir/files/main.cpp.o
 HW4: CMakeFiles/HW4.dir/build.make
 HW4: CMakeFiles/HW4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable HW4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HW4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HW4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
