@@ -3,7 +3,7 @@ project(HW4)
 
 set(CMAKE_CXX_STANDARD 11)
 
-include_directories(.)
+include_directories(files)
 
 add_executable(HW4
         files/mini_gui.cpp

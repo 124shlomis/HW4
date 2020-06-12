@@ -25,7 +25,7 @@ typedef void(*mini_gui_refresh_method_t)(struct mini_gui*);
  * @brief Initiate a mini-gui object.
  * @param log_filename A filename to write log outputs
  * @param refresh_callback A refresh callback method.
- * Is invoked whenever a refresh should be done.
+ * Is invoked whenever a reshresh should be done.
  * @returns a MG object, or NULL in case of an error.
  */
 struct mini_gui* mini_gui_init(const char* log_filename, mini_gui_refresh_method_t refresh_callback);

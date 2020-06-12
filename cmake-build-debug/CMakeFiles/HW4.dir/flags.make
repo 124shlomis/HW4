@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/shlomishetrit/Documents/GitHub/HW4/. 
+CXX_INCLUDES = -I/Users/shlomishetrit/Documents/GitHub/HW4/files 
 
