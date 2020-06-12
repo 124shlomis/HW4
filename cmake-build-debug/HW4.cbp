@@ -44,7 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/shlomishetrit/Documents/GitHub/HW4/files"/>
+					<Add directory="/Users/shlomishetrit/Documents/GitHub/HW4/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -66,7 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/shlomishetrit/Documents/GitHub/HW4/files"/>
+					<Add directory="/Users/shlomishetrit/Documents/GitHub/HW4/."/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -82,31 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/apple.h">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/apple.h">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/ascii_objects.h">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/ascii_objects.h">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.cpp">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/drawable.cpp">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable.h">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/drawable.h">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable_list.cpp">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/drawable_list.cpp">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/drawable_list.h">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/drawable_list.h">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/main.cpp">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/main.cpp">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.cpp">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.cpp">
 			<Option target="HW4"/>
 		</Unit>
-		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/files/mini_gui.h">
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.h">
 			<Option target="HW4"/>
 		</Unit>
 		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/CMakeLists.txt">

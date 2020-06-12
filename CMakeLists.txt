@@ -3,15 +3,15 @@ project(HW4)
 
 set(CMAKE_CXX_STANDARD 11)
 
-include_directories(files)
+include_directories(.)
 
 add_executable(HW4
-        files/mini_gui.cpp
-        files/mini_gui.h
-        files/ascii_objects.h
-        files/drawable.h
-        files/drawable.cpp
-        files/drawable_list.h
-        files/drawable_list.cpp
-        files/apple.h
-        files/main.cpp)
+        ascii_objects.h
+        mini_gui.cpp
+        mini_gui.h
+        drawable.h
+        drawable.cpp
+        drawable_list.h
+        drawable_list.cpp
+        apple.h
+        main.cpp)
