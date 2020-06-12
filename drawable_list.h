@@ -67,12 +67,12 @@ public:
 	 */
 	~Iterator();
 
-	/*
+	/**
 	 * @brief Returns the item pointerd by this
 	 */
 	Drawable* get_object();
 
-	/*
+	/**
 	 * @brief Make the node pointed by this to be invalid.
 	 * @note In case this is the last iterator that
 	 * points to a node, free the memory of the node

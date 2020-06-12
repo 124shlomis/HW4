@@ -73,6 +73,33 @@ void Iterator::increase_counter(){
 }
 
 
+/**
+ * @brief Returns the item pointerd by this
+ */
+Drawable* Iterator::get_object(){
+    return this->ptr->item;
+}
 
 
+/**
+ * @brief Make the node pointed by this to be invalid.
+ * @note In case this is the last iterator that
+ * points to a node, free the memory of the node
+ * (including everything!)
+ */
+void Iterator::invalidate(){
+    this->ptr->valid = false;
+    if (this->ptr->iterator_counter == 0){
+        // Free all memory
+    }
+}
+
+
+/**
+ * @brief Upon assigning, we must invalidate the iterator.
+ * @note We also must update the node interator counter
+ */
+Iterator& Iterator::set(const Iterator& other){
+
+}
 
