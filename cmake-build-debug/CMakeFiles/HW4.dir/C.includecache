@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.c
+windows.h
+-
+sys/ioctl.h
+-
+termios.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+stdbool.h
+-
+mini_gui.h
+/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.h
+
+/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.h
+
+/Users/shlomishetrit/Documents/GitHub/HW4/sample.c
+mini_gui.h
+/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.h
+
