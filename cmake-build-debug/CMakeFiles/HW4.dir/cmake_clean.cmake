@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HW4.dir/files/drawable.cpp.o"
+  "CMakeFiles/HW4.dir/files/drawable_list.cpp.o"
   "CMakeFiles/HW4.dir/files/main.cpp.o"
   "CMakeFiles/HW4.dir/files/mini_gui.cpp.o"
   "HW4"

@@ -12,4 +12,6 @@ add_executable(HW4
         files/drawable.h
         files/drawable.cpp
         files/drawable_list.h
-        files/main.cpp files/apple.h)
+        files/drawable_list.cpp
+        files/apple.h
+        files/main.cpp)

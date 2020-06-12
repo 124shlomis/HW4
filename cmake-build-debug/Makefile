@@ -150,6 +150,33 @@ files/drawable.cpp.s:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/drawable.cpp.s
 .PHONY : files/drawable.cpp.s
 
+files/drawable_list.o: files/drawable_list.cpp.o
+
+.PHONY : files/drawable_list.o
+
+# target to build an object file
+files/drawable_list.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/drawable_list.cpp.o
+.PHONY : files/drawable_list.cpp.o
+
+files/drawable_list.i: files/drawable_list.cpp.i
+
+.PHONY : files/drawable_list.i
+
+# target to preprocess a source file
+files/drawable_list.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/drawable_list.cpp.i
+.PHONY : files/drawable_list.cpp.i
+
+files/drawable_list.s: files/drawable_list.cpp.s
+
+.PHONY : files/drawable_list.s
+
+# target to generate assembly for a file
+files/drawable_list.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/files/drawable_list.cpp.s
+.PHONY : files/drawable_list.cpp.s
+
 files/main.o: files/main.cpp.o
 
 .PHONY : files/main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... files/drawable.o"
 	@echo "... files/drawable.i"
 	@echo "... files/drawable.s"
+	@echo "... files/drawable_list.o"
+	@echo "... files/drawable_list.i"
+	@echo "... files/drawable_list.s"
 	@echo "... files/main.o"
 	@echo "... files/main.i"
 	@echo "... files/main.s"
