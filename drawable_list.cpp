@@ -77,6 +77,7 @@ void Iterator::increase_counter(){
 /**
  * @brief Returns the item pointerd by this
  */
+
 Drawable* Iterator::get_object(){
     if (this->ptr == nullptr){
         return nullptr;
@@ -91,6 +92,7 @@ Drawable* Iterator::get_object(){
  * points to a node, free the memory of the node
  * (including everything!)
  */
+
 void Iterator::invalidate(){
     if (this->ptr == nullptr){
         return;
@@ -107,6 +109,7 @@ void Iterator::invalidate(){
  * @brief Upon assigning, we must invalidate the iterator.
  * @note We also must update the node iterator counter
  */
+
 Iterator& Iterator::set(const Iterator& other){
     decrease_counter();
     invalidate();
@@ -114,4 +117,63 @@ Iterator& Iterator::set(const Iterator& other){
     increase_counter();
     return *this;
 }
+
+
+/**
+ * @brief Changes the state of this to point at the next valid node
+ * @returns this
+ * @note In case there is no next valid node, sets this as invalid
+ */
+
+Iterator& Iterator::next(){
+    struct Node* AuxPtr = this->ptr;
+    AuxPtr = AuxPtr->next;
+    while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){
+        AuxPtr = AuxPtr->next;
+    }
+    if (AuxPtr == nullptr){
+        invalidate();
+        return *this;
+    }
+    decrease_counter();
+    this->ptr = AuxPtr;
+    increase_counter();
+    return *this;
+}
+
+
+/**
+ * @brief Changes the state of this to point at the previous valid node
+ * @returns this
+ * @note In case there is no previous valid node, sets this as invalid
+ */
+
+Iterator& Iterator::prev(){
+    struct Node* AuxPtr = this->ptr;
+    AuxPtr = AuxPtr->prev;
+    while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){
+        AuxPtr = AuxPtr->prev;
+    }
+    if (AuxPtr == nullptr){
+        invalidate();
+        return *this;
+    }
+    decrease_counter();
+    this->ptr = AuxPtr;
+    increase_counter();
+    return *this;
+}
+
+
+/**
+ * @breif Returns true iff this is valid
+ */
+
+bool Iterator::valid() const{
+    if (this->ptr == nullptr){
+        return false;
+    }
+    return this->ptr->valid;
+}
+
 
