@@ -5,6 +5,7 @@
 
 #include "drawable_list.h"
 
+// Iterator CLASS:
 // members functions //
 
 // Constructors:
@@ -38,6 +39,7 @@ Iterator::~Iterator(){
     this->decrease_counter();
 }
 
+// OTHER Functions:
 /**
  * @brief Decreases iterator counter in the node pointed by this
  * @note In case this is the last iterator that
@@ -176,4 +178,52 @@ bool Iterator::valid() const{
     return this->ptr->valid;
 }
 
+
+// DrawableList CLASS:
+
+// Constructor:
+DrawableList::DrawableList():head(nullptr), tail(nullptr), size(0){}
+
+// Destructor:
+DrawableList::~DrawableList(){
+    if ( (head == nullptr) || (size == 0) ){ // case of empty list.
+        return;
+    }
+    Node* PrevAuxNode;
+    Node* AuxNode = head->next;
+    while ( (AuxNode != nullptr) && (AuxNode != tail) ){
+        PrevAuxNode = AuxNode;
+        AuxNode = AuxNode->next;
+        delete PrevAuxNode->item;
+        delete PrevAuxNode;
+    }
+    if (AuxNode == nullptr){ // case of only one 1 item in the list.
+        AuxNode = head;
+    }
+    delete AuxNode->item;
+    delete AuxNode;
+}
+
+
+/**
+ * @brief Push to list front (before head).
+ * @note Do not clone the object!
+ */
+
+void DrawableList::push_front(Drawable& item) {
+    // allocating memory for the new node:
+    Node *NewNode = new Node();
+    // settings:
+    NewNode->iterator_counter = 0;
+    NewNode->prev = nullptr;
+    NewNode->next = this->head;
+    NewNode->valid = true;
+    NewNode->item = &item;
+    // Updating list:
+    this->size++;
+    this->head = NewNode;
+    if (size == 1) {
+        this->tail = NewNode;
+    }
+}
 

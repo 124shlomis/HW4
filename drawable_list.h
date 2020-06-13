@@ -118,24 +118,24 @@ class DrawableList {
 
 public:
 
-	/*
+	/**
 	 * @brief Creates an empty list
 	 */
 	DrawableList();
 
-	/*
+	/**
 	 * @brief Free all the objects of this.
 	 * @note Must free the memory for the drawable objects as well
 	 */
 	~DrawableList();
 
-	/*
+	/**
 	 * @brief Push to list front (before head).
 	 * @note Do not clone the object!
 	 */
 	void push_front(Drawable& item);
 
-	/*
+	/**
 	 * @brief Push to list back (after tail).
 	 * @note Do not clone the object!
 	 */
