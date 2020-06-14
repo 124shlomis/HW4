@@ -212,8 +212,9 @@ DrawableList::~DrawableList(){
 
 void DrawableList::push_front(Drawable& item) {
     // allocating memory for the new node:
-    Node *NewNode = new Node();
-    // settings:
+    Node* NewNode = new Node();
+
+    // settings New Node:
     NewNode->iterator_counter = 0;
     NewNode->prev = nullptr;
     NewNode->next = this->head;
@@ -225,5 +226,88 @@ void DrawableList::push_front(Drawable& item) {
     if (size == 1) {
         this->tail = NewNode;
     }
+}
+
+
+/**
+ * @brief Push to list back (after tail).
+ * @note Do not clone the object!
+ */
+
+void DrawableList::push_back(Drawable& item){
+    // allocating memory for the new node:
+    Node* NewNode = new Node();
+
+    // settings New Node:
+    NewNode->iterator_counter = 0;
+    NewNode->prev = this->tail;
+    NewNode->next = nullptr;
+    NewNode->valid = true;
+    NewNode->item = &item;
+    // Updating list:
+    this->size++;
+    this->tail = NewNode;
+    if (size == 1) {
+        this->head = NewNode;
+    }
+}
+
+
+/**
+	 * @brief Removes an object pointed by the iterator
+	 * @note Must invalidate the iterator.
+	 */
+
+void DrawableList::erase(Iterator& it){
+    if (it.ptr == nullptr){
+        return;
+    }
+
+    // Update Nodes:
+    Node* AuxNode = it.ptr;
+    if (AuxNode == head){
+        head = AuxNode->next;
+        head->prev = nullptr;
+    } else if (AuxNode == tail){
+        tail = AuxNode->prev;
+        tail->next = nullptr;
+    } else {
+        AuxNode->prev->next = AuxNode->next;
+        AuxNode->next->prev = AuxNode->prev;
+    }
+    // erase:
+    delete it.ptr->item; // not sure
+    it.invalidate();
+    size--;
+}
+
+
+/**
+ * @brief Returns the size of this
+ */
+
+int DrawableList::get_size() const{
+    return this->size;
+}
+
+
+/**
+ * @brief Returns an iterator to the beginning of the list
+ */
+
+Iterator DrawableList::begin(){
+
+    Iterator NewIterator = Iterator(*head);
+    return NewIterator;
+}
+
+
+/**
+ * @brief Returns an iterator to the end of the list
+ */
+
+Iterator DrawableList::end(){
+    Iterator NewIterator = Iterator(*tail);
+    return NewIterator;
 }
 
