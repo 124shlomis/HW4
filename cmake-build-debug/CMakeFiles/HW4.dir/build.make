@@ -96,25 +96,25 @@ CMakeFiles/HW4.dir/drawable_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/drawable_list.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/drawable_list.cpp -o CMakeFiles/HW4.dir/drawable_list.cpp.s
 
-CMakeFiles/HW4.dir/main.cpp.o: CMakeFiles/HW4.dir/flags.make
-CMakeFiles/HW4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HW4.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/main.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/main.cpp
+CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o: CMakeFiles/HW4.dir/flags.make
+CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o: ../test_drawable_list_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp
 
-CMakeFiles/HW4.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/main.cpp > CMakeFiles/HW4.dir/main.cpp.i
+CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp > CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i
 
-CMakeFiles/HW4.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/main.cpp -o CMakeFiles/HW4.dir/main.cpp.s
+CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp -o CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s
 
 # Object files for target HW4
 HW4_OBJECTS = \
 "CMakeFiles/HW4.dir/mini_gui.cpp.o" \
 "CMakeFiles/HW4.dir/drawable.cpp.o" \
 "CMakeFiles/HW4.dir/drawable_list.cpp.o" \
-"CMakeFiles/HW4.dir/main.cpp.o"
+"CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o"
 
 # External object files for target HW4
 HW4_EXTERNAL_OBJECTS =
@@ -122,7 +122,7 @@ HW4_EXTERNAL_OBJECTS =
 HW4: CMakeFiles/HW4.dir/mini_gui.cpp.o
 HW4: CMakeFiles/HW4.dir/drawable.cpp.o
 HW4: CMakeFiles/HW4.dir/drawable_list.cpp.o
-HW4: CMakeFiles/HW4.dir/main.cpp.o
+HW4: CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o
 HW4: CMakeFiles/HW4.dir/build.make
 HW4: CMakeFiles/HW4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable HW4"

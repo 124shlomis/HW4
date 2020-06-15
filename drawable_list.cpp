@@ -1,11 +1,15 @@
 //
 // Created by Shlomi Shitrit on 12/06/2020.
 //
-// Includes //
+
+/* Includes */
 
 #include "drawable_list.h"
+#include <iostream>
 
-// Iterator CLASS:
+/* Namespace */
+using namespace std;
+/* Iterator CLASS: */
 // members functions //
 
 // Constructors:
@@ -276,7 +280,6 @@ void DrawableList::erase(Iterator& it){
         AuxNode->next->prev = AuxNode->prev;
     }
     // erase:
-    delete it.ptr->item; // not sure
     it.invalidate();
     size--;
 }
@@ -311,3 +314,15 @@ Iterator DrawableList::end(){
     return NewIterator;
 }
 
+#include "test_drawable_list_module.h"
+
+int main(){
+    struct rect a = {0,1,1,0};
+    Letter A = Letter(a, 'c');
+
+    DrawableList ListOfLetters = DrawableList();
+    Iterator Iterator = ListOfLetters.end();
+    ListOfLetters.get_size();
+
+
+}

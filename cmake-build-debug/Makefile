@@ -177,33 +177,6 @@ drawable_list.cpp.s:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/drawable_list.cpp.s
 .PHONY : drawable_list.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 mini_gui.o: mini_gui.cpp.o
 
 .PHONY : mini_gui.o
@@ -231,6 +204,33 @@ mini_gui.cpp.s:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/mini_gui.cpp.s
 .PHONY : mini_gui.cpp.s
 
+test_drawable_list_module.o: test_drawable_list_module.cpp.o
+
+.PHONY : test_drawable_list_module.o
+
+# target to build an object file
+test_drawable_list_module.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o
+.PHONY : test_drawable_list_module.cpp.o
+
+test_drawable_list_module.i: test_drawable_list_module.cpp.i
+
+.PHONY : test_drawable_list_module.i
+
+# target to preprocess a source file
+test_drawable_list_module.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i
+.PHONY : test_drawable_list_module.cpp.i
+
+test_drawable_list_module.s: test_drawable_list_module.cpp.s
+
+.PHONY : test_drawable_list_module.s
+
+# target to generate assembly for a file
+test_drawable_list_module.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s
+.PHONY : test_drawable_list_module.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,12 +246,12 @@ help:
 	@echo "... drawable_list.o"
 	@echo "... drawable_list.i"
 	@echo "... drawable_list.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... mini_gui.o"
 	@echo "... mini_gui.i"
 	@echo "... mini_gui.s"
+	@echo "... test_drawable_list_module.o"
+	@echo "... test_drawable_list_module.i"
+	@echo "... test_drawable_list_module.s"
 .PHONY : help
 
 
