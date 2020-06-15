@@ -190,22 +190,24 @@ DrawableList::DrawableList():head(nullptr), tail(nullptr), size(0){}
 
 // Destructor:
 DrawableList::~DrawableList(){
-    if ( (head == nullptr) || (size == 0) ){ // case of empty list.
+    if ( (head == nullptr) && (size == 0) ){ // case of empty list.
         return;
     }
     Node* PrevAuxNode;
-    Node* AuxNode = head->next;
-    while ( (AuxNode != nullptr) && (AuxNode != tail) ){
+    Node* AuxNode = head;
+
+    if ( (AuxNode->next == nullptr) && (size == 1) ){ // case of only 1 item in the list.
+        delete AuxNode->item;
+        delete AuxNode;
+        return;
+    }
+    while ( (AuxNode != nullptr) ){ // case size > 1
         PrevAuxNode = AuxNode;
         AuxNode = AuxNode->next;
         delete PrevAuxNode->item;
         delete PrevAuxNode;
     }
-    if (AuxNode == nullptr){ // case of only one 1 item in the list.
-        AuxNode = head;
-    }
-    delete AuxNode->item;
-    delete AuxNode;
+
 }
 
 
@@ -226,10 +228,12 @@ void DrawableList::push_front(Drawable& item) {
     NewNode->item = &item;
     // Updating list:
     this->size++;
-    this->head = NewNode;
     if (size == 1) {
         this->tail = NewNode;
+    } else if (size > 1){
+        this->head->prev = NewNode;
     }
+    this->head = NewNode;
 }
 
 
@@ -250,6 +254,7 @@ void DrawableList::push_back(Drawable& item){
     NewNode->item = &item;
     // Updating list:
     this->size++;
+    this->tail->next = NewNode;
     this->tail = NewNode;
     if (size == 1) {
         this->head = NewNode;
@@ -318,11 +323,14 @@ Iterator DrawableList::end(){
 
 int main(){
     struct rect a = {0,1,1,0};
-    Letter A = Letter(a, 'c');
-
+    Letter* A = new Letter(a, 'A');
+    Letter* B = new Letter({1,1,1,1}, 'B');
+    Letter* C = new Letter({0,0,0,0},'C');
+    Letter* D = new Letter({1,1,1,1},'D');
     DrawableList ListOfLetters = DrawableList();
-    Iterator Iterator = ListOfLetters.end();
-    ListOfLetters.get_size();
-
+    ListOfLetters.push_front(*A);
+    ListOfLetters.push_back(*B);
+    ListOfLetters.push_front(*C);
+    ListOfLetters.push_back(*D);
 
 }
