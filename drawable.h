@@ -73,6 +73,9 @@ public:
 	 * @param lst A list of all drawable objects in the world
 	 */
 	virtual void step(DrawableList& lst) = 0;
+
+	// added - don't forget to remove
+	virtual void print() const = 0;
 };
 
 #endif

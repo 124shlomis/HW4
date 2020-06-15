@@ -29,7 +29,9 @@ Iterator::Iterator(Node& n): ptr(&n){
 
 Iterator::Iterator(const Iterator& other){
     this->ptr = other.ptr;
-    this->increase_counter();
+    if (&other != this){
+        this->increase_counter();
+    }
 }
 
 // Destructor:
@@ -104,10 +106,6 @@ void Iterator::invalidate(){
         return;
     }
     this->ptr->valid = false;
-    if (this->ptr->iterator_counter == 0){
-        delete this->ptr->item;
-        delete this->ptr;
-    }
 }
 
 
@@ -118,7 +116,6 @@ void Iterator::invalidate(){
 
 Iterator& Iterator::set(const Iterator& other){
     decrease_counter();
-    invalidate();
     this->ptr = other.ptr;
     increase_counter();
     return *this;
@@ -254,11 +251,12 @@ void DrawableList::push_back(Drawable& item){
     NewNode->item = &item;
     // Updating list:
     this->size++;
-    this->tail->next = NewNode;
-    this->tail = NewNode;
     if (size == 1) {
         this->head = NewNode;
+    } else if (size > 1){
+        this->tail->next = NewNode;
     }
+    this->tail = NewNode;
 }
 
 
@@ -268,10 +266,20 @@ void DrawableList::push_back(Drawable& item){
 	 */
 
 void DrawableList::erase(Iterator& it){
-    if (it.ptr == nullptr){
+    if ( it.ptr == nullptr ){
         return;
     }
-
+    if (! it.ptr->valid){
+        it.invalidate();
+        return;
+    }
+    if (size == 1){
+        size--;
+        it.invalidate();
+        head = nullptr;
+        tail = nullptr;
+        return;
+    }
     // Update Nodes:
     Node* AuxNode = it.ptr;
     if (AuxNode == head){
@@ -284,9 +292,8 @@ void DrawableList::erase(Iterator& it){
         AuxNode->prev->next = AuxNode->next;
         AuxNode->next->prev = AuxNode->prev;
     }
-    // erase:
-    it.invalidate();
     size--;
+    it.invalidate();
 }
 
 
@@ -322,15 +329,15 @@ Iterator DrawableList::end(){
 #include "test_drawable_list_module.h"
 
 int main(){
-    struct rect a = {0,1,1,0};
-    Letter* A = new Letter(a, 'A');
+    Letter* A = new Letter({0,1,1,0}, 'A');
     Letter* B = new Letter({1,1,1,1}, 'B');
     Letter* C = new Letter({0,0,0,0},'C');
     Letter* D = new Letter({1,1,1,1},'D');
     DrawableList ListOfLetters = DrawableList();
-    ListOfLetters.push_front(*A);
-    ListOfLetters.push_back(*B);
-    ListOfLetters.push_front(*C);
-    ListOfLetters.push_back(*D);
+    // start testing Iterator:
+    ListOfLetters.push_back(*A);
+    Iterator Iter1 = ListOfLetters.begin();
+    Iterator Iter2 = Iter2.set(Iter1);
+    Iterator Iter3 = Iterator(Iter2);
 
 }

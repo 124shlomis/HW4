@@ -20,7 +20,7 @@ public:
     void refresh() override ;
     int id() override ;
     void step(DrawableList& lst) override ;
-
+    void print() const ;
 
 };
 

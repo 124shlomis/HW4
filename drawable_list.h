@@ -49,7 +49,7 @@ class Iterator {
 	/**
 	 * @brief Make an iterator from a list node
 	 */
-	Iterator(Node& n);
+	explicit Iterator(Node& n);
 
 public:
 
@@ -82,7 +82,7 @@ public:
 
 	/**
 	 * @brief Upon assigning, we must invalidate the iterator.
-	 * @note We also must update the node interator counter
+	 * @note We also must update the node iterator counter
 	 */
 	Iterator& set(const Iterator& other);
 
