@@ -9,6 +9,7 @@
 
 /* Namespace */
 using namespace std;
+
 /* Iterator CLASS: */
 // members functions //
 
@@ -21,20 +22,21 @@ Iterator::Iterator(Node& n): ptr(&n){
     this->increase_counter();
 }
 
-// COPY CONSTRUCTOR:
+// Cpy C'tor:
 /**
  * @brief When cloning iterators, one must update
  * the iterator counter of the node
  */
 
 Iterator::Iterator(const Iterator& other){
+
     this->ptr = other.ptr;
-    if (&other != this){
+    if (&other != this){ // if trying to construct with the same iterator
         this->increase_counter();
     }
 }
 
-// Destructor:
+// D'tor:
 /**
  * @brief Updates iterator counter in the node pointed by this
  * @note In case this is the last iterator that
@@ -42,7 +44,7 @@ Iterator::Iterator(const Iterator& other){
  * (including everything!)
  */
 Iterator::~Iterator(){
-    this->decrease_counter();
+    this->decrease_counter(); // decrease counter will free memory if the node is invalid and counter=0;
 }
 
 // OTHER Functions:
@@ -57,11 +59,11 @@ void Iterator::decrease_counter(){
     if (this->ptr == nullptr){
         return;
     }
-    this->ptr->iterator_counter--;
+    this->ptr->iterator_counter--; // case no need to free memory
     if (this->ptr->iterator_counter > 0){
         return;
     }
-    // FREE ALL MEMORY IF NEEDED:
+    // FREE ALL MEMORY IF NEEDED: counter =0 && and node is invalid.
     if ( (this->ptr->iterator_counter == 0) & (! this->ptr->valid) ){
         delete this->ptr->item;
         delete this->ptr;
@@ -106,6 +108,11 @@ void Iterator::invalidate(){
         return;
     }
     this->ptr->valid = false;
+    /*if (ptr->iterator_counter == 0 ){ // free the node memory if needed
+        delete ptr->item;
+        delete ptr;
+
+    }*/
 }
 
 
@@ -115,7 +122,7 @@ void Iterator::invalidate(){
  */
 
 Iterator& Iterator::set(const Iterator& other){
-    decrease_counter();
+    decrease_counter(); // remember - decrease_counter free memory if needed
     this->ptr = other.ptr;
     increase_counter();
     return *this;
@@ -129,15 +136,15 @@ Iterator& Iterator::set(const Iterator& other){
  */
 
 Iterator& Iterator::next(){
-    struct Node* AuxPtr = this->ptr;
-    AuxPtr = AuxPtr->next;
-    while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){
+    struct Node* AuxPtr = this->ptr->next;
+    while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){ // in case we got the end of the list and there is no valid nodes
         AuxPtr = AuxPtr->next;
     }
-    if (AuxPtr == nullptr){
+    if (AuxPtr == nullptr){ // end of the list. no valid node found. the node become invalid.
         invalidate();
         return *this;
     }
+    // found valid node. update counters and pointer.
     decrease_counter();
     this->ptr = AuxPtr;
     increase_counter();
@@ -151,16 +158,17 @@ Iterator& Iterator::next(){
  * @note In case there is no previous valid node, sets this as invalid
  */
 
-Iterator& Iterator::prev(){
+Iterator& Iterator::prev(){ // in case we got the start of the list and there is no valid nodes
     struct Node* AuxPtr = this->ptr;
     AuxPtr = AuxPtr->prev;
     while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){
         AuxPtr = AuxPtr->prev;
     }
-    if (AuxPtr == nullptr){
+    if (AuxPtr == nullptr){ // start of the list. no valid node found. the node become invalid.
         invalidate();
         return *this;
     }
+    // found valid node. update counters and pointer.
     decrease_counter();
     this->ptr = AuxPtr;
     increase_counter();
@@ -281,7 +289,7 @@ void DrawableList::erase(Iterator& it){
             delete it.ptr->item;
             delete it.ptr;
         }
-        return;
+        return; // return empty list
     }
     // Update Nodes:
     Node* AuxNode = it.ptr;
@@ -333,24 +341,3 @@ Iterator DrawableList::end(){
     return NewIterator;
 }
 
-#include "test_drawable_list_module.h"
-
-int main(){
-    Letter* A = new Letter({0,1,1,0}, 'A');
-    Letter* B = new Letter({1,1,1,1}, 'B');
-    Letter* C = new Letter({0,0,0,0},'C');
-    Letter* D = new Letter({1,1,1,1},'D');
-    DrawableList ListOfLetters = DrawableList();
-    // start testing Iterator:
-    ListOfLetters.push_back(*A); // list = {A}
-    ListOfLetters.push_back(*B); // list = {A,B}
-    Iterator Iter1 = ListOfLetters.begin(); // Iter1 = A
-    Iterator Iter2 = ListOfLetters.end(); // Iter2 = B
-    Iter1 = Iter1.set(Iter1);
-    Iterator Iter3 = Iterator(Iter2); // Iter3 = B
-    Iterator Iter4 = Iter3.next();
-
-
-    delete C;
-    delete D;
-}

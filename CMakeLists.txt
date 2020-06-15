@@ -14,5 +14,4 @@ add_executable(HW4
         drawable_list.h
         drawable_list.cpp
         apple.h
-        test_drawable_list_module.cpp
-        test_drawable_list_module.h)
+        test_drawable_list_module.cpp test_drawable_list_module.h)

@@ -62,7 +62,32 @@ void Letter::print() const {
 
 
 // test DrawableList
-/*struct rect a = {0,1,1,0};
+/*
+ *
+ * #include "test_drawable_list_module.h"
+
+int main(){
+    Letter* A = new Letter({0,1,1,0}, 'A');
+    Letter* B = new Letter({1,1,1,1}, 'B');
+    Letter* C = new Letter({0,0,0,0},'C');
+    Letter* D = new Letter({1,1,1,1},'D');
+    DrawableList ListOfLetters = DrawableList();
+    // start testing Iterator:
+    ListOfLetters.push_back(*A); // list = {A}
+    ListOfLetters.push_back(*B); // list = {A,B}
+    Iterator Iter1 = ListOfLetters.begin(); // Iter1 = A
+    Iterator Iter2 = ListOfLetters.end(); // Iter2 = B
+    Iter1 = Iter1.set(Iter1);
+    Iterator Iter3 = Iterator(Iter2); // Iter3 = B
+    Iter1.invalidate();
+    Iter3.invalidate();
+    ListOfLetters.erase(Iter1);
+    ListOfLetters.erase(Iter3);
+
+
+    delete C;
+    delete D;
+}struct rect a = {0,1,1,0};
 auto* A = new Letter(a, 'A');
 auto* B = new Letter({1,1,1,1}, 'B');
 auto* C = new Letter({0,0,0,0},'C');
