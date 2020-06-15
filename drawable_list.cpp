@@ -266,18 +266,21 @@ void DrawableList::push_back(Drawable& item){
 	 */
 
 void DrawableList::erase(Iterator& it){
-    if ( it.ptr == nullptr ){
+    if ( it.ptr == nullptr ){ // case that node pointer is nullptr
         return;
     }
-    if (! it.ptr->valid){
+    if ( it.ptr->valid){
         it.invalidate();
-        return;
     }
-    if (size == 1){
+    if (size == 1){ // case we erase the only item in the list.
         size--;
         it.invalidate();
         head = nullptr;
         tail = nullptr;
+        if (it.ptr->iterator_counter == 0){ // if there is no iterators on it.
+            delete it.ptr->item;
+            delete it.ptr;
+        }
         return;
     }
     // Update Nodes:
@@ -294,6 +297,10 @@ void DrawableList::erase(Iterator& it){
     }
     size--;
     it.invalidate();
+    if (it.ptr->iterator_counter == 0){
+        delete it.ptr->item;
+        delete it.ptr;
+    }
 }
 
 
@@ -335,9 +342,15 @@ int main(){
     Letter* D = new Letter({1,1,1,1},'D');
     DrawableList ListOfLetters = DrawableList();
     // start testing Iterator:
-    ListOfLetters.push_back(*A);
-    Iterator Iter1 = ListOfLetters.begin();
-    Iterator Iter2 = Iter2.set(Iter1);
-    Iterator Iter3 = Iterator(Iter2);
+    ListOfLetters.push_back(*A); // list = {A}
+    ListOfLetters.push_back(*B); // list = {A,B}
+    Iterator Iter1 = ListOfLetters.begin(); // Iter1 = A
+    Iterator Iter2 = ListOfLetters.end(); // Iter2 = B
+    Iter1 = Iter1.set(Iter1);
+    Iterator Iter3 = Iterator(Iter2); // Iter3 = B
+    Iterator Iter4 = Iter3.next();
 
+
+    delete C;
+    delete D;
 }
