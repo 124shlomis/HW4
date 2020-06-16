@@ -5,10 +5,6 @@
 /* Includes */
 
 #include "drawable_list.h"
-#include <iostream>
-
-/* Namespace */
-using namespace std;
 
 /* Iterator CLASS: */
 // members functions //

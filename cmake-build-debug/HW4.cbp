@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/apple.cpp">
+			<Option target="HW4"/>
+		</Unit>
 		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/apple.h">
 			<Option target="HW4"/>
 		</Unit>
@@ -100,10 +103,16 @@
 		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/drawable_list.h">
 			<Option target="HW4"/>
 		</Unit>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/main.cpp">
+			<Option target="HW4"/>
+		</Unit>
 		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.cpp">
 			<Option target="HW4"/>
 		</Unit>
 		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.h">
+			<Option target="HW4"/>
+		</Unit>
+		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/monster.h">
 			<Option target="HW4"/>
 		</Unit>
 		<Unit filename="/Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp">

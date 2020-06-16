@@ -123,6 +123,33 @@ HW4/fast:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/build
 .PHONY : HW4/fast
 
+apple.o: apple.cpp.o
+
+.PHONY : apple.o
+
+# target to build an object file
+apple.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/apple.cpp.o
+.PHONY : apple.cpp.o
+
+apple.i: apple.cpp.i
+
+.PHONY : apple.i
+
+# target to preprocess a source file
+apple.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/apple.cpp.i
+.PHONY : apple.cpp.i
+
+apple.s: apple.cpp.s
+
+.PHONY : apple.s
+
+# target to generate assembly for a file
+apple.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/apple.cpp.s
+.PHONY : apple.cpp.s
+
 drawable.o: drawable.cpp.o
 
 .PHONY : drawable.o
@@ -176,6 +203,33 @@ drawable_list.s: drawable_list.cpp.s
 drawable_list.cpp.s:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/drawable_list.cpp.s
 .PHONY : drawable_list.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 mini_gui.o: mini_gui.cpp.o
 
@@ -240,12 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HW4"
+	@echo "... apple.o"
+	@echo "... apple.i"
+	@echo "... apple.s"
 	@echo "... drawable.o"
 	@echo "... drawable.i"
 	@echo "... drawable.s"
 	@echo "... drawable_list.o"
 	@echo "... drawable_list.i"
 	@echo "... drawable_list.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... mini_gui.o"
 	@echo "... mini_gui.i"
 	@echo "... mini_gui.s"

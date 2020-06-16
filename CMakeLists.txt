@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(.)
 
 add_executable(HW4
+        main.cpp
         ascii_objects.h
         mini_gui.cpp
         mini_gui.h
@@ -14,4 +15,7 @@ add_executable(HW4
         drawable_list.h
         drawable_list.cpp
         apple.h
-        test_drawable_list_module.cpp test_drawable_list_module.h)
+        apple.cpp
+        monster.h
+        test_drawable_list_module.h
+        test_drawable_list_module.cpp )
