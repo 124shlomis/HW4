@@ -119,7 +119,7 @@ cout << "There is: " << ListOfLetters.get_size() << " letters in the list" << en
 
 // test DrawableList
 
-
+/*
 #include "test_drawable_list_module.h"
 #include <iostream>
 #include "drawable.h"
@@ -146,3 +146,35 @@ int main(){
     delete C;
     delete D;
 }
+*/
+
+/*
+ * #include "test_drawable_list_module.h"
+#include <iostream>
+using namespace std;
+int main(){
+    auto* A = new Letter({0,1,1,0}, 'A');
+    auto* B = new Letter({1,1,1,1}, 'B');
+    auto* C = new Letter({0,0,0,0},'C');
+    auto* D = new Letter({1,1,1,1},'D');
+    DrawableList ListOfLetters = DrawableList();
+    ListOfLetters.get_size();
+    // start testing Iterator:
+    ListOfLetters.push_back(*A); // list = {A}
+    ListOfLetters.push_back(*B); // list = {A,B}
+    Iterator Iter1 = ListOfLetters.begin(); // Iter1 = A
+    Iterator Iter2 = ListOfLetters.end(); // Iter2 = B
+    Iter1 = Iter1.set(Iter1);
+    Iterator Iter3 = Iterator(Iter2); // Iter3 = B
+    Iter1.invalidate();
+    Iter3.invalidate();
+    ListOfLetters.erase(Iter1);
+    ListOfLetters.erase(Iter3);
+    for (Iterator it = ListOfLetters.begin(); it.valid(); it.next()) {
+        it.get_object()->refresh();
+    }
+    delete C;
+    delete D;
+}
+
+ */

@@ -6,6 +6,7 @@
 class Apple : public Drawable { 
 	// true if the apple is eaten
 	bool isEaten;
+	int ID;
 
 public:
 
@@ -23,7 +24,7 @@ public:
 	virtual void refresh();
 
 	// Apple id is A
-	virtual int id() { return 'A'; };
+	virtual int id();
 
 	// apdate the Apple if he is eaten
 	virtual void step(DrawableList& lst);

@@ -1,15 +1,13 @@
 #include "drawable_list.h"
-#include "Apple.h"
+#include "apple.h"
 #include "ascii_objects.h"
 
 
 Apple::Apple(unsigned short x, unsigned short y)
-	: Drawable({ x, y, 1, 1 }), isEaten(false) {}
+	: Drawable({ x, y, 1, 1 }), isEaten(false), ID('A') {}
 
 // no additional memory allocations in Apple
-Apple::~Apple()
-{
-}
+Apple::~Apple() = default;
 
 
 void Apple::draw() 
@@ -41,4 +39,8 @@ void Apple::step(DrawableList& lst)
 		}
 	} while (iter.next().valid());
 	
+}
+
+int Apple::id() {
+    return this->ID;
 }

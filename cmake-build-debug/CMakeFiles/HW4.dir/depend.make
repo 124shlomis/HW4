@@ -13,11 +13,11 @@ CMakeFiles/HW4.dir/drawable.cpp.o: ../drawable.cpp
 CMakeFiles/HW4.dir/drawable.cpp.o: ../drawable.h
 CMakeFiles/HW4.dir/drawable.cpp.o: ../mini_gui.h
 
-CMakeFiles/HW4.dir/drawable_list.cpp.o: ../ascii_objects.h
-CMakeFiles/HW4.dir/drawable_list.cpp.o: ../drawable.h
-CMakeFiles/HW4.dir/drawable_list.cpp.o: ../drawable_list.cpp
-CMakeFiles/HW4.dir/drawable_list.cpp.o: ../drawable_list.h
-CMakeFiles/HW4.dir/drawable_list.cpp.o: ../mini_gui.h
+CMakeFiles/HW4.dir/drawable_list2.cpp.o: ../ascii_objects.h
+CMakeFiles/HW4.dir/drawable_list2.cpp.o: ../drawable.h
+CMakeFiles/HW4.dir/drawable_list2.cpp.o: ../drawable_list2.cpp
+CMakeFiles/HW4.dir/drawable_list2.cpp.o: ../drawable_list2.h
+CMakeFiles/HW4.dir/drawable_list2.cpp.o: ../mini_gui.h
 
 CMakeFiles/HW4.dir/main.cpp.o: ../apple.h
 CMakeFiles/HW4.dir/main.cpp.o: ../ascii_objects.h
@@ -32,6 +32,7 @@ CMakeFiles/HW4.dir/mini_gui.cpp.o: ../mini_gui.h
 
 CMakeFiles/HW4.dir/monster.cpp.o: ../ascii_objects.h
 CMakeFiles/HW4.dir/monster.cpp.o: ../drawable.h
+CMakeFiles/HW4.dir/monster.cpp.o: ../drawable_list.h
 CMakeFiles/HW4.dir/monster.cpp.o: ../mini_gui.h
 CMakeFiles/HW4.dir/monster.cpp.o: ../monster.cpp
 CMakeFiles/HW4.dir/monster.cpp.o: ../monster.h

@@ -13,8 +13,8 @@ add_executable(HW4
         drawable.cpp
         drawable_list.h
         drawable_list.cpp
-        apple.h
-        apple.cpp
         monster.h
         monster.cpp
+        apple.h
+        apple.cpp
         main.cpp)

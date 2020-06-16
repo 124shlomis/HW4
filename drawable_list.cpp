@@ -1,4 +1,8 @@
 //
+// Created by shlomi shetrit on 16/06/2020.
+//
+
+//
 // Created by Shlomi Shitrit on 12/06/2020.
 //
 
@@ -23,7 +27,7 @@ Iterator::Iterator(Node& n): ptr(&n){
 /**
  * @brief Make an iterator points to nullptr
  */
-Iterator::Iterator() : ptr(nullptr){}
+Iterator::Iterator():ptr(nullptr){}
 
 // Cpy C'tor:
 /**
@@ -70,7 +74,6 @@ void Iterator::decrease_counter(){
     if ( (this->ptr->iterator_counter == 0) & (! this->ptr->valid) ){
         delete this->ptr->item;
         delete this->ptr;
-        ptr = nullptr;
     }
 }
 
@@ -112,13 +115,6 @@ void Iterator::invalidate(){
         return;
     }
     this->ptr->valid = false;
-
-    if (ptr->iterator_counter == 0 ){ // free the node memory if needed
-        delete ptr->item;
-        delete ptr;
-        ptr = nullptr;
-
-    }
 }
 
 
@@ -147,7 +143,7 @@ Iterator& Iterator::next(){
         AuxPtr = AuxPtr->next;
     }
     if (AuxPtr == nullptr){ // end of the list. no valid node found. the node become invalid.
-        invalidate();
+        this->ptr = AuxPtr;
         return *this;
     }
     // found valid node. update counters and pointer.
@@ -171,7 +167,7 @@ Iterator& Iterator::prev(){ // in case we got the start of the list and there is
         AuxPtr = AuxPtr->prev;
     }
     if (AuxPtr == nullptr){ // start of the list. no valid node found. the node become invalid.
-        invalidate();
+        this->ptr = AuxPtr;
         return *this;
     }
     // found valid node. update counters and pointer.
@@ -212,7 +208,6 @@ DrawableList::~DrawableList(){
     if ( (AuxNode->next == nullptr) && (size == 1) ){ // case of only 1 item in the list.
         delete AuxNode->item;
         delete AuxNode;
-        AuxNode = nullptr;
         return;
     }
     while ( (AuxNode != nullptr) ){ // case size > 1
@@ -220,7 +215,6 @@ DrawableList::~DrawableList(){
         AuxNode = AuxNode->next;
         delete PrevAuxNode->item;
         delete PrevAuxNode;
-        PrevAuxNode = nullptr;
     }
 
 }
@@ -294,14 +288,10 @@ void DrawableList::erase(Iterator& it){
         it.invalidate();
         head = nullptr; // Update to an empty list
         tail = nullptr;
-        if (it.ptr->iterator_counter == 0){ // if there is no iterators on it.
-            delete it.ptr->item;
-            delete it.ptr;
-            it.ptr = nullptr;
-        }
-        return; // return empty list
+        return; //  list is empty
     }
-    // else - Update Nodes:
+
+    // else (size>0) - Update Nodes:
     Node* AuxNode = it.ptr;
     if (AuxNode == head){
         head = AuxNode->next;
@@ -315,11 +305,6 @@ void DrawableList::erase(Iterator& it){
     }
     size--;
     it.invalidate();
-    if (it.ptr->iterator_counter == 0){ // check if memory delete needed
-        delete it.ptr->item;
-        delete it.ptr;
-        it.ptr = nullptr;
-    }
 }
 
 
@@ -338,7 +323,7 @@ int DrawableList::get_size() const{
 
 Iterator DrawableList::begin(){
     Node* AuxNode = head;
-    if (AuxNode == nullptr){
+    if (AuxNode == nullptr){ // empty list
         return Iterator();
     }
     while( ! AuxNode->valid ){ // looking for the next valid node
@@ -373,5 +358,4 @@ Iterator DrawableList::end(){
     Iterator NewIterator = Iterator(*AuxNode);
     return NewIterator;
 }
-
 
