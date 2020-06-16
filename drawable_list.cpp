@@ -7,7 +7,8 @@
 #include "drawable_list.h"
 
 /* Iterator CLASS: */
-// members functions //
+
+/* members functions */
 
 // Constructors:
 /**
@@ -17,6 +18,12 @@
 Iterator::Iterator(Node& n): ptr(&n){
     this->increase_counter();
 }
+
+
+/**
+ * @brief Make an iterator points to nullptr
+ */
+Iterator::Iterator() : ptr(nullptr){}
 
 // Cpy C'tor:
 /**
@@ -52,11 +59,11 @@ Iterator::~Iterator(){
  */
 
 void Iterator::decrease_counter(){
-    if (this->ptr == nullptr){
+    if (this->ptr == nullptr){ // case the node ptr is nullptr
         return;
     }
-    this->ptr->iterator_counter--; // case no need to free memory
-    if (this->ptr->iterator_counter > 0){
+    this->ptr->iterator_counter--;
+    if (this->ptr->iterator_counter > 0){ // case no need to free memory
         return;
     }
     // FREE ALL MEMORY IF NEEDED: counter =0 && and node is invalid.
@@ -85,7 +92,7 @@ void Iterator::increase_counter(){
  */
 
 Drawable* Iterator::get_object(){
-    if (this->ptr == nullptr){
+    if ((this->ptr == nullptr) || (! this->ptr->valid) ){
         return nullptr;
     }
     return this->ptr->item;
@@ -132,7 +139,7 @@ Iterator& Iterator::set(const Iterator& other){
  */
 
 Iterator& Iterator::next(){
-    struct Node* AuxPtr = this->ptr->next;
+    Node* AuxPtr = this->ptr->next;
     while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){ // in case we got the end of the list and there is no valid nodes
         AuxPtr = AuxPtr->next;
     }
@@ -155,7 +162,7 @@ Iterator& Iterator::next(){
  */
 
 Iterator& Iterator::prev(){ // in case we got the start of the list and there is no valid nodes
-    struct Node* AuxPtr = this->ptr;
+    Node* AuxPtr = this->ptr;
     AuxPtr = AuxPtr->prev;
     while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){
         AuxPtr = AuxPtr->prev;
@@ -184,6 +191,8 @@ bool Iterator::valid() const{
 }
 
 
+
+
 // DrawableList CLASS:
 
 // Constructor:
@@ -191,7 +200,7 @@ DrawableList::DrawableList():head(nullptr), tail(nullptr), size(0){}
 
 // Destructor:
 DrawableList::~DrawableList(){
-    if ( (head == nullptr) && (size == 0) ){ // case of empty list.
+    if ( size == 0 ){ // case of empty list.
         return;
     }
     Node* PrevAuxNode;
@@ -273,13 +282,12 @@ void DrawableList::erase(Iterator& it){
     if ( it.ptr == nullptr ){ // case that node pointer is nullptr
         return;
     }
-    if ( it.ptr->valid){
-        it.invalidate();
-    }
-    if (size == 1){ // case we erase the only item in the list.
+
+    // case we erase the only item in the list.
+    if (size == 1){
         size--;
         it.invalidate();
-        head = nullptr;
+        head = nullptr; // Update to an empty list
         tail = nullptr;
         if (it.ptr->iterator_counter == 0){ // if there is no iterators on it.
             delete it.ptr->item;
@@ -287,7 +295,7 @@ void DrawableList::erase(Iterator& it){
         }
         return; // return empty list
     }
-    // Update Nodes:
+    // else - Update Nodes:
     Node* AuxNode = it.ptr;
     if (AuxNode == head){
         head = AuxNode->next;
@@ -301,8 +309,9 @@ void DrawableList::erase(Iterator& it){
     }
     size--;
     it.invalidate();
-    if (it.ptr->iterator_counter == 0){
+    if (it.ptr->iterator_counter == 0){ // check if memory delete needed
         delete it.ptr->item;
+        it.ptr = nullptr;
         delete it.ptr;
     }
 }
@@ -336,4 +345,6 @@ Iterator DrawableList::end(){
     Iterator NewIterator = Iterator(*tail);
     return NewIterator;
 }
+
+
 

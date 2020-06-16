@@ -51,6 +51,11 @@ class Iterator {
 	 */
 	explicit Iterator(Node& n);
 
+    /**
+     * @brief Make an iterator to nullptr !!
+     */
+	 Iterator();
+
 public:
 
 	/**
