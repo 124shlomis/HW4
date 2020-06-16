@@ -204,6 +204,33 @@ drawable_list.cpp.s:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/drawable_list.cpp.s
 .PHONY : drawable_list.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 mini_gui.o: mini_gui.cpp.o
 
 .PHONY : mini_gui.o
@@ -231,32 +258,32 @@ mini_gui.cpp.s:
 	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/mini_gui.cpp.s
 .PHONY : mini_gui.cpp.s
 
-test_drawable_list_module.o: test_drawable_list_module.cpp.o
+monster.o: monster.cpp.o
 
-.PHONY : test_drawable_list_module.o
+.PHONY : monster.o
 
 # target to build an object file
-test_drawable_list_module.cpp.o:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o
-.PHONY : test_drawable_list_module.cpp.o
+monster.cpp.o:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/monster.cpp.o
+.PHONY : monster.cpp.o
 
-test_drawable_list_module.i: test_drawable_list_module.cpp.i
+monster.i: monster.cpp.i
 
-.PHONY : test_drawable_list_module.i
+.PHONY : monster.i
 
 # target to preprocess a source file
-test_drawable_list_module.cpp.i:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i
-.PHONY : test_drawable_list_module.cpp.i
+monster.cpp.i:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/monster.cpp.i
+.PHONY : monster.cpp.i
 
-test_drawable_list_module.s: test_drawable_list_module.cpp.s
+monster.s: monster.cpp.s
 
-.PHONY : test_drawable_list_module.s
+.PHONY : monster.s
 
 # target to generate assembly for a file
-test_drawable_list_module.cpp.s:
-	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s
-.PHONY : test_drawable_list_module.cpp.s
+monster.cpp.s:
+	$(MAKE) -f CMakeFiles/HW4.dir/build.make CMakeFiles/HW4.dir/monster.cpp.s
+.PHONY : monster.cpp.s
 
 # Help Target
 help:
@@ -276,12 +303,15 @@ help:
 	@echo "... drawable_list.o"
 	@echo "... drawable_list.i"
 	@echo "... drawable_list.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... mini_gui.o"
 	@echo "... mini_gui.i"
 	@echo "... mini_gui.s"
-	@echo "... test_drawable_list_module.o"
-	@echo "... test_drawable_list_module.i"
-	@echo "... test_drawable_list_module.s"
+	@echo "... monster.o"
+	@echo "... monster.i"
+	@echo "... monster.s"
 .PHONY : help
 
 

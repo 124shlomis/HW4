@@ -1,42 +1,35 @@
-//
-// Created by shlomi shitrit on 12/06/2020.
-//
-
 #ifndef APPLE_H
 #define APPLE_H
 
-/* includes */
 #include "drawable.h"
-#include "ascii_objects.h"
-#include "drawable_list.h"
 
-/* class */
-class Apple: public Drawable{
+class Apple : public Drawable { 
+	// true if the apple is eaten
+	bool isEaten;
+
 public:
 
-    /**
-    * @brief Make an Apple with coordinates x,y
-    */
-    Apple(unsigned short x, unsigned short y);
+	Apple(unsigned short x, unsigned short y);
 
-    /**
-    * @brief Destruct an Apple
-    */
-    ~Apple() override;
+	virtual ~Apple();
 
-    void move(direction_t direction) override;
-    void draw() override;
-    void refresh() override;
-    int id() override ;
-    void step(DrawableList& list) override ;
+	// does nothing, since an Apple can't move
+	virtual void move(direction_t direction) {};
 
+	// draws the Apple
+	virtual void draw();
 
-private:
-    int ID;
-    unsigned short X; // x coordinate
-    unsigned short Y; // y coordinate
+	// refreshes the Apple graphics 
+	virtual void refresh();
+
+	// Apple id is A
+	virtual int id() { return 'A'; };
+
+	// apdate the Apple if he is eaten
+	virtual void step(DrawableList& lst);
 };
 
 
 
-#endif //APPLE_H
+
+#endif

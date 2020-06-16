@@ -7,8 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/shlomishetrit/Documents/GitHub/HW4/apple.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/apple.cpp.o"
   "/Users/shlomishetrit/Documents/GitHub/HW4/drawable.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/drawable.cpp.o"
   "/Users/shlomishetrit/Documents/GitHub/HW4/drawable_list.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/drawable_list.cpp.o"
+  "/Users/shlomishetrit/Documents/GitHub/HW4/main.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/main.cpp.o"
   "/Users/shlomishetrit/Documents/GitHub/HW4/mini_gui.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/mini_gui.cpp.o"
-  "/Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o"
+  "/Users/shlomishetrit/Documents/GitHub/HW4/monster.cpp" "/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles/HW4.dir/monster.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -109,18 +109,31 @@ CMakeFiles/HW4.dir/apple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/apple.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/apple.cpp -o CMakeFiles/HW4.dir/apple.cpp.s
 
-CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o: CMakeFiles/HW4.dir/flags.make
-CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o: ../test_drawable_list_module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp
+CMakeFiles/HW4.dir/monster.cpp.o: CMakeFiles/HW4.dir/flags.make
+CMakeFiles/HW4.dir/monster.cpp.o: ../monster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HW4.dir/monster.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/monster.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/monster.cpp
 
-CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp > CMakeFiles/HW4.dir/test_drawable_list_module.cpp.i
+CMakeFiles/HW4.dir/monster.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/monster.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/monster.cpp > CMakeFiles/HW4.dir/monster.cpp.i
 
-CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/test_drawable_list_module.cpp -o CMakeFiles/HW4.dir/test_drawable_list_module.cpp.s
+CMakeFiles/HW4.dir/monster.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/monster.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/monster.cpp -o CMakeFiles/HW4.dir/monster.cpp.s
+
+CMakeFiles/HW4.dir/main.cpp.o: CMakeFiles/HW4.dir/flags.make
+CMakeFiles/HW4.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HW4.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW4.dir/main.cpp.o -c /Users/shlomishetrit/Documents/GitHub/HW4/main.cpp
+
+CMakeFiles/HW4.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW4.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shlomishetrit/Documents/GitHub/HW4/main.cpp > CMakeFiles/HW4.dir/main.cpp.i
+
+CMakeFiles/HW4.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW4.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shlomishetrit/Documents/GitHub/HW4/main.cpp -o CMakeFiles/HW4.dir/main.cpp.s
 
 # Object files for target HW4
 HW4_OBJECTS = \
@@ -128,7 +141,8 @@ HW4_OBJECTS = \
 "CMakeFiles/HW4.dir/drawable.cpp.o" \
 "CMakeFiles/HW4.dir/drawable_list.cpp.o" \
 "CMakeFiles/HW4.dir/apple.cpp.o" \
-"CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o"
+"CMakeFiles/HW4.dir/monster.cpp.o" \
+"CMakeFiles/HW4.dir/main.cpp.o"
 
 # External object files for target HW4
 HW4_EXTERNAL_OBJECTS =
@@ -137,10 +151,11 @@ HW4: CMakeFiles/HW4.dir/mini_gui.cpp.o
 HW4: CMakeFiles/HW4.dir/drawable.cpp.o
 HW4: CMakeFiles/HW4.dir/drawable_list.cpp.o
 HW4: CMakeFiles/HW4.dir/apple.cpp.o
-HW4: CMakeFiles/HW4.dir/test_drawable_list_module.cpp.o
+HW4: CMakeFiles/HW4.dir/monster.cpp.o
+HW4: CMakeFiles/HW4.dir/main.cpp.o
 HW4: CMakeFiles/HW4.dir/build.make
 HW4: CMakeFiles/HW4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable HW4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shlomishetrit/Documents/GitHub/HW4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable HW4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HW4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

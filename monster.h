@@ -33,6 +33,7 @@ public:
 	 */
 	Monster(unsigned short x, unsigned short y, int direction_hold);
 
+	virtual ~Monster();
 	/**
 	 * @brief Move the object in the direction
 	 */
@@ -47,7 +48,7 @@ public:
 	 * @brief Return an ID that is unique to 
 	 * the dynamid type of the drawable object.
 	 */
-	virtual int id();
+	virtual int id() { return 'M'; }
 
 	/**
 	 * @brief Is called whenever any refresh is required
@@ -59,6 +60,7 @@ public:
 	 * @param lst A list of all drawable objects in the world
 	 */
 	virtual void step(DrawableList& lst);
+
 };
 
 #endif 
