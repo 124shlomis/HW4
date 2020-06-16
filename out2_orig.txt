@@ -1,0 +1,2440 @@
+# Step 0
+mini_gui_print(0, 0, "_")
+mini_gui_print(1, 0, "_")
+mini_gui_print(2, 0, "_")
+mini_gui_print(3, 0, "_")
+mini_gui_print(4, 0, "_")
+mini_gui_print(5, 0, "_")
+mini_gui_print(6, 0, "_")
+mini_gui_print(7, 0, "_")
+mini_gui_print(8, 0, "_")
+mini_gui_print(9, 0, "_")
+mini_gui_print(10, 0, "_")
+mini_gui_print(11, 0, "_")
+mini_gui_print(12, 0, "_")
+mini_gui_print(13, 0, "_")
+mini_gui_print(14, 0, "_")
+mini_gui_print(15, 0, "_")
+mini_gui_print(16, 0, "_")
+mini_gui_print(17, 0, "_")
+mini_gui_print(18, 0, "_")
+mini_gui_print(19, 0, "_")
+mini_gui_print(20, 0, "_")
+mini_gui_print(21, 0, "_")
+mini_gui_print(22, 0, "_")
+mini_gui_print(23, 0, "_")
+mini_gui_print(24, 0, "_")
+mini_gui_print(25, 0, "_")
+mini_gui_print(26, 0, "_")
+mini_gui_print(27, 0, "_")
+mini_gui_print(28, 0, "_")
+mini_gui_print(29, 0, "_")
+mini_gui_print(30, 0, "_")
+mini_gui_print(31, 0, "_")
+mini_gui_print(0, 19, "_")
+mini_gui_print(1, 19, "_")
+mini_gui_print(2, 19, "_")
+mini_gui_print(3, 19, "_")
+mini_gui_print(4, 19, "_")
+mini_gui_print(5, 19, "_")
+mini_gui_print(6, 19, "_")
+mini_gui_print(7, 19, "_")
+mini_gui_print(8, 19, "_")
+mini_gui_print(9, 19, "_")
+mini_gui_print(10, 19, "_")
+mini_gui_print(11, 19, "_")
+mini_gui_print(12, 19, "_")
+mini_gui_print(13, 19, "_")
+mini_gui_print(14, 19, "_")
+mini_gui_print(15, 19, "_")
+mini_gui_print(16, 19, "_")
+mini_gui_print(17, 19, "_")
+mini_gui_print(18, 19, "_")
+mini_gui_print(19, 19, "_")
+mini_gui_print(20, 19, "_")
+mini_gui_print(21, 19, "_")
+mini_gui_print(22, 19, "_")
+mini_gui_print(23, 19, "_")
+mini_gui_print(24, 19, "_")
+mini_gui_print(25, 19, "_")
+mini_gui_print(26, 19, "_")
+mini_gui_print(27, 19, "_")
+mini_gui_print(28, 19, "_")
+mini_gui_print(29, 19, "_")
+mini_gui_print(30, 19, "_")
+mini_gui_print(31, 19, "_")
+mini_gui_print(0, 1, "|")
+mini_gui_print(0, 2, "|")
+mini_gui_print(0, 3, "|")
+mini_gui_print(0, 4, "|")
+mini_gui_print(0, 5, "|")
+mini_gui_print(0, 6, "|")
+mini_gui_print(0, 7, "|")
+mini_gui_print(0, 8, "|")
+mini_gui_print(0, 9, "|")
+mini_gui_print(0, 10, "|")
+mini_gui_print(0, 11, "|")
+mini_gui_print(0, 12, "|")
+mini_gui_print(0, 13, "|")
+mini_gui_print(0, 14, "|")
+mini_gui_print(0, 15, "|")
+mini_gui_print(0, 16, "|")
+mini_gui_print(0, 17, "|")
+mini_gui_print(0, 18, "|")
+mini_gui_print(0, 19, "|")
+mini_gui_print(31, 1, "|")
+mini_gui_print(31, 2, "|")
+mini_gui_print(31, 3, "|")
+mini_gui_print(31, 4, "|")
+mini_gui_print(31, 5, "|")
+mini_gui_print(31, 6, "|")
+mini_gui_print(31, 7, "|")
+mini_gui_print(31, 8, "|")
+mini_gui_print(31, 9, "|")
+mini_gui_print(31, 10, "|")
+mini_gui_print(31, 11, "|")
+mini_gui_print(31, 12, "|")
+mini_gui_print(31, 13, "|")
+mini_gui_print(31, 14, "|")
+mini_gui_print(31, 15, "|")
+mini_gui_print(31, 16, "|")
+mini_gui_print(31, 17, "|")
+mini_gui_print(31, 18, "|")
+mini_gui_print(31, 19, "|")
+mini_gui_print_rect({8,1,1,1},".")
+mini_gui_print_rect({14,9,1,1},".")
+mini_gui_print_rect({4,15,1,1},".")
+mini_gui_print_rect({13,2,1,1},".")
+mini_gui_print_rect({7,18,1,1},".")
+mini_gui_print_rect({6,1,1,1},".")
+mini_gui_print_rect({20,5,1,1},".")
+mini_gui_print_rect({3,16,1,1},".")
+mini_gui_print_rect({11,12,1,1},".")
+mini_gui_print_rect({28,8,1,1},".")
+mini_gui_print_rect({7,3,1,1},".")
+mini_gui_print_rect({24,11,1,1},".")
+mini_gui_print_rect({3,18,1,1},".")
+mini_gui_print_rect({19,4,1,1},".")
+mini_gui_print_rect({19,5,1,1},".")
+mini_gui_print_rect({15,8,1,1},".")
+mini_gui_print_rect({5,3,1,1},".")
+mini_gui_print_rect({20,6,1,1},".")
+mini_gui_print_rect({18,16,1,1},".")
+mini_gui_print_rect({22,6,1,1},".")
+mini_gui_print_rect({9,8,1,1},".")
+mini_gui_print_rect({2,17,1,1},".")
+mini_gui_print_rect({3,6,1,1},".")
+mini_gui_print_rect({25,2,1,1},".")
+mini_gui_print_rect({16,16,1,1},".")
+mini_gui_print_rect({7,4,1,1},".")
+mini_gui_print_rect({15,3,1,1},".")
+mini_gui_print_rect({3,7,1,1},".")
+mini_gui_print_rect({11,11,1,1},".")
+mini_gui_print_rect({26,12,1,1},".")
+mini_gui_print_rect({4,18,1,1},".")
+mini_gui_print_rect({15,11,1,1},".")
+mini_gui_print_rect({22,13,1,1},".")
+mini_gui_print_rect({26,10,1,1},".")
+mini_gui_print_rect({11,15,1,1},".")
+mini_gui_print_rect({6,6,1,1},".")
+mini_gui_print_rect({26,18,1,1},".")
+mini_gui_print_rect({4,15,1,1},".")
+mini_gui_print_rect({9,5,1,1},".")
+mini_gui_print_rect({1,13,1,1},".")
+mini_gui_print_rect({23,17,1,1},".")
+mini_gui_print_rect({22,11,1,1},".")
+mini_gui_print_rect({10,4,1,1},".")
+mini_gui_print_rect({7,10,1,1},".")
+mini_gui_print_rect({12,17,1,1},".")
+mini_gui_print_rect({13,11,1,1},".")
+mini_gui_print_rect({18,1,1,1},".")
+mini_gui_print_rect({15,13,1,1},".")
+mini_gui_print_rect({4,13,1,1},".")
+mini_gui_print_rect({2,17,1,1},".")
+mini_gui_clear_rect({15,10,1,1})
+mini_gui_print_rect({15,9,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({3,1,1,1},"o")
+mini_gui_clear_rect({8,16,1,1})
+mini_gui_print_rect({8,17,1,1},"o")
+# Step 1
+mini_gui_clear_rect({15,9,1,1})
+mini_gui_print_rect({15,8,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({3,1,1,1},"o")
+mini_gui_clear_rect({8,17,1,1})
+mini_gui_print_rect({8,18,1,1},"o")
+# Step 2
+mini_gui_clear_rect({15,8,1,1})
+mini_gui_clear_rect({15,8,1,1})
+mini_gui_print_rect({15,7,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({3,1,1,1},"o")
+mini_gui_clear_rect({8,18,1,1})
+mini_gui_print_rect({8,18,1,1},"o")
+# Step 3
+mini_gui_clear_rect({15,7,1,1})
+mini_gui_print_rect({15,6,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({3,1,1,1},"o")
+mini_gui_clear_rect({8,18,1,1})
+mini_gui_print_rect({8,17,1,1},"o")
+# Step 4
+mini_gui_clear_rect({15,6,1,1})
+mini_gui_print_rect({15,7,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({3,1,1,1},"o")
+mini_gui_clear_rect({8,17,1,1})
+mini_gui_print_rect({8,16,1,1},"o")
+# Step 5
+mini_gui_clear_rect({15,7,1,1})
+mini_gui_print_rect({15,8,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({3,1,1,1},"o")
+mini_gui_clear_rect({8,16,1,1})
+mini_gui_print_rect({8,15,1,1},"o")
+# Step 6
+mini_gui_clear_rect({15,8,1,1})
+mini_gui_print_rect({15,9,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({4,1,1,1},"o")
+mini_gui_clear_rect({8,15,1,1})
+mini_gui_print_rect({7,15,1,1},"o")
+# Step 7
+mini_gui_clear_rect({15,9,1,1})
+mini_gui_print_rect({15,10,1,1},"o")
+mini_gui_clear_rect({4,1,1,1})
+mini_gui_print_rect({5,1,1,1},"o")
+mini_gui_clear_rect({7,15,1,1})
+mini_gui_print_rect({6,15,1,1},"o")
+# Step 8
+mini_gui_clear_rect({15,10,1,1})
+mini_gui_print_rect({16,10,1,1},"o")
+mini_gui_clear_rect({5,1,1,1})
+mini_gui_print_rect({6,1,1,1},"o")
+mini_gui_clear_rect({6,15,1,1})
+mini_gui_print_rect({5,15,1,1},"o")
+# Step 9
+mini_gui_clear_rect({16,10,1,1})
+mini_gui_print_rect({17,10,1,1},"o")
+mini_gui_clear_rect({6,1,1,1})
+mini_gui_clear_rect({6,1,1,1})
+mini_gui_print_rect({7,1,1,1},"o")
+mini_gui_clear_rect({5,15,1,1})
+mini_gui_print_rect({5,16,1,1},"o")
+# Step 10
+mini_gui_clear_rect({17,10,1,1})
+mini_gui_print_rect({18,10,1,1},"o")
+mini_gui_clear_rect({7,1,1,1})
+mini_gui_print_rect({8,1,1,1},"o")
+mini_gui_clear_rect({5,16,1,1})
+mini_gui_print_rect({5,17,1,1},"o")
+# Step 11
+mini_gui_clear_rect({18,10,1,1})
+mini_gui_print_rect({19,10,1,1},"o")
+mini_gui_clear_rect({8,1,1,1})
+mini_gui_clear_rect({8,1,1,1})
+mini_gui_print_rect({9,1,1,1},"o")
+mini_gui_clear_rect({5,17,1,1})
+mini_gui_print_rect({5,18,1,1},"o")
+# Step 12
+mini_gui_clear_rect({19,10,1,1})
+mini_gui_print_rect({18,10,1,1},"o")
+mini_gui_clear_rect({9,1,1,1})
+mini_gui_print_rect({8,1,1,1},"o")
+mini_gui_clear_rect({5,18,1,1})
+mini_gui_print_rect({6,18,1,1},"o")
+# Step 13
+mini_gui_clear_rect({18,10,1,1})
+mini_gui_print_rect({17,10,1,1},"o")
+mini_gui_clear_rect({8,1,1,1})
+mini_gui_print_rect({7,1,1,1},"o")
+mini_gui_clear_rect({6,18,1,1})
+mini_gui_print_rect({7,18,1,1},"o")
+# Step 14
+mini_gui_clear_rect({17,10,1,1})
+mini_gui_print_rect({16,10,1,1},"o")
+mini_gui_clear_rect({7,1,1,1})
+mini_gui_print_rect({6,1,1,1},"o")
+mini_gui_clear_rect({7,18,1,1})
+mini_gui_clear_rect({7,18,1,1})
+mini_gui_print_rect({8,18,1,1},"o")
+# Step 15
+mini_gui_clear_rect({16,10,1,1})
+mini_gui_print_rect({15,10,1,1},"o")
+mini_gui_clear_rect({6,1,1,1})
+mini_gui_print_rect({5,1,1,1},"o")
+mini_gui_clear_rect({8,18,1,1})
+mini_gui_print_rect({9,18,1,1},"o")
+# Step 16
+mini_gui_clear_rect({15,10,1,1})
+mini_gui_print_rect({16,10,1,1},"o")
+mini_gui_clear_rect({5,1,1,1})
+mini_gui_print_rect({4,1,1,1},"o")
+mini_gui_clear_rect({9,18,1,1})
+mini_gui_print_rect({10,18,1,1},"o")
+# Step 17
+mini_gui_clear_rect({16,10,1,1})
+mini_gui_print_rect({17,10,1,1},"o")
+mini_gui_clear_rect({4,1,1,1})
+mini_gui_print_rect({3,1,1,1},"o")
+mini_gui_clear_rect({10,18,1,1})
+mini_gui_print_rect({11,18,1,1},"o")
+# Step 18
+mini_gui_clear_rect({17,10,1,1})
+mini_gui_print_rect({18,10,1,1},"o")
+mini_gui_clear_rect({3,1,1,1})
+mini_gui_print_rect({3,2,1,1},"o")
+mini_gui_clear_rect({11,18,1,1})
+mini_gui_print_rect({11,17,1,1},"o")
+# Step 19
+mini_gui_clear_rect({18,10,1,1})
+mini_gui_print_rect({19,10,1,1},"o")
+mini_gui_clear_rect({3,2,1,1})
+mini_gui_print_rect({3,3,1,1},"o")
+mini_gui_clear_rect({11,17,1,1})
+mini_gui_print_rect({11,16,1,1},"o")
+# Step 20
+mini_gui_clear_rect({19,10,1,1})
+mini_gui_print_rect({19,11,1,1},"o")
+mini_gui_clear_rect({3,3,1,1})
+mini_gui_print_rect({3,4,1,1},"o")
+mini_gui_clear_rect({11,16,1,1})
+mini_gui_print_rect({11,15,1,1},"o")
+# Step 21
+mini_gui_clear_rect({19,11,1,1})
+mini_gui_print_rect({19,12,1,1},"o")
+mini_gui_clear_rect({3,4,1,1})
+mini_gui_print_rect({3,5,1,1},"o")
+mini_gui_clear_rect({11,15,1,1})
+mini_gui_clear_rect({11,15,1,1})
+mini_gui_print_rect({10,15,1,1},"o")
+# Step 22
+mini_gui_clear_rect({19,12,1,1})
+mini_gui_print_rect({19,13,1,1},"o")
+mini_gui_clear_rect({3,5,1,1})
+mini_gui_print_rect({3,6,1,1},"o")
+mini_gui_clear_rect({10,15,1,1})
+mini_gui_print_rect({9,15,1,1},"o")
+# Step 23
+mini_gui_clear_rect({19,13,1,1})
+mini_gui_print_rect({19,14,1,1},"o")
+mini_gui_clear_rect({3,6,1,1})
+mini_gui_clear_rect({3,6,1,1})
+mini_gui_print_rect({3,7,1,1},"o")
+mini_gui_clear_rect({9,15,1,1})
+mini_gui_print_rect({8,15,1,1},"o")
+# Step 24
+mini_gui_clear_rect({19,14,1,1})
+mini_gui_print_rect({18,14,1,1},"o")
+mini_gui_clear_rect({3,7,1,1})
+mini_gui_clear_rect({3,7,1,1})
+mini_gui_print_rect({2,7,3,1},"oOo")
+mini_gui_clear_rect({8,15,1,1})
+mini_gui_print_rect({8,16,1,1},"o")
+# Step 25
+mini_gui_clear_rect({18,14,1,1})
+mini_gui_print_rect({17,14,1,1},"o")
+mini_gui_clear_rect({2,7,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({8,16,1,1})
+mini_gui_print_rect({8,17,1,1},"o")
+# Step 26
+mini_gui_clear_rect({17,14,1,1})
+mini_gui_print_rect({16,14,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({8,17,1,1})
+mini_gui_print_rect({8,18,1,1},"o")
+# Step 27
+mini_gui_clear_rect({16,14,1,1})
+mini_gui_print_rect({15,14,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({8,18,1,1})
+mini_gui_print_rect({7,18,1,1},"o")
+# Step 28
+mini_gui_clear_rect({15,14,1,1})
+mini_gui_print_rect({16,14,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({7,18,1,1})
+mini_gui_print_rect({6,18,1,1},"o")
+# Step 29
+mini_gui_clear_rect({16,14,1,1})
+mini_gui_print_rect({17,14,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({6,18,1,1})
+mini_gui_print_rect({5,18,1,1},"o")
+# Step 30
+mini_gui_clear_rect({17,14,1,1})
+mini_gui_print_rect({18,14,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({1,6,3,1},"oOo")
+mini_gui_clear_rect({5,18,1,1})
+mini_gui_print_rect({5,17,1,1},"o")
+# Step 31
+mini_gui_clear_rect({18,14,1,1})
+mini_gui_print_rect({19,14,1,1},"o")
+mini_gui_clear_rect({1,6,3,1})
+mini_gui_print_rect({1,5,3,1},"oOo")
+mini_gui_clear_rect({5,17,1,1})
+mini_gui_print_rect({5,16,1,1},"o")
+# Step 32
+mini_gui_clear_rect({19,14,1,1})
+mini_gui_print_rect({20,14,1,1},"o")
+mini_gui_clear_rect({1,5,3,1})
+mini_gui_print_rect({1,4,3,1},"oOo")
+mini_gui_clear_rect({5,16,1,1})
+mini_gui_print_rect({5,15,1,1},"o")
+# Step 33
+mini_gui_clear_rect({20,14,1,1})
+mini_gui_print_rect({21,14,1,1},"o")
+mini_gui_clear_rect({1,4,3,1})
+mini_gui_print_rect({1,3,3,1},"oOo")
+mini_gui_clear_rect({5,15,1,1})
+mini_gui_print_rect({6,15,1,1},"o")
+# Step 34
+mini_gui_clear_rect({21,14,1,1})
+mini_gui_print_rect({22,14,1,1},"o")
+mini_gui_clear_rect({1,3,3,1})
+mini_gui_print_rect({1,2,3,1},"oOo")
+mini_gui_clear_rect({6,15,1,1})
+mini_gui_print_rect({7,15,1,1},"o")
+# Step 35
+mini_gui_clear_rect({22,14,1,1})
+mini_gui_print_rect({23,14,1,1},"o")
+mini_gui_clear_rect({1,2,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({7,15,1,1})
+mini_gui_print_rect({8,15,1,1},"o")
+# Step 36
+mini_gui_clear_rect({23,14,1,1})
+mini_gui_print_rect({24,14,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({1,2,3,1},"oOo")
+mini_gui_clear_rect({8,15,1,1})
+mini_gui_print_rect({9,15,1,1},"o")
+# Step 37
+mini_gui_clear_rect({24,14,1,1})
+mini_gui_print_rect({25,14,1,1},"o")
+mini_gui_clear_rect({1,2,3,1})
+mini_gui_print_rect({1,3,3,1},"oOo")
+mini_gui_clear_rect({9,15,1,1})
+mini_gui_print_rect({10,15,1,1},"o")
+# Step 38
+mini_gui_clear_rect({25,14,1,1})
+mini_gui_print_rect({26,14,1,1},"o")
+mini_gui_clear_rect({1,3,3,1})
+mini_gui_print_rect({1,4,3,1},"oOo")
+mini_gui_clear_rect({10,15,1,1})
+mini_gui_print_rect({11,15,1,1},"o")
+# Step 39
+mini_gui_clear_rect({26,14,1,1})
+mini_gui_print_rect({27,14,1,1},"o")
+mini_gui_clear_rect({1,4,3,1})
+mini_gui_print_rect({1,5,3,1},"oOo")
+mini_gui_clear_rect({11,15,1,1})
+mini_gui_print_rect({11,14,1,1},"o")
+# Step 40
+mini_gui_clear_rect({27,14,1,1})
+mini_gui_print_rect({27,15,1,1},"o")
+mini_gui_clear_rect({1,5,3,1})
+mini_gui_print_rect({1,6,3,1},"oOo")
+mini_gui_clear_rect({11,14,1,1})
+mini_gui_print_rect({11,13,1,1},"o")
+# Step 41
+mini_gui_clear_rect({27,15,1,1})
+mini_gui_print_rect({27,16,1,1},"o")
+mini_gui_clear_rect({1,6,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({11,13,1,1})
+mini_gui_print_rect({11,12,1,1},"o")
+# Step 42
+mini_gui_clear_rect({27,16,1,1})
+mini_gui_print_rect({27,17,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({1,8,3,1},"oOo")
+mini_gui_clear_rect({11,12,1,1})
+mini_gui_clear_rect({11,12,1,1})
+mini_gui_print_rect({11,11,1,1},"o")
+# Step 43
+mini_gui_clear_rect({27,17,1,1})
+mini_gui_print_rect({27,18,1,1},"o")
+mini_gui_clear_rect({1,8,3,1})
+mini_gui_print_rect({1,9,3,1},"oOo")
+mini_gui_clear_rect({11,11,1,1})
+mini_gui_clear_rect({11,11,1,1})
+mini_gui_print_rect({11,10,3,1},"oOo")
+# Step 44
+mini_gui_clear_rect({27,18,1,1})
+mini_gui_print_rect({28,18,1,1},"o")
+mini_gui_clear_rect({1,9,3,1})
+mini_gui_print_rect({1,10,3,1},"oOo")
+mini_gui_clear_rect({11,10,3,1})
+mini_gui_print_rect({11,9,3,1},"oOo")
+# Step 45
+mini_gui_clear_rect({28,18,1,1})
+mini_gui_print_rect({29,18,1,1},"o")
+mini_gui_clear_rect({1,10,3,1})
+mini_gui_print_rect({1,11,3,1},"oOo")
+mini_gui_clear_rect({11,9,3,1})
+mini_gui_print_rect({10,9,3,1},"oOo")
+# Step 46
+mini_gui_clear_rect({29,18,1,1})
+mini_gui_print_rect({30,18,1,1},"o")
+mini_gui_clear_rect({1,11,3,1})
+mini_gui_print_rect({1,12,3,1},"oOo")
+mini_gui_clear_rect({10,9,3,1})
+mini_gui_print_rect({9,9,3,1},"oOo")
+# Step 47
+mini_gui_clear_rect({30,18,1,1})
+mini_gui_print_rect({30,18,1,1},"o")
+mini_gui_clear_rect({1,12,3,1})
+mini_gui_print_rect({1,13,3,1},"oOo")
+mini_gui_clear_rect({9,9,3,1})
+mini_gui_print_rect({8,9,3,1},"oOo")
+# Step 48
+mini_gui_clear_rect({30,18,1,1})
+mini_gui_print_rect({30,17,1,1},"o")
+mini_gui_clear_rect({1,13,1,1})
+mini_gui_clear_rect({1,13,3,1})
+mini_gui_print_rect({1,12,3,1},"oOo")
+mini_gui_clear_rect({8,9,3,1})
+mini_gui_print_rect({9,9,3,1},"oOo")
+# Step 49
+mini_gui_clear_rect({30,17,1,1})
+mini_gui_print_rect({30,16,1,1},"o")
+mini_gui_clear_rect({1,12,3,1})
+mini_gui_print_rect({1,11,3,1},"oOo")
+mini_gui_clear_rect({9,9,3,1})
+mini_gui_print_rect({10,9,3,1},"oOo")
+# Step 50
+mini_gui_clear_rect({30,16,1,1})
+mini_gui_print_rect({30,15,1,1},"o")
+mini_gui_clear_rect({1,11,3,1})
+mini_gui_print_rect({1,10,3,1},"oOo")
+mini_gui_clear_rect({10,9,3,1})
+mini_gui_print_rect({11,9,3,1},"oOo")
+# Step 51
+mini_gui_clear_rect({30,15,1,1})
+mini_gui_print_rect({30,14,1,1},"o")
+mini_gui_clear_rect({1,10,3,1})
+mini_gui_print_rect({1,9,3,1},"oOo")
+mini_gui_clear_rect({11,9,3,1})
+mini_gui_print_rect({10,9,3,1},"oOo")
+# Step 52
+mini_gui_clear_rect({30,14,1,1})
+mini_gui_print_rect({30,14,1,1},"o")
+mini_gui_clear_rect({1,9,3,1})
+mini_gui_print_rect({1,8,3,1},"oOo")
+mini_gui_clear_rect({10,9,3,1})
+mini_gui_print_rect({9,9,3,1},"oOo")
+# Step 53
+mini_gui_clear_rect({30,14,1,1})
+mini_gui_print_rect({30,14,1,1},"o")
+mini_gui_clear_rect({1,8,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({9,9,3,1})
+mini_gui_print_rect({8,9,3,1},"oOo")
+# Step 54
+mini_gui_clear_rect({30,14,1,1})
+mini_gui_print_rect({30,14,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({2,7,3,1},"oOo")
+mini_gui_clear_rect({8,9,3,1})
+mini_gui_print_rect({8,8,3,1},"oOo")
+# Step 55
+mini_gui_clear_rect({30,14,1,1})
+mini_gui_print_rect({30,14,1,1},"o")
+mini_gui_clear_rect({2,7,3,1})
+mini_gui_print_rect({3,7,3,1},"oOo")
+mini_gui_clear_rect({9,8,1,1})
+mini_gui_clear_rect({8,8,3,1})
+mini_gui_print_rect({8,7,3,1},"oOo")
+# Step 56
+mini_gui_clear_rect({30,14,1,1})
+mini_gui_print_rect({29,14,1,1},"o")
+mini_gui_clear_rect({3,7,3,1})
+mini_gui_print_rect({4,7,3,1},"oOo")
+mini_gui_clear_rect({8,7,3,1})
+mini_gui_print_rect({8,6,3,1},"oOo")
+# Step 57
+mini_gui_clear_rect({29,14,1,1})
+mini_gui_print_rect({28,14,1,1},"o")
+mini_gui_clear_rect({4,7,3,1})
+mini_gui_print_rect({5,7,3,1},"oOo")
+mini_gui_clear_rect({8,6,3,1})
+mini_gui_print_rect({8,5,3,1},"oOo")
+# Step 58
+mini_gui_clear_rect({28,14,1,1})
+mini_gui_print_rect({27,14,1,1},"o")
+mini_gui_clear_rect({5,7,3,1})
+mini_gui_print_rect({6,7,3,1},"oOo")
+mini_gui_clear_rect({9,5,1,1})
+mini_gui_clear_rect({8,5,3,1})
+mini_gui_print_rect({8,4,3,1},"oOo")
+# Step 59
+mini_gui_clear_rect({27,14,1,1})
+mini_gui_print_rect({26,14,1,1},"o")
+mini_gui_clear_rect({6,7,3,1})
+mini_gui_print_rect({7,7,3,1},"oOo")
+mini_gui_clear_rect({10,4,1,1})
+mini_gui_clear_rect({8,4,3,1})
+mini_gui_print_rect({8,3,3,1},"oOo")
+# Step 60
+mini_gui_clear_rect({26,14,1,1})
+mini_gui_print_rect({26,15,1,1},"o")
+mini_gui_clear_rect({7,7,3,1})
+mini_gui_print_rect({6,7,3,1},"oOo")
+mini_gui_clear_rect({8,3,3,1})
+mini_gui_print_rect({8,2,3,1},"oOo")
+# Step 61
+mini_gui_clear_rect({26,15,1,1})
+mini_gui_print_rect({26,16,1,1},"o")
+mini_gui_clear_rect({6,7,3,1})
+mini_gui_print_rect({5,7,3,1},"oOo")
+mini_gui_clear_rect({8,2,3,1})
+mini_gui_print_rect({8,1,3,1},"oOo")
+# Step 62
+mini_gui_clear_rect({26,16,1,1})
+mini_gui_print_rect({26,17,1,1},"o")
+mini_gui_clear_rect({5,7,3,1})
+mini_gui_print_rect({4,7,3,1},"oOo")
+mini_gui_clear_rect({8,1,3,1})
+mini_gui_print_rect({8,1,3,1},"oOo")
+# Step 63
+mini_gui_clear_rect({26,17,1,1})
+mini_gui_print_rect({26,18,1,1},"o")
+mini_gui_clear_rect({4,7,3,1})
+mini_gui_print_rect({3,7,3,1},"oOo")
+mini_gui_clear_rect({8,1,3,1})
+mini_gui_print_rect({7,1,3,1},"oOo")
+# Step 64
+mini_gui_clear_rect({26,18,1,1})
+mini_gui_clear_rect({26,18,1,1})
+mini_gui_print_rect({26,17,1,1},"o")
+mini_gui_clear_rect({3,7,3,1})
+mini_gui_print_rect({2,7,3,1},"oOo")
+mini_gui_clear_rect({7,1,3,1})
+mini_gui_print_rect({6,1,3,1},"oOo")
+# Step 65
+mini_gui_clear_rect({26,17,1,1})
+mini_gui_print_rect({26,16,1,1},"o")
+mini_gui_clear_rect({2,7,3,1})
+mini_gui_print_rect({1,7,3,1},"oOo")
+mini_gui_clear_rect({6,1,3,1})
+mini_gui_print_rect({5,1,3,1},"oOo")
+# Step 66
+mini_gui_clear_rect({26,16,1,1})
+mini_gui_print_rect({26,15,1,1},"o")
+mini_gui_clear_rect({1,7,3,1})
+mini_gui_print_rect({1,6,3,1},"oOo")
+mini_gui_clear_rect({5,1,3,1})
+mini_gui_print_rect({5,2,3,1},"oOo")
+# Step 67
+mini_gui_clear_rect({26,15,1,1})
+mini_gui_print_rect({26,14,1,1},"o")
+mini_gui_clear_rect({1,6,3,1})
+mini_gui_print_rect({1,5,3,1},"oOo")
+mini_gui_clear_rect({5,2,3,1})
+mini_gui_print_rect({5,3,3,1},"oOo")
+# Step 68
+mini_gui_clear_rect({26,14,1,1})
+mini_gui_print_rect({26,15,1,1},"o")
+mini_gui_clear_rect({1,5,3,1})
+mini_gui_print_rect({1,4,3,1},"oOo")
+mini_gui_clear_rect({7,3,1,1})
+mini_gui_clear_rect({5,3,1,1})
+mini_gui_clear_rect({5,3,3,1})
+mini_gui_print_rect({5,4,3,1},"oOo")
+# Step 69
+mini_gui_clear_rect({26,15,1,1})
+mini_gui_print_rect({26,16,1,1},"o")
+mini_gui_clear_rect({1,4,3,1})
+mini_gui_print_rect({1,3,3,1},"oOo")
+mini_gui_clear_rect({7,4,1,1})
+mini_gui_clear_rect({5,4,3,1})
+mini_gui_print_rect({5,5,3,1},"oOo")
+# Step 70
+mini_gui_clear_rect({26,16,1,1})
+mini_gui_print_rect({26,17,1,1},"o")
+mini_gui_clear_rect({1,3,3,1})
+mini_gui_print_rect({1,2,3,1},"oOo")
+mini_gui_clear_rect({5,5,3,1})
+mini_gui_print_rect({5,6,3,1},"oOo")
+# Step 71
+mini_gui_clear_rect({26,17,1,1})
+mini_gui_print_rect({26,18,1,1},"o")
+mini_gui_clear_rect({1,2,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({6,6,1,1})
+mini_gui_clear_rect({5,6,3,1})
+mini_gui_print_rect({5,7,3,1},"oOo")
+# Step 72
+mini_gui_clear_rect({26,18,1,1})
+mini_gui_print_rect({27,18,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({5,7,3,1})
+mini_gui_print_rect({6,7,3,1},"oOo")
+# Step 73
+mini_gui_clear_rect({27,18,1,1})
+mini_gui_print_rect({28,18,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({6,7,3,1})
+mini_gui_print_rect({7,7,3,1},"oOo")
+# Step 74
+mini_gui_clear_rect({28,18,1,1})
+mini_gui_print_rect({29,18,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({7,7,3,1})
+mini_gui_print_rect({8,7,3,1},"oOo")
+# Step 75
+mini_gui_clear_rect({29,18,1,1})
+mini_gui_print_rect({30,18,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({8,7,3,1})
+mini_gui_print_rect({9,7,3,1},"oOo")
+# Step 76
+mini_gui_clear_rect({30,18,1,1})
+mini_gui_print_rect({30,18,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({9,7,3,1})
+mini_gui_print_rect({10,7,3,1},"oOo")
+# Step 77
+mini_gui_clear_rect({30,18,1,1})
+mini_gui_print_rect({30,18,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({1,1,3,1},"oOo")
+mini_gui_clear_rect({10,7,3,1})
+mini_gui_print_rect({11,7,3,1},"oOo")
+# Step 78
+mini_gui_clear_rect({30,18,1,1})
+mini_gui_print_rect({30,18,1,1},"o")
+mini_gui_clear_rect({1,1,3,1})
+mini_gui_print_rect({2,1,3,1},"oOo")
+mini_gui_clear_rect({11,7,3,1})
+mini_gui_print_rect({10,7,3,1},"oOo")
+# Step 79
+mini_gui_clear_rect({30,18,1,1})
+mini_gui_print_rect({30,18,1,1},"o")
+mini_gui_clear_rect({2,1,3,1})
+mini_gui_print_rect({3,1,3,1},"oOo")
+mini_gui_clear_rect({10,7,3,1})
+mini_gui_print_rect({9,7,3,1},"oOo")
+# Step 80
+mini_gui_clear_rect({30,18,1,1})
+mini_gui_print_rect({30,17,1,1},"o")
+mini_gui_clear_rect({3,1,3,1})
+mini_gui_print_rect({4,1,3,1},"oOo")
+mini_gui_clear_rect({9,7,3,1})
+mini_gui_print_rect({8,7,3,1},"oOo")
+# Step 81
+mini_gui_clear_rect({30,17,1,1})
+mini_gui_print_rect({30,16,1,1},"o")
+mini_gui_clear_rect({4,1,3,1})
+mini_gui_print_rect({5,1,3,1},"oOo")
+mini_gui_clear_rect({8,7,3,1})
+mini_gui_print_rect({8,6,3,1},"oOo")
+# Step 82
+mini_gui_clear_rect({30,16,1,1})
+mini_gui_print_rect({30,15,1,1},"o")
+mini_gui_clear_rect({5,1,3,1})
+mini_gui_print_rect({6,1,3,1},"oOo")
+mini_gui_clear_rect({8,6,3,1})
+mini_gui_print_rect({8,5,3,1},"oOo")
+# Step 83
+mini_gui_clear_rect({30,15,1,1})
+mini_gui_print_rect({30,14,1,1},"o")
+mini_gui_clear_rect({6,1,3,1})
+mini_gui_print_rect({7,1,3,1},"oOo")
+mini_gui_clear_rect({8,5,3,1})
+mini_gui_print_rect({8,4,3,1},"oOo")
+# Step 84
+mini_gui_clear_rect({30,14,1,1})
+mini_gui_print_rect({29,14,1,1},"o")
+mini_gui_clear_rect({7,1,3,1})
+mini_gui_print_rect({7,2,3,1},"oOo")
+mini_gui_clear_rect({8,4,3,1})
+mini_gui_print_rect({8,5,3,1},"oOo")
+# Step 85
+mini_gui_clear_rect({29,14,1,1})
+mini_gui_print_rect({28,14,1,1},"o")
+mini_gui_clear_rect({7,2,3,1})
+mini_gui_print_rect({7,3,3,1},"oOo")
+mini_gui_clear_rect({8,5,3,1})
+mini_gui_print_rect({8,6,3,1},"oOo")
+# Step 86
+mini_gui_clear_rect({28,14,1,1})
+mini_gui_print_rect({27,14,1,1},"o")
+mini_gui_clear_rect({7,3,3,1})
+mini_gui_print_rect({7,4,3,1},"oOo")
+mini_gui_clear_rect({8,6,3,1})
+mini_gui_print_rect({8,7,3,1},"oOo")
+# Step 87
+mini_gui_clear_rect({27,14,1,1})
+mini_gui_print_rect({26,14,1,1},"o")
+mini_gui_clear_rect({7,4,3,1})
+mini_gui_print_rect({7,5,3,1},"oOo")
+mini_gui_clear_rect({8,7,3,1})
+mini_gui_print_rect({7,7,3,1},"oOo")
+# Step 88
+mini_gui_clear_rect({26,14,1,1})
+mini_gui_print_rect({26,13,1,1},"o")
+mini_gui_clear_rect({7,5,3,1})
+mini_gui_print_rect({7,6,3,1},"oOo")
+mini_gui_clear_rect({7,7,3,1})
+mini_gui_print_rect({6,7,3,1},"oOo")
+# Step 89
+mini_gui_clear_rect({26,13,1,1})
+mini_gui_print_rect({26,12,1,1},"o")
+mini_gui_clear_rect({7,6,3,1})
+mini_gui_print_rect({7,7,3,1},"oOo")
+mini_gui_clear_rect({7,7,3,1})
+mini_gui_clear_rect({6,7,3,1})
+mini_gui_print_rect({5,7,3,2},"o@oMMM")
+# Step 90
+mini_gui_clear_rect({26,12,1,1})
+mini_gui_clear_rect({26,12,1,1})
+mini_gui_print_rect({26,11,1,1},"o")
+mini_gui_clear_rect({5,7,3,2})
+mini_gui_print_rect({5,8,3,2},"o@oMMM")
+# Step 91
+mini_gui_clear_rect({26,11,1,1})
+mini_gui_print_rect({26,10,1,1},"o")
+mini_gui_clear_rect({5,8,3,2})
+mini_gui_print_rect({5,9,3,2},"o@oMMM")
+# Step 92
+mini_gui_clear_rect({26,10,1,1})
+mini_gui_clear_rect({26,10,1,1})
+mini_gui_print_rect({26,9,3,1},"oOo")
+mini_gui_clear_rect({7,10,1,1})
+mini_gui_clear_rect({5,9,3,2})
+mini_gui_print_rect({5,10,3,2},"o@oMMM")
+# Step 93
+mini_gui_clear_rect({26,9,3,1})
+mini_gui_print_rect({26,8,3,1},"oOo")
+mini_gui_clear_rect({5,10,3,2})
+mini_gui_print_rect({6,10,3,2},"o@oMMM")
+# Step 94
+mini_gui_clear_rect({28,8,1,1})
+mini_gui_clear_rect({26,8,3,1})
+mini_gui_print_rect({26,7,3,1},"oOo")
+mini_gui_clear_rect({6,10,3,2})
+mini_gui_print_rect({7,10,3,2},"o@oMMM")
+# Step 95
+mini_gui_clear_rect({26,7,3,1})
+mini_gui_print_rect({26,6,3,1},"oOo")
+mini_gui_clear_rect({7,10,3,2})
+mini_gui_print_rect({8,10,3,2},"o@oMMM")
+# Step 96
+mini_gui_clear_rect({26,6,3,1})
+mini_gui_print_rect({27,6,3,1},"oOo")
+mini_gui_clear_rect({8,10,3,2})
+mini_gui_print_rect({7,10,3,2},"o@oMMM")
+# Step 97
+mini_gui_clear_rect({27,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({7,10,3,2})
+mini_gui_print_rect({6,10,3,2},"o@oMMM")
+# Step 98
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({6,10,3,2})
+mini_gui_print_rect({5,10,3,2},"o@oMMM")
+# Step 99
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({5,10,3,2})
+mini_gui_print_rect({6,10,3,2},"o@oMMM")
+# Step 100
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({6,10,3,2})
+mini_gui_print_rect({7,10,3,2},"o@oMMM")
+# Step 101
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({7,10,3,2})
+mini_gui_print_rect({8,10,3,2},"o@oMMM")
+# Step 102
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({8,10,3,2})
+mini_gui_print_rect({9,10,3,2},"o@oMMM")
+# Step 103
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({9,10,3,2})
+mini_gui_print_rect({10,10,3,2},"o@oMMM")
+# Step 104
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({27,6,3,1},"oOo")
+mini_gui_clear_rect({10,10,3,2})
+mini_gui_print_rect({11,10,3,2},"o@oMMM")
+# Step 105
+mini_gui_clear_rect({27,6,3,1})
+mini_gui_print_rect({26,6,3,1},"oOo")
+mini_gui_clear_rect({13,11,1,1})
+mini_gui_clear_rect({11,10,3,2})
+mini_gui_print_rect({11,9,3,2},"o@oMMM")
+# Step 106
+mini_gui_clear_rect({26,6,3,1})
+mini_gui_print_rect({25,6,3,1},"oOo")
+mini_gui_clear_rect({11,9,3,2})
+mini_gui_print_rect({11,8,3,2},"o@oMMM")
+# Step 107
+mini_gui_clear_rect({25,6,3,1})
+mini_gui_print_rect({24,6,3,1},"oOo")
+mini_gui_clear_rect({11,8,3,2})
+mini_gui_print_rect({11,7,3,2},"o@oMMM")
+# Step 108
+mini_gui_clear_rect({24,6,3,1})
+mini_gui_print_rect({24,7,3,1},"oOo")
+mini_gui_clear_rect({11,7,3,2})
+mini_gui_print_rect({12,7,3,2},"o@oMMM")
+# Step 109
+mini_gui_clear_rect({24,7,3,1})
+mini_gui_print_rect({24,8,3,1},"oOo")
+mini_gui_clear_rect({12,7,3,2})
+mini_gui_print_rect({13,7,3,2},"o@oMMM")
+# Step 110
+mini_gui_clear_rect({24,8,3,1})
+mini_gui_print_rect({24,9,3,1},"oOo")
+mini_gui_clear_rect({13,7,3,2})
+mini_gui_print_rect({14,7,3,2},"o@oMMM")
+# Step 111
+mini_gui_clear_rect({24,9,3,1})
+mini_gui_print_rect({24,10,3,1},"oOo")
+mini_gui_clear_rect({14,7,3,2})
+mini_gui_print_rect({13,7,3,2},"o@oMMM")
+# Step 112
+mini_gui_clear_rect({24,10,3,1})
+mini_gui_print_rect({23,10,3,1},"oOo")
+mini_gui_clear_rect({13,7,3,2})
+mini_gui_print_rect({12,7,3,2},"o@oMMM")
+# Step 113
+mini_gui_clear_rect({23,10,3,1})
+mini_gui_print_rect({22,10,3,1},"oOo")
+mini_gui_clear_rect({12,7,3,2})
+mini_gui_print_rect({11,7,3,2},"o@oMMM")
+# Step 114
+mini_gui_clear_rect({22,10,3,1})
+mini_gui_print_rect({21,10,3,1},"oOo")
+mini_gui_clear_rect({11,7,3,2})
+mini_gui_print_rect({10,7,3,2},"o@oMMM")
+# Step 115
+mini_gui_clear_rect({21,10,3,1})
+mini_gui_print_rect({20,10,3,1},"oOo")
+mini_gui_clear_rect({10,7,3,2})
+mini_gui_print_rect({9,7,3,2},"o@oMMM")
+# Step 116
+mini_gui_clear_rect({20,10,3,1})
+mini_gui_print_rect({21,10,3,1},"oOo")
+mini_gui_clear_rect({9,7,3,2})
+mini_gui_print_rect({8,7,3,2},"o@oMMM")
+# Step 117
+mini_gui_clear_rect({21,10,3,1})
+mini_gui_print_rect({22,10,3,1},"oOo")
+mini_gui_clear_rect({8,7,3,2})
+mini_gui_print_rect({9,7,3,2},"o@oMMM")
+# Step 118
+mini_gui_clear_rect({22,10,3,1})
+mini_gui_print_rect({23,10,3,1},"oOo")
+mini_gui_clear_rect({9,7,3,2})
+mini_gui_print_rect({10,7,3,2},"o@oMMM")
+# Step 119
+mini_gui_clear_rect({23,10,3,1})
+mini_gui_print_rect({24,10,3,1},"oOo")
+mini_gui_clear_rect({10,7,3,2})
+mini_gui_print_rect({11,7,3,2},"o@oMMM")
+# Step 120
+mini_gui_clear_rect({24,10,3,1})
+mini_gui_print_rect({25,10,3,1},"oOo")
+mini_gui_clear_rect({11,7,3,2})
+mini_gui_print_rect({11,8,3,2},"o@oMMM")
+# Step 121
+mini_gui_clear_rect({25,10,3,1})
+mini_gui_print_rect({26,10,3,1},"oOo")
+mini_gui_clear_rect({11,8,3,2})
+mini_gui_print_rect({11,9,3,2},"o@oMMM")
+# Step 122
+mini_gui_clear_rect({26,10,3,1})
+mini_gui_print_rect({27,10,3,1},"oOo")
+mini_gui_clear_rect({11,9,3,2})
+mini_gui_print_rect({11,10,3,2},"o@oMMM")
+# Step 123
+mini_gui_clear_rect({27,10,3,1})
+mini_gui_print_rect({28,10,3,1},"oOo")
+mini_gui_clear_rect({11,10,3,2})
+mini_gui_print_rect({10,10,3,2},"o@oMMM")
+# Step 124
+mini_gui_clear_rect({28,10,3,1})
+mini_gui_print_rect({27,10,3,1},"oOo")
+mini_gui_clear_rect({10,10,3,2})
+mini_gui_print_rect({9,10,3,2},"o@oMMM")
+# Step 125
+mini_gui_clear_rect({27,10,3,1})
+mini_gui_print_rect({26,10,3,1},"oOo")
+mini_gui_clear_rect({9,10,3,2})
+mini_gui_print_rect({8,10,3,2},"o@oMMM")
+# Step 126
+mini_gui_clear_rect({26,10,3,1})
+mini_gui_print_rect({25,10,3,1},"oOo")
+mini_gui_clear_rect({8,10,3,2})
+mini_gui_print_rect({7,10,3,2},"o@oMMM")
+# Step 127
+mini_gui_clear_rect({25,10,3,1})
+mini_gui_print_rect({24,10,3,1},"oOo")
+mini_gui_clear_rect({7,10,3,2})
+mini_gui_print_rect({6,10,3,2},"o@oMMM")
+# Step 128
+mini_gui_clear_rect({24,10,3,1})
+mini_gui_print_rect({25,10,3,1},"oOo")
+mini_gui_clear_rect({6,10,3,2})
+mini_gui_print_rect({5,10,3,2},"o@oMMM")
+# Step 129
+mini_gui_clear_rect({25,10,3,1})
+mini_gui_print_rect({26,10,3,1},"oOo")
+mini_gui_clear_rect({5,10,3,2})
+mini_gui_print_rect({6,10,3,2},"o@oMMM")
+# Step 130
+mini_gui_clear_rect({26,10,3,1})
+mini_gui_print_rect({27,10,3,1},"oOo")
+mini_gui_clear_rect({6,10,3,2})
+mini_gui_print_rect({7,10,3,2},"o@oMMM")
+# Step 131
+mini_gui_clear_rect({27,10,3,1})
+mini_gui_print_rect({28,10,3,1},"oOo")
+mini_gui_clear_rect({7,10,3,2})
+mini_gui_print_rect({8,10,3,2},"o@oMMM")
+# Step 132
+mini_gui_clear_rect({28,10,3,1})
+mini_gui_print_rect({28,9,3,1},"oOo")
+mini_gui_clear_rect({8,10,3,2})
+mini_gui_print_rect({8,9,3,2},"o@oMMM")
+# Step 133
+mini_gui_clear_rect({28,9,3,1})
+mini_gui_print_rect({28,8,3,1},"oOo")
+mini_gui_clear_rect({8,9,3,2})
+mini_gui_print_rect({8,8,3,2},"o@oMMM")
+# Step 134
+mini_gui_clear_rect({28,8,3,1})
+mini_gui_print_rect({28,7,3,1},"oOo")
+mini_gui_clear_rect({8,8,3,2})
+mini_gui_print_rect({8,7,3,2},"o@oMMM")
+# Step 135
+mini_gui_clear_rect({28,7,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({8,7,3,2})
+mini_gui_print_rect({7,7,3,2},"o@oMMM")
+# Step 136
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({7,7,3,2})
+mini_gui_print_rect({6,7,3,2},"o@oMMM")
+# Step 137
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({6,7,3,2})
+mini_gui_print_rect({5,7,3,2},"o@oMMM")
+# Step 138
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({5,7,3,2})
+mini_gui_print_rect({6,7,3,2},"o@oMMM")
+# Step 139
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({6,7,3,2})
+mini_gui_print_rect({7,7,3,2},"o@oMMM")
+# Step 140
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({28,7,3,1},"oOo")
+mini_gui_clear_rect({7,7,3,2})
+mini_gui_print_rect({8,7,3,2},"o@oMMM")
+# Step 141
+mini_gui_clear_rect({28,7,3,1})
+mini_gui_print_rect({28,8,3,1},"oOo")
+mini_gui_clear_rect({8,7,3,2})
+mini_gui_print_rect({9,7,3,2},"o@oMMM")
+# Step 142
+mini_gui_clear_rect({28,8,3,1})
+mini_gui_print_rect({28,9,3,1},"oOo")
+mini_gui_clear_rect({9,7,3,2})
+mini_gui_print_rect({10,7,3,2},"o@oMMM")
+# Step 143
+mini_gui_clear_rect({28,9,3,1})
+mini_gui_print_rect({28,10,3,1},"oOo")
+mini_gui_clear_rect({10,7,3,2})
+mini_gui_print_rect({11,7,3,2},"o@oMMM")
+# Step 144
+mini_gui_clear_rect({28,10,3,1})
+mini_gui_print_rect({28,11,3,1},"oOo")
+mini_gui_clear_rect({11,7,3,2})
+mini_gui_print_rect({11,8,3,2},"o@oMMM")
+# Step 145
+mini_gui_clear_rect({28,11,3,1})
+mini_gui_print_rect({28,12,3,1},"oOo")
+mini_gui_clear_rect({11,8,3,2})
+mini_gui_print_rect({11,9,3,2},"o@oMMM")
+# Step 146
+mini_gui_clear_rect({28,12,3,1})
+mini_gui_print_rect({28,13,3,1},"oOo")
+mini_gui_clear_rect({11,9,3,2})
+mini_gui_print_rect({11,10,3,2},"o@oMMM")
+# Step 147
+mini_gui_clear_rect({28,13,3,1})
+mini_gui_print_rect({28,14,3,1},"oOo")
+mini_gui_clear_rect({11,10,3,2})
+mini_gui_print_rect({11,9,3,2},"o@oMMM")
+# Step 148
+mini_gui_clear_rect({28,14,3,1})
+mini_gui_print_rect({27,14,3,1},"oOo")
+mini_gui_clear_rect({11,9,3,2})
+mini_gui_print_rect({11,8,3,2},"o@oMMM")
+# Step 149
+mini_gui_clear_rect({27,14,3,1})
+mini_gui_print_rect({26,14,3,1},"oOo")
+mini_gui_clear_rect({11,8,3,2})
+mini_gui_print_rect({11,7,3,2},"o@oMMM")
+# Step 150
+mini_gui_clear_rect({26,14,3,1})
+mini_gui_print_rect({25,14,3,1},"oOo")
+mini_gui_clear_rect({11,7,3,2})
+mini_gui_print_rect({11,6,3,2},"o@oMMM")
+# Step 151
+mini_gui_clear_rect({25,14,3,1})
+mini_gui_print_rect({24,14,3,1},"oOo")
+mini_gui_clear_rect({11,6,3,2})
+mini_gui_print_rect({11,5,3,2},"o@oMMM")
+# Step 152
+mini_gui_clear_rect({24,14,3,1})
+mini_gui_print_rect({23,14,3,1},"oOo")
+mini_gui_clear_rect({11,5,3,2})
+mini_gui_print_rect({11,4,3,2},"o@oMMM")
+# Step 153
+mini_gui_clear_rect({23,14,3,1})
+mini_gui_print_rect({22,14,3,1},"oOo")
+mini_gui_clear_rect({11,4,3,2})
+mini_gui_print_rect({12,4,3,2},"o@oMMM")
+# Step 154
+mini_gui_clear_rect({22,14,3,1})
+mini_gui_print_rect({21,14,3,1},"oOo")
+mini_gui_clear_rect({12,4,3,2})
+mini_gui_print_rect({13,4,3,2},"o@oMMM")
+# Step 155
+mini_gui_clear_rect({21,14,3,1})
+mini_gui_print_rect({20,14,3,1},"oOo")
+mini_gui_clear_rect({13,4,3,2})
+mini_gui_print_rect({14,4,3,2},"o@oMMM")
+# Step 156
+mini_gui_clear_rect({20,14,3,1})
+mini_gui_print_rect({19,14,3,1},"oOo")
+mini_gui_clear_rect({14,4,3,2})
+mini_gui_print_rect({14,3,3,2},"o@oMMM")
+# Step 157
+mini_gui_clear_rect({19,14,3,1})
+mini_gui_print_rect({18,14,3,1},"oOo")
+mini_gui_clear_rect({15,3,1,1})
+mini_gui_clear_rect({14,3,3,2})
+mini_gui_print_rect({14,2,3,2},"o@oMMM")
+# Step 158
+mini_gui_clear_rect({18,14,3,1})
+mini_gui_print_rect({17,14,3,1},"oOo")
+mini_gui_clear_rect({14,2,3,2})
+mini_gui_print_rect({14,1,3,2},"o@oMMM")
+# Step 159
+mini_gui_clear_rect({17,14,3,1})
+mini_gui_print_rect({16,14,3,1},"oOo")
+mini_gui_clear_rect({14,1,3,2})
+mini_gui_print_rect({14,2,3,2},"o@oMMM")
+# Step 160
+mini_gui_clear_rect({16,14,3,1})
+mini_gui_print_rect({16,13,3,1},"oOo")
+mini_gui_clear_rect({14,2,3,2})
+mini_gui_print_rect({14,3,3,2},"o@oMMM")
+# Step 161
+mini_gui_clear_rect({16,13,3,1})
+mini_gui_print_rect({16,12,3,1},"oOo")
+mini_gui_clear_rect({14,3,3,2})
+mini_gui_print_rect({14,4,3,2},"o@oMMM")
+# Step 162
+mini_gui_clear_rect({16,12,3,1})
+mini_gui_print_rect({16,11,3,1},"oOo")
+mini_gui_clear_rect({14,4,3,2})
+mini_gui_print_rect({15,4,3,2},"o@oMMM")
+# Step 163
+mini_gui_clear_rect({16,11,3,1})
+mini_gui_print_rect({16,10,3,1},"oOo")
+mini_gui_clear_rect({15,4,3,2})
+mini_gui_print_rect({16,4,3,2},"o@oMMM")
+# Step 164
+mini_gui_clear_rect({16,10,3,1})
+mini_gui_print_rect({16,11,3,1},"oOo")
+mini_gui_clear_rect({16,4,3,2})
+mini_gui_print_rect({17,4,3,2},"o@oMMM")
+# Step 165
+mini_gui_clear_rect({16,11,3,1})
+mini_gui_print_rect({16,12,3,1},"oOo")
+mini_gui_clear_rect({19,4,1,1})
+mini_gui_clear_rect({19,5,1,1})
+mini_gui_clear_rect({17,4,3,2})
+mini_gui_print_rect({16,4,3,2},"o@oMMM")
+# Step 166
+mini_gui_clear_rect({16,12,3,1})
+mini_gui_print_rect({16,13,3,1},"oOo")
+mini_gui_clear_rect({16,4,3,2})
+mini_gui_print_rect({15,4,3,2},"o@oMMM")
+# Step 167
+mini_gui_clear_rect({16,13,3,1})
+mini_gui_print_rect({16,14,3,1},"oOo")
+mini_gui_clear_rect({15,4,3,2})
+mini_gui_print_rect({14,4,3,2},"o@oMMM")
+# Step 168
+mini_gui_clear_rect({16,14,3,1})
+mini_gui_print_rect({17,14,3,1},"oOo")
+mini_gui_clear_rect({14,4,3,2})
+mini_gui_print_rect({14,5,3,2},"o@oMMM")
+# Step 169
+mini_gui_clear_rect({17,14,3,1})
+mini_gui_print_rect({18,14,3,1},"oOo")
+mini_gui_clear_rect({14,5,3,2})
+mini_gui_print_rect({14,6,3,2},"o@oMMM")
+# Step 170
+mini_gui_clear_rect({18,14,3,1})
+mini_gui_print_rect({19,14,3,1},"oOo")
+mini_gui_clear_rect({14,6,3,2})
+mini_gui_print_rect({14,7,3,2},"o@oMMM")
+# Step 171
+mini_gui_clear_rect({19,14,3,1})
+mini_gui_print_rect({20,14,3,1},"oOo")
+mini_gui_clear_rect({14,7,3,2})
+mini_gui_print_rect({14,6,3,2},"o@oMMM")
+# Step 172
+mini_gui_clear_rect({20,14,3,1})
+mini_gui_print_rect({21,14,3,1},"oOo")
+mini_gui_clear_rect({14,6,3,2})
+mini_gui_print_rect({14,5,3,2},"o@oMMM")
+# Step 173
+mini_gui_clear_rect({21,14,3,1})
+mini_gui_print_rect({22,14,3,1},"oOo")
+mini_gui_clear_rect({14,5,3,2})
+mini_gui_print_rect({14,4,3,2},"o@oMMM")
+# Step 174
+mini_gui_clear_rect({22,14,3,1})
+mini_gui_print_rect({23,14,3,1},"oOo")
+mini_gui_clear_rect({14,4,3,2})
+mini_gui_print_rect({14,5,3,2},"o@oMMM")
+# Step 175
+mini_gui_clear_rect({23,14,3,1})
+mini_gui_print_rect({24,14,3,1},"oOo")
+mini_gui_clear_rect({14,5,3,2})
+mini_gui_print_rect({14,6,3,2},"o@oMMM")
+# Step 176
+mini_gui_clear_rect({24,14,3,1})
+mini_gui_print_rect({24,15,3,1},"oOo")
+mini_gui_clear_rect({14,6,3,2})
+mini_gui_print_rect({14,7,3,2},"o@oMMM")
+# Step 177
+mini_gui_clear_rect({24,15,3,1})
+mini_gui_print_rect({24,16,3,1},"oOo")
+mini_gui_clear_rect({14,7,3,2})
+mini_gui_print_rect({15,7,3,2},"o@oMMM")
+# Step 178
+mini_gui_clear_rect({24,16,3,1})
+mini_gui_print_rect({24,17,3,1},"oOo")
+mini_gui_clear_rect({15,7,3,2})
+mini_gui_print_rect({16,7,3,2},"o@oMMM")
+# Step 179
+mini_gui_clear_rect({24,17,3,1})
+mini_gui_print_rect({24,18,3,1},"oOo")
+mini_gui_clear_rect({16,7,3,2})
+mini_gui_print_rect({17,7,3,2},"o@oMMM")
+# Step 180
+mini_gui_clear_rect({24,18,3,1})
+mini_gui_print_rect({24,17,3,1},"oOo")
+mini_gui_clear_rect({17,7,3,2})
+mini_gui_print_rect({18,7,3,2},"o@oMMM")
+# Step 181
+mini_gui_clear_rect({24,17,3,1})
+mini_gui_print_rect({24,16,3,1},"oOo")
+mini_gui_clear_rect({18,7,3,2})
+mini_gui_print_rect({19,7,3,2},"o@oMMM")
+# Step 182
+mini_gui_clear_rect({24,16,3,1})
+mini_gui_print_rect({24,15,3,1},"oOo")
+mini_gui_clear_rect({19,7,3,2})
+mini_gui_print_rect({20,7,3,2},"o@oMMM")
+# Step 183
+mini_gui_clear_rect({24,15,3,1})
+mini_gui_print_rect({24,14,3,1},"oOo")
+mini_gui_clear_rect({20,7,3,2})
+mini_gui_print_rect({19,7,3,2},"o@oMMM")
+# Step 184
+mini_gui_clear_rect({24,14,3,1})
+mini_gui_print_rect({24,15,3,1},"oOo")
+mini_gui_clear_rect({19,7,3,2})
+mini_gui_print_rect({18,7,3,2},"o@oMMM")
+# Step 185
+mini_gui_clear_rect({24,15,3,1})
+mini_gui_print_rect({24,16,3,1},"oOo")
+mini_gui_clear_rect({18,7,3,2})
+mini_gui_print_rect({17,7,3,2},"o@oMMM")
+# Step 186
+mini_gui_clear_rect({24,16,3,1})
+mini_gui_print_rect({24,17,3,1},"oOo")
+mini_gui_clear_rect({17,7,3,2})
+mini_gui_print_rect({17,6,3,2},"o@oMMM")
+# Step 187
+mini_gui_clear_rect({24,17,3,1})
+mini_gui_print_rect({24,18,3,1},"oOo")
+mini_gui_clear_rect({17,6,3,2})
+mini_gui_print_rect({17,5,3,2},"o@oMMM")
+# Step 188
+mini_gui_clear_rect({24,18,3,1})
+mini_gui_print_rect({24,18,3,1},"oOo")
+mini_gui_clear_rect({17,5,3,2})
+mini_gui_print_rect({17,4,3,2},"o@oMMM")
+# Step 189
+mini_gui_clear_rect({24,18,3,1})
+mini_gui_print_rect({24,18,3,1},"oOo")
+mini_gui_clear_rect({17,4,3,2})
+mini_gui_print_rect({17,3,3,2},"o@oMMM")
+# Step 190
+mini_gui_clear_rect({24,18,3,1})
+mini_gui_print_rect({24,18,3,1},"oOo")
+mini_gui_clear_rect({17,3,3,2})
+mini_gui_print_rect({17,2,3,2},"o@oMMM")
+# Step 191
+mini_gui_clear_rect({24,18,3,1})
+mini_gui_print_rect({24,18,3,1},"oOo")
+mini_gui_clear_rect({17,2,3,2})
+mini_gui_print_rect({17,1,3,2},"o@oMMM")
+# Step 192
+mini_gui_clear_rect({24,18,3,1})
+mini_gui_print_rect({25,18,3,1},"oOo")
+mini_gui_clear_rect({18,1,1,1})
+mini_gui_clear_rect({17,1,3,2})
+mini_gui_print_rect({18,1,3,2},"o@oMMM")
+# Step 193
+mini_gui_clear_rect({25,18,3,1})
+mini_gui_print_rect({26,18,3,1},"oOo")
+mini_gui_clear_rect({18,1,3,2})
+mini_gui_print_rect({19,1,3,2},"o@oMMM")
+# Step 194
+mini_gui_clear_rect({26,18,3,1})
+mini_gui_print_rect({27,18,3,1},"oOo")
+mini_gui_clear_rect({19,1,3,2})
+mini_gui_print_rect({20,1,3,2},"o@oMMM")
+# Step 195
+mini_gui_clear_rect({27,18,3,1})
+mini_gui_print_rect({28,18,3,1},"oOo")
+mini_gui_clear_rect({20,1,3,2})
+mini_gui_print_rect({19,1,3,2},"o@oMMM")
+# Step 196
+mini_gui_clear_rect({28,18,3,1})
+mini_gui_print_rect({28,17,3,1},"oOo")
+mini_gui_clear_rect({19,1,3,2})
+mini_gui_print_rect({18,1,3,2},"o@oMMM")
+# Step 197
+mini_gui_clear_rect({28,17,3,1})
+mini_gui_print_rect({28,16,3,1},"oOo")
+mini_gui_clear_rect({18,1,3,2})
+mini_gui_print_rect({17,1,3,2},"o@oMMM")
+# Step 198
+mini_gui_clear_rect({28,16,3,1})
+mini_gui_print_rect({28,15,3,1},"oOo")
+mini_gui_clear_rect({17,1,3,2})
+mini_gui_print_rect({17,1,3,2},"o@oMMM")
+# Step 199
+mini_gui_clear_rect({28,15,3,1})
+mini_gui_print_rect({28,14,3,1},"oOo")
+mini_gui_clear_rect({17,1,3,2})
+mini_gui_print_rect({17,1,3,2},"o@oMMM")
+# Step 200
+mini_gui_clear_rect({28,14,3,1})
+mini_gui_print_rect({28,15,3,1},"oOo")
+mini_gui_clear_rect({17,1,3,2})
+mini_gui_print_rect({17,1,3,2},"o@oMMM")
+# Step 201
+mini_gui_clear_rect({28,15,3,1})
+mini_gui_print_rect({28,16,3,1},"oOo")
+mini_gui_clear_rect({17,1,3,2})
+mini_gui_print_rect({16,1,3,2},"o@oMMM")
+# Step 202
+mini_gui_clear_rect({28,16,3,1})
+mini_gui_print_rect({28,17,3,1},"oOo")
+mini_gui_clear_rect({16,1,3,2})
+mini_gui_print_rect({15,1,3,2},"o@oMMM")
+# Step 203
+mini_gui_clear_rect({28,17,3,1})
+mini_gui_print_rect({28,18,3,1},"oOo")
+mini_gui_clear_rect({15,1,3,2})
+mini_gui_print_rect({14,1,3,2},"o@oMMM")
+# Step 204
+mini_gui_clear_rect({28,18,3,1})
+mini_gui_print_rect({28,18,3,1},"oOo")
+mini_gui_clear_rect({14,1,3,2})
+mini_gui_print_rect({13,1,3,2},"o@oMMM")
+# Step 205
+mini_gui_clear_rect({28,18,3,1})
+mini_gui_print_rect({28,18,3,1},"oOo")
+mini_gui_clear_rect({13,2,1,1})
+mini_gui_clear_rect({13,1,3,2})
+mini_gui_print_rect({12,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 206
+mini_gui_clear_rect({28,18,3,1})
+mini_gui_print_rect({28,18,3,1},"oOo")
+mini_gui_clear_rect({12,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 207
+mini_gui_clear_rect({28,18,3,1})
+mini_gui_print_rect({28,18,3,1},"oOo")
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({12,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 208
+mini_gui_clear_rect({28,18,3,1})
+mini_gui_print_rect({28,17,3,1},"oOo")
+mini_gui_clear_rect({12,1,8,3})
+mini_gui_print_rect({14,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 209
+mini_gui_clear_rect({28,17,3,1})
+mini_gui_print_rect({28,16,3,1},"oOo")
+mini_gui_clear_rect({14,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 210
+mini_gui_clear_rect({28,16,3,1})
+mini_gui_print_rect({28,15,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 211
+mini_gui_clear_rect({28,15,3,1})
+mini_gui_print_rect({28,14,3,1},"oOo")
+mini_gui_clear_rect({20,5,1,1})
+mini_gui_clear_rect({16,3,8,3})
+mini_gui_print_rect({16,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 212
+mini_gui_clear_rect({28,14,3,1})
+mini_gui_print_rect({27,14,3,1},"oOo")
+mini_gui_clear_rect({20,6,1,1})
+mini_gui_clear_rect({22,6,1,1})
+mini_gui_clear_rect({16,5,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 213
+mini_gui_clear_rect({27,14,3,1})
+mini_gui_print_rect({26,14,3,1},"oOo")
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({16,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 214
+mini_gui_clear_rect({26,14,3,1})
+mini_gui_print_rect({25,14,3,1},"oOo")
+mini_gui_clear_rect({16,5,8,3})
+mini_gui_print_rect({16,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 215
+mini_gui_clear_rect({25,14,3,1})
+mini_gui_print_rect({24,14,3,1},"oOo")
+mini_gui_clear_rect({16,3,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 216
+mini_gui_clear_rect({24,14,3,1})
+mini_gui_print_rect({24,15,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 217
+mini_gui_clear_rect({24,15,3,1})
+mini_gui_print_rect({24,16,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 218
+mini_gui_clear_rect({24,16,3,1})
+mini_gui_print_rect({24,17,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 219
+mini_gui_clear_rect({24,17,3,1})
+mini_gui_print_rect({24,18,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 220
+mini_gui_clear_rect({24,18,3,1})
+mini_gui_print_rect({25,18,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 221
+mini_gui_clear_rect({25,18,3,1})
+mini_gui_print_rect({26,18,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 222
+mini_gui_clear_rect({26,18,3,1})
+mini_gui_print_rect({27,18,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({18,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 223
+mini_gui_clear_rect({27,18,3,1})
+mini_gui_print_rect({28,18,3,1},"oOo")
+mini_gui_clear_rect({25,2,1,1})
+mini_gui_clear_rect({18,1,8,3})
+mini_gui_print_rect({20,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 224
+mini_gui_clear_rect({28,18,3,1})
+mini_gui_print_rect({28,17,3,1},"oOo")
+mini_gui_clear_rect({20,1,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 225
+mini_gui_clear_rect({28,17,3,1})
+mini_gui_print_rect({28,16,3,1},"oOo")
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({20,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 226
+mini_gui_clear_rect({28,16,3,1})
+mini_gui_print_rect({28,15,3,1},"oOo")
+mini_gui_clear_rect({20,1,8,3})
+mini_gui_print_rect({18,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 227
+mini_gui_clear_rect({28,15,3,1})
+mini_gui_print_rect({28,14,3,1},"oOo")
+mini_gui_clear_rect({18,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 228
+mini_gui_clear_rect({28,14,3,1})
+mini_gui_print_rect({28,13,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 229
+mini_gui_clear_rect({28,13,3,1})
+mini_gui_print_rect({28,12,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 230
+mini_gui_clear_rect({28,12,3,1})
+mini_gui_print_rect({28,11,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 231
+mini_gui_clear_rect({28,11,3,1})
+mini_gui_print_rect({28,10,3,1},"oOo")
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({14,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 232
+mini_gui_clear_rect({28,10,3,1})
+mini_gui_print_rect({27,10,3,1},"oOo")
+mini_gui_clear_rect({14,1,8,3})
+mini_gui_print_rect({12,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 233
+mini_gui_clear_rect({27,10,3,1})
+mini_gui_print_rect({26,10,3,1},"oOo")
+mini_gui_clear_rect({12,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 234
+mini_gui_clear_rect({26,10,3,1})
+mini_gui_print_rect({25,10,3,1},"oOo")
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 235
+mini_gui_clear_rect({25,10,3,1})
+mini_gui_print_rect({24,10,3,1},"oOo")
+mini_gui_clear_rect({10,3,8,3})
+mini_gui_print_rect({10,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 236
+mini_gui_clear_rect({24,10,3,1})
+mini_gui_print_rect({25,10,3,1},"oOo")
+mini_gui_clear_rect({10,5,8,3})
+mini_gui_print_rect({10,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 237
+mini_gui_clear_rect({25,10,3,1})
+mini_gui_print_rect({26,10,3,1},"oOo")
+mini_gui_clear_rect({14,9,1,1})
+mini_gui_clear_rect({10,7,8,3})
+mini_gui_print_rect({12,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 238
+mini_gui_clear_rect({26,10,3,1})
+mini_gui_print_rect({27,10,3,1},"oOo")
+mini_gui_clear_rect({12,7,8,3})
+mini_gui_print_rect({14,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 239
+mini_gui_clear_rect({27,10,3,1})
+mini_gui_print_rect({28,10,3,1},"oOo")
+mini_gui_clear_rect({14,7,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 240
+mini_gui_clear_rect({28,10,3,1})
+mini_gui_print_rect({28,9,3,1},"oOo")
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({14,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 241
+mini_gui_clear_rect({28,9,3,1})
+mini_gui_print_rect({28,8,3,1},"oOo")
+mini_gui_clear_rect({14,7,8,3})
+mini_gui_print_rect({12,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 242
+mini_gui_clear_rect({28,8,3,1})
+mini_gui_print_rect({28,7,3,1},"oOo")
+mini_gui_clear_rect({12,7,8,3})
+mini_gui_print_rect({10,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 243
+mini_gui_clear_rect({28,7,3,1})
+mini_gui_print_rect({28,6,3,1},"oOo")
+mini_gui_clear_rect({10,7,8,3})
+mini_gui_print_rect({10,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 244
+mini_gui_clear_rect({28,6,3,1})
+mini_gui_print_rect({27,6,3,1},"oOo")
+mini_gui_clear_rect({10,5,8,3})
+mini_gui_print_rect({10,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 245
+mini_gui_clear_rect({27,6,3,1})
+mini_gui_print_rect({26,6,3,1},"oOo")
+mini_gui_clear_rect({10,3,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 246
+mini_gui_clear_rect({26,6,3,1})
+mini_gui_print_rect({25,6,3,1},"oOo")
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({8,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 247
+mini_gui_clear_rect({25,6,3,1})
+mini_gui_print_rect({24,6,3,1},"oOo")
+mini_gui_clear_rect({8,1,8,3})
+mini_gui_print_rect({6,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 248
+mini_gui_clear_rect({24,6,3,1})
+mini_gui_print_rect({23,6,3,1},"oOo")
+mini_gui_clear_rect({6,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 249
+mini_gui_clear_rect({23,6,3,1})
+mini_gui_print_rect({22,6,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 250
+mini_gui_clear_rect({22,6,3,1})
+mini_gui_print_rect({21,6,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 251
+mini_gui_clear_rect({21,6,3,1})
+mini_gui_print_rect({20,6,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 252
+mini_gui_clear_rect({20,6,3,1})
+mini_gui_print_rect({20,7,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 253
+mini_gui_clear_rect({20,7,3,1})
+mini_gui_print_rect({20,8,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 254
+mini_gui_clear_rect({20,8,3,1})
+mini_gui_print_rect({20,9,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 255
+mini_gui_clear_rect({20,9,3,1})
+mini_gui_print_rect({20,10,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 256
+mini_gui_clear_rect({20,10,3,1})
+mini_gui_print_rect({19,10,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 257
+mini_gui_clear_rect({19,10,3,1})
+mini_gui_print_rect({18,10,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 258
+mini_gui_clear_rect({18,10,3,1})
+mini_gui_print_rect({17,10,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({6,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 259
+mini_gui_clear_rect({17,10,3,1})
+mini_gui_print_rect({16,10,3,1},"oOo")
+mini_gui_clear_rect({6,1,8,3})
+mini_gui_print_rect({8,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 260
+mini_gui_clear_rect({16,10,3,1})
+mini_gui_print_rect({15,10,3,1},"oOo")
+mini_gui_clear_rect({8,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 261
+mini_gui_clear_rect({15,10,3,1})
+mini_gui_print_rect({14,10,3,1},"oOo")
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 262
+mini_gui_clear_rect({14,10,3,1})
+mini_gui_print_rect({13,10,3,1},"oOo")
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 263
+mini_gui_clear_rect({13,10,3,1})
+mini_gui_print_rect({12,10,3,1},"oOo")
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 264
+mini_gui_clear_rect({12,10,3,1})
+mini_gui_print_rect({13,10,3,1},"oOo")
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({8,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 265
+mini_gui_clear_rect({13,10,3,1})
+mini_gui_print_rect({14,10,3,1},"oOo")
+mini_gui_clear_rect({8,1,8,3})
+mini_gui_print_rect({6,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 266
+mini_gui_clear_rect({14,10,3,1})
+mini_gui_print_rect({15,10,3,1},"oOo")
+mini_gui_clear_rect({6,1,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 267
+mini_gui_clear_rect({15,10,3,1})
+mini_gui_print_rect({16,10,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({4,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 268
+mini_gui_clear_rect({16,10,3,1})
+mini_gui_print_rect({16,9,3,1},"oOo")
+mini_gui_clear_rect({4,3,8,3})
+mini_gui_print_rect({4,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 269
+mini_gui_clear_rect({16,9,3,1})
+mini_gui_print_rect({16,8,3,1},"oOo")
+mini_gui_clear_rect({4,5,8,3})
+mini_gui_print_rect({4,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 270
+mini_gui_clear_rect({16,8,3,1})
+mini_gui_print_rect({16,7,3,1},"oOo")
+mini_gui_clear_rect({4,7,8,3})
+mini_gui_print_rect({4,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 271
+mini_gui_clear_rect({16,7,3,1})
+mini_gui_print_rect({16,6,3,1},"oOo")
+mini_gui_clear_rect({4,5,8,3})
+mini_gui_print_rect({4,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 272
+mini_gui_clear_rect({16,6,3,1})
+mini_gui_print_rect({16,5,3,1},"oOo")
+mini_gui_clear_rect({4,3,8,3})
+mini_gui_print_rect({4,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 273
+mini_gui_clear_rect({16,5,3,1})
+mini_gui_print_rect({16,4,3,1},"oOo")
+mini_gui_clear_rect({4,1,8,3})
+mini_gui_print_rect({6,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 274
+mini_gui_clear_rect({16,4,3,1})
+mini_gui_print_rect({16,3,3,1},"oOo")
+mini_gui_clear_rect({6,1,8,3})
+mini_gui_print_rect({8,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 275
+mini_gui_clear_rect({16,3,3,1})
+mini_gui_print_rect({16,2,3,1},"oOo")
+mini_gui_clear_rect({8,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 276
+mini_gui_clear_rect({16,2,3,1})
+mini_gui_print_rect({16,3,3,1},"oOo")
+mini_gui_clear_rect({16,3,3,1})
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 277
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 278
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 279
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({12,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 280
+mini_gui_clear_rect({12,1,8,3})
+mini_gui_print_rect({14,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 281
+mini_gui_clear_rect({14,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 282
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({18,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 283
+mini_gui_clear_rect({18,1,8,3})
+mini_gui_print_rect({20,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 284
+mini_gui_clear_rect({20,1,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 285
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 286
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 287
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 288
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({22,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 289
+mini_gui_clear_rect({22,3,8,3})
+mini_gui_print_rect({22,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 290
+mini_gui_clear_rect({22,5,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 291
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({20,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 292
+mini_gui_clear_rect({20,7,8,3})
+mini_gui_print_rect({18,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 293
+mini_gui_clear_rect({18,7,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 294
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({14,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 295
+mini_gui_clear_rect({14,7,8,3})
+mini_gui_print_rect({12,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 296
+mini_gui_clear_rect({12,7,8,3})
+mini_gui_print_rect({10,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 297
+mini_gui_clear_rect({10,7,8,3})
+mini_gui_print_rect({10,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 298
+mini_gui_clear_rect({15,11,1,1})
+mini_gui_clear_rect({10,9,8,3})
+mini_gui_print_rect({10,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 299
+mini_gui_clear_rect({15,13,1,1})
+mini_gui_clear_rect({10,11,8,3})
+mini_gui_print_rect({10,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 300
+mini_gui_clear_rect({10,13,8,3})
+mini_gui_print_rect({10,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 301
+mini_gui_clear_rect({10,11,8,3})
+mini_gui_print_rect({10,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 302
+mini_gui_clear_rect({10,9,8,3})
+mini_gui_print_rect({10,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 303
+mini_gui_clear_rect({10,7,8,3})
+mini_gui_print_rect({8,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 304
+mini_gui_clear_rect({8,7,8,3})
+mini_gui_print_rect({6,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 305
+mini_gui_clear_rect({6,7,8,3})
+mini_gui_print_rect({4,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 306
+mini_gui_clear_rect({4,7,8,3})
+mini_gui_print_rect({6,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 307
+mini_gui_clear_rect({6,7,8,3})
+mini_gui_print_rect({8,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 308
+mini_gui_clear_rect({8,7,8,3})
+mini_gui_print_rect({10,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 309
+mini_gui_clear_rect({10,7,8,3})
+mini_gui_print_rect({10,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 310
+mini_gui_clear_rect({10,9,8,3})
+mini_gui_print_rect({10,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 311
+mini_gui_clear_rect({10,11,8,3})
+mini_gui_print_rect({10,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 312
+mini_gui_clear_rect({10,13,8,3})
+mini_gui_print_rect({8,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 313
+mini_gui_clear_rect({8,13,8,3})
+mini_gui_print_rect({6,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 314
+mini_gui_clear_rect({6,13,8,3})
+mini_gui_print_rect({4,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 315
+mini_gui_clear_rect({4,15,1,1})
+mini_gui_clear_rect({4,15,1,1})
+mini_gui_clear_rect({4,13,1,1})
+mini_gui_clear_rect({4,13,8,3})
+mini_gui_print_rect({6,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 316
+mini_gui_clear_rect({6,13,8,3})
+mini_gui_print_rect({8,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 317
+mini_gui_clear_rect({8,13,8,3})
+mini_gui_print_rect({10,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 318
+mini_gui_clear_rect({10,13,8,3})
+mini_gui_print_rect({10,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 319
+mini_gui_clear_rect({10,11,8,3})
+mini_gui_print_rect({10,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 320
+mini_gui_clear_rect({10,9,8,3})
+mini_gui_print_rect({10,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 321
+mini_gui_clear_rect({10,7,8,3})
+mini_gui_print_rect({10,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 322
+mini_gui_clear_rect({10,5,8,3})
+mini_gui_print_rect({10,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 323
+mini_gui_clear_rect({10,3,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 324
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({10,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 325
+mini_gui_clear_rect({10,3,8,3})
+mini_gui_print_rect({10,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 326
+mini_gui_clear_rect({10,5,8,3})
+mini_gui_print_rect({10,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 327
+mini_gui_clear_rect({10,7,8,3})
+mini_gui_print_rect({10,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 328
+mini_gui_clear_rect({10,5,8,3})
+mini_gui_print_rect({10,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 329
+mini_gui_clear_rect({10,3,8,3})
+mini_gui_print_rect({10,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 330
+mini_gui_clear_rect({10,1,8,3})
+mini_gui_print_rect({12,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 331
+mini_gui_clear_rect({12,1,8,3})
+mini_gui_print_rect({14,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 332
+mini_gui_clear_rect({14,1,8,3})
+mini_gui_print_rect({16,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 333
+mini_gui_clear_rect({16,1,8,3})
+mini_gui_print_rect({16,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 334
+mini_gui_clear_rect({16,3,8,3})
+mini_gui_print_rect({16,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 335
+mini_gui_clear_rect({16,5,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 336
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({16,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 337
+mini_gui_clear_rect({22,11,1,1})
+mini_gui_clear_rect({16,9,8,3})
+mini_gui_print_rect({16,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 338
+mini_gui_clear_rect({22,13,1,1})
+mini_gui_clear_rect({16,11,8,3})
+mini_gui_print_rect({16,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 339
+mini_gui_clear_rect({16,13,8,3})
+mini_gui_print_rect({18,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 340
+mini_gui_clear_rect({18,13,8,3})
+mini_gui_print_rect({20,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 341
+mini_gui_clear_rect({20,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 342
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 343
+mini_gui_clear_rect({24,11,1,1})
+mini_gui_clear_rect({22,11,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 344
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 345
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({20,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 346
+mini_gui_clear_rect({20,7,8,3})
+mini_gui_print_rect({18,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 347
+mini_gui_clear_rect({18,7,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 348
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({18,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 349
+mini_gui_clear_rect({18,7,8,3})
+mini_gui_print_rect({20,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 350
+mini_gui_clear_rect({20,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 351
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 352
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({22,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 353
+mini_gui_clear_rect({22,11,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 354
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({20,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 355
+mini_gui_clear_rect({20,13,8,3})
+mini_gui_print_rect({18,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 356
+mini_gui_clear_rect({18,13,8,3})
+mini_gui_print_rect({16,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 357
+mini_gui_clear_rect({16,13,8,3})
+mini_gui_print_rect({16,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 358
+mini_gui_clear_rect({18,16,1,1})
+mini_gui_clear_rect({16,16,1,1})
+mini_gui_clear_rect({23,17,1,1})
+mini_gui_clear_rect({16,15,8,3})
+mini_gui_print_rect({16,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 359
+mini_gui_clear_rect({16,15,8,3})
+mini_gui_print_rect({16,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 360
+mini_gui_clear_rect({16,15,8,3})
+mini_gui_print_rect({16,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 361
+mini_gui_clear_rect({16,15,8,3})
+mini_gui_print_rect({16,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 362
+mini_gui_clear_rect({16,15,8,3})
+mini_gui_print_rect({16,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 363
+mini_gui_clear_rect({16,15,8,3})
+mini_gui_print_rect({16,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 364
+mini_gui_clear_rect({16,13,8,3})
+mini_gui_print_rect({16,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 365
+mini_gui_clear_rect({16,11,8,3})
+mini_gui_print_rect({16,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 366
+mini_gui_clear_rect({16,9,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 367
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({16,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 368
+mini_gui_clear_rect({16,5,8,3})
+mini_gui_print_rect({16,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 369
+mini_gui_clear_rect({16,3,8,3})
+mini_gui_print_rect({16,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 370
+mini_gui_clear_rect({16,5,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 371
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({16,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 372
+mini_gui_clear_rect({16,9,8,3})
+mini_gui_print_rect({18,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 373
+mini_gui_clear_rect({18,9,8,3})
+mini_gui_print_rect({20,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 374
+mini_gui_clear_rect({20,9,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 375
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 376
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 377
+mini_gui_clear_rect({22,5,8,3})
+mini_gui_print_rect({22,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 378
+mini_gui_clear_rect({22,3,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 379
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 380
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({22,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 381
+mini_gui_clear_rect({22,1,8,3})
+mini_gui_print_rect({22,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 382
+mini_gui_clear_rect({22,3,8,3})
+mini_gui_print_rect({22,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 383
+mini_gui_clear_rect({22,5,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 384
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 385
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 386
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 387
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 388
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({22,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 389
+mini_gui_clear_rect({22,11,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 390
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 391
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 392
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 393
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 394
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 395
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 396
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 397
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 398
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 399
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({20,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 400
+mini_gui_clear_rect({20,13,8,3})
+mini_gui_print_rect({18,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 401
+mini_gui_clear_rect({18,13,8,3})
+mini_gui_print_rect({16,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 402
+mini_gui_clear_rect({16,13,8,3})
+mini_gui_print_rect({18,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 403
+mini_gui_clear_rect({18,13,8,3})
+mini_gui_print_rect({20,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 404
+mini_gui_clear_rect({20,13,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 405
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 406
+mini_gui_clear_rect({22,11,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 407
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 408
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 409
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 410
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 411
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 412
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 413
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 414
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 415
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({22,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 416
+mini_gui_clear_rect({22,11,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 417
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 418
+mini_gui_clear_rect({22,15,8,3})
+mini_gui_print_rect({22,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 419
+mini_gui_clear_rect({22,15,8,3})
+mini_gui_print_rect({22,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 420
+mini_gui_clear_rect({22,15,8,3})
+mini_gui_print_rect({20,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 421
+mini_gui_clear_rect({20,15,8,3})
+mini_gui_print_rect({18,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 422
+mini_gui_clear_rect({18,15,8,3})
+mini_gui_print_rect({16,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 423
+mini_gui_clear_rect({16,15,8,3})
+mini_gui_print_rect({16,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 424
+mini_gui_clear_rect({16,13,8,3})
+mini_gui_print_rect({16,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 425
+mini_gui_clear_rect({16,11,8,3})
+mini_gui_print_rect({16,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 426
+mini_gui_clear_rect({16,9,8,3})
+mini_gui_print_rect({14,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 427
+mini_gui_clear_rect({14,9,8,3})
+mini_gui_print_rect({12,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 428
+mini_gui_clear_rect({12,9,8,3})
+mini_gui_print_rect({10,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 429
+mini_gui_clear_rect({10,9,8,3})
+mini_gui_print_rect({12,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 430
+mini_gui_clear_rect({12,9,8,3})
+mini_gui_print_rect({14,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 431
+mini_gui_clear_rect({14,9,8,3})
+mini_gui_print_rect({16,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 432
+mini_gui_clear_rect({16,9,8,3})
+mini_gui_print_rect({16,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 433
+mini_gui_clear_rect({16,7,8,3})
+mini_gui_print_rect({16,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 434
+mini_gui_clear_rect({16,5,8,3})
+mini_gui_print_rect({16,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 435
+mini_gui_clear_rect({16,3,8,3})
+mini_gui_print_rect({18,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 436
+mini_gui_clear_rect({18,3,8,3})
+mini_gui_print_rect({20,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 437
+mini_gui_clear_rect({20,3,8,3})
+mini_gui_print_rect({22,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 438
+mini_gui_clear_rect({22,3,8,3})
+mini_gui_print_rect({22,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 439
+mini_gui_clear_rect({22,5,8,3})
+mini_gui_print_rect({22,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 440
+mini_gui_clear_rect({22,7,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 441
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({22,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 442
+mini_gui_clear_rect({22,11,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 443
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,15,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 444
+mini_gui_clear_rect({22,15,8,3})
+mini_gui_print_rect({22,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 445
+mini_gui_clear_rect({22,13,8,3})
+mini_gui_print_rect({22,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 446
+mini_gui_clear_rect({22,11,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 447
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({20,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 448
+mini_gui_clear_rect({20,9,8,3})
+mini_gui_print_rect({18,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 449
+mini_gui_clear_rect({18,9,8,3})
+mini_gui_print_rect({16,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 450
+mini_gui_clear_rect({16,9,8,3})
+mini_gui_print_rect({18,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 451
+mini_gui_clear_rect({18,9,8,3})
+mini_gui_print_rect({20,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 452
+mini_gui_clear_rect({20,9,8,3})
+mini_gui_print_rect({22,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 453
+mini_gui_clear_rect({22,9,8,3})
+mini_gui_print_rect({20,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 454
+mini_gui_clear_rect({20,9,8,3})
+mini_gui_print_rect({18,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 455
+mini_gui_clear_rect({18,9,8,3})
+mini_gui_print_rect({16,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 456
+mini_gui_clear_rect({16,9,8,3})
+mini_gui_print_rect({14,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 457
+mini_gui_clear_rect({14,9,8,3})
+mini_gui_print_rect({12,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 458
+mini_gui_clear_rect({12,9,8,3})
+mini_gui_print_rect({10,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 459
+mini_gui_clear_rect({10,9,8,3})
+mini_gui_print_rect({8,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 460
+mini_gui_clear_rect({8,9,8,3})
+mini_gui_print_rect({6,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 461
+mini_gui_clear_rect({6,9,8,3})
+mini_gui_print_rect({4,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 462
+mini_gui_clear_rect({4,9,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 463
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 464
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 465
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 466
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 467
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 468
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 469
+mini_gui_clear_rect({2,7,8,3})
+mini_gui_print_rect({2,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 470
+mini_gui_clear_rect({2,5,8,3})
+mini_gui_print_rect({2,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 471
+mini_gui_clear_rect({2,3,8,3})
+mini_gui_print_rect({2,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 472
+mini_gui_clear_rect({2,1,8,3})
+mini_gui_print_rect({2,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 473
+mini_gui_clear_rect({2,1,8,3})
+mini_gui_print_rect({2,1,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 474
+mini_gui_clear_rect({2,1,8,3})
+mini_gui_print_rect({2,3,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 475
+mini_gui_clear_rect({2,3,8,3})
+mini_gui_print_rect({2,5,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 476
+mini_gui_clear_rect({2,5,8,3})
+mini_gui_print_rect({2,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 477
+mini_gui_clear_rect({2,7,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 478
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 479
+mini_gui_clear_rect({2,11,8,3})
+mini_gui_print_rect({2,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 480
+mini_gui_clear_rect({2,13,8,3})
+mini_gui_print_rect({2,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 481
+mini_gui_clear_rect({2,13,8,3})
+mini_gui_print_rect({2,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 482
+mini_gui_clear_rect({2,13,8,3})
+mini_gui_print_rect({2,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 483
+mini_gui_clear_rect({2,13,8,3})
+mini_gui_print_rect({2,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 484
+mini_gui_clear_rect({2,13,8,3})
+mini_gui_print_rect({2,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 485
+mini_gui_clear_rect({2,13,8,3})
+mini_gui_print_rect({2,13,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 486
+mini_gui_clear_rect({2,13,8,3})
+mini_gui_print_rect({2,11,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 487
+mini_gui_clear_rect({2,11,8,3})
+mini_gui_print_rect({2,9,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 488
+mini_gui_clear_rect({2,9,8,3})
+mini_gui_print_rect({2,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 489
+mini_gui_clear_rect({2,7,8,3})
+mini_gui_print_rect({2,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 490
+mini_gui_clear_rect({2,7,8,3})
+mini_gui_print_rect({2,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 491
+mini_gui_clear_rect({2,7,8,3})
+mini_gui_print_rect({2,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 492
+mini_gui_clear_rect({2,7,8,3})
+mini_gui_print_rect({4,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 493
+mini_gui_clear_rect({4,7,8,3})
+mini_gui_print_rect({6,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 494
+mini_gui_clear_rect({6,7,8,3})
+mini_gui_print_rect({8,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 495
+mini_gui_clear_rect({8,7,8,3})
+mini_gui_print_rect({6,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 496
+mini_gui_clear_rect({6,7,8,3})
+mini_gui_print_rect({4,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 497
+mini_gui_clear_rect({4,7,8,3})
+mini_gui_print_rect({2,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 498
+mini_gui_clear_rect({2,7,8,3})
+mini_gui_print_rect({4,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Step 499
+mini_gui_clear_rect({4,7,8,3})
+mini_gui_print_rect({6,7,8,3},"{ @  @ }{~~{}~~}{MMMMMM}")
+# Cleanup
+mini_gui_clear_rect({3,16,1,1})
+mini_gui_clear_rect({3,18,1,1})
+mini_gui_clear_rect({2,17,1,1})
+mini_gui_clear_rect({4,18,1,1})
+mini_gui_clear_rect({12,17,1,1})
+mini_gui_clear_rect({2,17,1,1})
+mini_gui_clear_rect({6,7,8,3})
