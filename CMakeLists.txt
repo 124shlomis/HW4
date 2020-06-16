@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(.)
 
 add_executable(HW4
-        main.cpp
+
         ascii_objects.h
         mini_gui.cpp
         mini_gui.h

@@ -18,14 +18,7 @@ CMakeFiles/HW4.dir/drawable_list.cpp.o: ../drawable.h
 CMakeFiles/HW4.dir/drawable_list.cpp.o: ../drawable_list.cpp
 CMakeFiles/HW4.dir/drawable_list.cpp.o: ../drawable_list.h
 CMakeFiles/HW4.dir/drawable_list.cpp.o: ../mini_gui.h
-
-CMakeFiles/HW4.dir/main.cpp.o: ../apple.h
-CMakeFiles/HW4.dir/main.cpp.o: ../ascii_objects.h
-CMakeFiles/HW4.dir/main.cpp.o: ../drawable.h
-CMakeFiles/HW4.dir/main.cpp.o: ../drawable_list.h
-CMakeFiles/HW4.dir/main.cpp.o: ../main.cpp
-CMakeFiles/HW4.dir/main.cpp.o: ../mini_gui.h
-CMakeFiles/HW4.dir/main.cpp.o: ../monster.h
+CMakeFiles/HW4.dir/drawable_list.cpp.o: ../test_drawable_list_module.h
 
 CMakeFiles/HW4.dir/mini_gui.cpp.o: ../mini_gui.cpp
 CMakeFiles/HW4.dir/mini_gui.cpp.o: ../mini_gui.h

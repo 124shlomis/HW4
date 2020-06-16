@@ -70,6 +70,7 @@ void Iterator::decrease_counter(){
     if ( (this->ptr->iterator_counter == 0) & (! this->ptr->valid) ){
         delete this->ptr->item;
         delete this->ptr;
+        ptr = nullptr;
     }
 }
 
@@ -115,6 +116,7 @@ void Iterator::invalidate(){
     if (ptr->iterator_counter == 0 ){ // free the node memory if needed
         delete ptr->item;
         delete ptr;
+        ptr = nullptr;
 
     }
 }
@@ -210,6 +212,7 @@ DrawableList::~DrawableList(){
     if ( (AuxNode->next == nullptr) && (size == 1) ){ // case of only 1 item in the list.
         delete AuxNode->item;
         delete AuxNode;
+        AuxNode = nullptr;
         return;
     }
     while ( (AuxNode != nullptr) ){ // case size > 1
@@ -217,6 +220,7 @@ DrawableList::~DrawableList(){
         AuxNode = AuxNode->next;
         delete PrevAuxNode->item;
         delete PrevAuxNode;
+        PrevAuxNode = nullptr;
     }
 
 }
@@ -372,3 +376,33 @@ Iterator DrawableList::end(){
 
 
 
+
+// test DrawableList
+
+
+#include "test_drawable_list_module.h"
+#include <iostream>
+#include "drawable.h"
+using namespace std;
+int main(){
+    Letter* A = new Letter({0,1,1,0}, 'A');
+    Letter* B = new Letter({1,1,1,1}, 'B');
+    Letter* C = new Letter({0,0,0,0},'C');
+    Letter* D = new Letter({1,1,1,1},'D');
+    DrawableList ListOfLetters = DrawableList();
+    // start testing Iterator:
+    ListOfLetters.push_back(*A); // list = {A}
+    ListOfLetters.push_back(*B); // list = {A,B}
+    Iterator Iter1 = ListOfLetters.begin(); // Iter1 = A
+    Iterator Iter2 = ListOfLetters.end(); // Iter2 = B
+    Iter1 = Iter1.set(Iter1);
+    Iterator Iter3 = Iterator(Iter2); // Iter3 = B
+    Iter1.invalidate();
+    Iter3.invalidate();
+    ListOfLetters.erase(Iter1);
+    ListOfLetters.erase(Iter3);
+
+
+    delete C;
+    delete D;
+}
