@@ -34,17 +34,13 @@ void Apple::refresh()
 
 void Apple::step(DrawableList& lst) 
 {
-	Iterator iter(lst.begin());
-	
-	do {
-		if (iter.get_object()->id() == 'M' &&		// if object is Monster
-			iter.get_object()->collide(*this)) 
-		{
-			isEaten = true;							// mark Apple as eaten
-			refresh();
-		}
-	} while (iter.next().valid());
-	
+    for (Iterator iter = lst.begin(); iter.valid(); iter.next()) {
+        if (iter.get_object()->id() == 'M' &&        // if object is Monster
+            iter.get_object()->collide(*this)) {
+            isEaten = true;                            // mark Apple as eaten
+            refresh();
+        }
+    }
 }
 
 int  Apple::id() {

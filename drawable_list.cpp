@@ -154,6 +154,7 @@ Iterator& Iterator::next(){
 }
 
 
+
 /**
  * @brief Changes the state of this to point at the previous valid node
  * @returns this
@@ -281,11 +282,10 @@ void DrawableList::erase(Iterator& it){
     if ( it.ptr == nullptr ){ // case that node pointer is nullptr
         return;
     }
-
+    size--;
+    it.invalidate();
     // case we erase the only item in the list.
-    if (size == 1){
-        size--;
-        it.invalidate();
+    if (size == 0){
         head = nullptr; // Update to an empty list
         tail = nullptr;
         return; //  list is empty
@@ -303,8 +303,7 @@ void DrawableList::erase(Iterator& it){
         AuxNode->prev->next = AuxNode->next;
         AuxNode->next->prev = AuxNode->prev;
     }
-    size--;
-    it.invalidate();
+
 }
 
 
