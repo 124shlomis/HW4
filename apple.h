@@ -3,34 +3,34 @@
 
 #include "drawable.h"
 
-class Apple : public Drawable { 
-	// true if the apple is eaten
+class Apple : public Drawable {
+
+private:
+    // true if the apple is eaten
 	bool isEaten;
-	int ID;
+    bool isDrawn;
+    int ID;
 
 public:
 
 	Apple(unsigned short x, unsigned short y);
 
-	virtual ~Apple();
+	~Apple() override;
 
 	// does nothing, since an Apple can't move
-	virtual void move(direction_t direction) {};
+	void move(direction_t direction) override;
 
 	// draws the Apple
-	virtual void draw();
+	void draw() override;
 
 	// refreshes the Apple graphics 
-	virtual void refresh();
+	void refresh()override ;
 
 	// Apple id is A
-	virtual int id();
+	 int id() override ;
 
-	// apdate the Apple if he is eaten
-	virtual void step(DrawableList& lst);
+	// update the Apple if it is eaten
+	void step(DrawableList& lst) override;
 };
-
-
-
 
 #endif

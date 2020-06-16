@@ -96,7 +96,7 @@ struct world parse_input() {
 	return output;
 }
 
-/**
+/*
  * @brief The screen refresh method.
  * @note Is invoked by the MG object whenever a screen
  * refresh is performed.

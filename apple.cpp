@@ -4,7 +4,7 @@
 
 
 Apple::Apple(unsigned short x, unsigned short y)
-	: Drawable({ x, y, 1, 1 }), isEaten(false), ID('A') {}
+	: Drawable({ x, y, 1, 1 }), isEaten(false),isDrawn(false) {ID='A';}
 
 // no additional memory allocations in Apple
 Apple::~Apple() = default;
@@ -12,16 +12,22 @@ Apple::~Apple() = default;
 
 void Apple::draw() 
 {
-	mini_gui_clear_rect(mg, bounding_box);
-	mini_gui_print_rect(mg, bounding_box, APPLE);
+	if (! isDrawn){
+        mini_gui_print_rect(mg, bounding_box, APPLE);
+        isDrawn = true;
+	}
+
 }
 
 
 void Apple::refresh() 
 {
-	mini_gui_clear_rect(mg, bounding_box);
-	if (!isEaten)
-		draw();
+	if (isDrawn) {
+        mini_gui_clear_rect(mg, bounding_box);
+    }
+    if (!isEaten) {
+        draw();
+    }
 }
 
 
@@ -41,6 +47,8 @@ void Apple::step(DrawableList& lst)
 	
 }
 
-int Apple::id() {
-    return this->ID;
+int  Apple::id() {
+    return Apple::ID;
 }
+
+void Apple::move(direction_t direction) {}
