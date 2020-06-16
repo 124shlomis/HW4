@@ -111,11 +111,12 @@ void Iterator::invalidate(){
         return;
     }
     this->ptr->valid = false;
-    /*if (ptr->iterator_counter == 0 ){ // free the node memory if needed
+
+    if (ptr->iterator_counter == 0 ){ // free the node memory if needed
         delete ptr->item;
         delete ptr;
 
-    }*/
+    }
 }
 
 
@@ -292,6 +293,7 @@ void DrawableList::erase(Iterator& it){
         if (it.ptr->iterator_counter == 0){ // if there is no iterators on it.
             delete it.ptr->item;
             delete it.ptr;
+            it.ptr = nullptr;
         }
         return; // return empty list
     }
@@ -311,8 +313,8 @@ void DrawableList::erase(Iterator& it){
     it.invalidate();
     if (it.ptr->iterator_counter == 0){ // check if memory delete needed
         delete it.ptr->item;
-        it.ptr = nullptr;
         delete it.ptr;
+        it.ptr = nullptr;
     }
 }
 
@@ -331,9 +333,20 @@ int DrawableList::get_size() const{
  */
 
 Iterator DrawableList::begin(){
-
-    Iterator NewIterator = Iterator(*head);
+    Node* AuxNode = head;
+    if (AuxNode == nullptr){
+        return Iterator();
+    }
+    while( ! AuxNode->valid ){ // looking for the next valid node
+        AuxNode = AuxNode->next;
+        if (AuxNode == nullptr){
+            return Iterator();
+        }
+    }
+    // returns the first valid node in the list.
+    Iterator NewIterator = Iterator(*AuxNode);
     return NewIterator;
+
 }
 
 
@@ -342,7 +355,18 @@ Iterator DrawableList::begin(){
  */
 
 Iterator DrawableList::end(){
-    Iterator NewIterator = Iterator(*tail);
+    Node* AuxNode = tail;
+    if (AuxNode == nullptr){
+        return Iterator();
+    }
+    while( ! AuxNode->valid ){ // looking for the next valid node
+        AuxNode = AuxNode->prev;
+        if (AuxNode == nullptr){
+            return Iterator();
+        }
+    }
+    // returns the first valid node in the list.
+    Iterator NewIterator = Iterator(*AuxNode);
     return NewIterator;
 }
 
