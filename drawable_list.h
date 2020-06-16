@@ -49,7 +49,7 @@ class Iterator {
 	/**
 	 * @brief Make an iterator from a list node
 	 */
-	Iterator(Node& n);
+	explicit Iterator(Node& n);
 
 public:
 
@@ -67,12 +67,12 @@ public:
 	 */
 	~Iterator();
 
-	/*
+	/**
 	 * @brief Returns the item pointerd by this
 	 */
 	Drawable* get_object();
 
-	/*
+	/**
 	 * @brief Make the node pointed by this to be invalid.
 	 * @note In case this is the last iterator that
 	 * points to a node, free the memory of the node
@@ -82,7 +82,7 @@ public:
 
 	/**
 	 * @brief Upon assigning, we must invalidate the iterator.
-	 * @note We also must update the node interator counter
+	 * @note We also must update the node iterator counter
 	 */
 	Iterator& set(const Iterator& other);
 
@@ -118,24 +118,24 @@ class DrawableList {
 
 public:
 
-	/*
+	/**
 	 * @brief Creates an empty list
 	 */
 	DrawableList();
 
-	/*
+	/**
 	 * @brief Free all the objects of this.
 	 * @note Must free the memory for the drawable objects as well
 	 */
 	~DrawableList();
 
-	/*
+	/**
 	 * @brief Push to list front (before head).
 	 * @note Do not clone the object!
 	 */
 	void push_front(Drawable& item);
 
-	/*
+	/**
 	 * @brief Push to list back (after tail).
 	 * @note Do not clone the object!
 	 */
@@ -162,5 +162,4 @@ public:
 	 */
 	Iterator end();
 };
-
 #endif 
