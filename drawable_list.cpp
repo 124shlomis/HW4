@@ -1,8 +1,4 @@
 //
-// Created by shlomi shetrit on 16/06/2020.
-//
-
-//
 // Created by Shlomi Shitrit on 12/06/2020.
 //
 
@@ -38,9 +34,7 @@ Iterator::Iterator():ptr(nullptr){}
 Iterator::Iterator(const Iterator& other){
 
     this->ptr = other.ptr;
-    if (&other != this){ // if trying to construct with the same iterator
-        this->increase_counter();
-    }
+    this->increase_counter();
 }
 
 // D'tor:
@@ -138,14 +132,23 @@ Iterator& Iterator::set(const Iterator& other){
  */
 
 Iterator& Iterator::next(){
-    Node* AuxPtr = this->ptr->next;
-    while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){ // in case we got the end of the list and there is no valid nodes
-        AuxPtr = AuxPtr->next;
-    }
-    if (AuxPtr == nullptr){ // end of the list. no valid node found. the node become invalid.
-        this->ptr = AuxPtr;
+    if (this->ptr->next == nullptr){ // case next is null
+        decrease_counter();
+        this->ptr = nullptr;
         return *this;
     }
+
+    Node* AuxPtr = this->ptr->next;
+
+    while ( ! AuxPtr->valid ){ // in case we got the end of the list and there is no valid nodes
+        AuxPtr = AuxPtr->next;
+        if (AuxPtr->next == nullptr){
+            decrease_counter();
+            this->ptr = nullptr;
+            return *this;
+        }
+    }
+
     // found valid node. update counters and pointer.
     decrease_counter();
     this->ptr = AuxPtr;
@@ -162,15 +165,23 @@ Iterator& Iterator::next(){
  */
 
 Iterator& Iterator::prev(){ // in case we got the start of the list and there is no valid nodes
-    Node* AuxPtr = this->ptr;
-    AuxPtr = AuxPtr->prev;
-    while ( (AuxPtr != nullptr) && (! AuxPtr->valid) ){
-        AuxPtr = AuxPtr->prev;
-    }
-    if (AuxPtr == nullptr){ // start of the list. no valid node found. the node become invalid.
-        this->ptr = AuxPtr;
+    if (this->ptr->prev == nullptr){ // case next is null
+        decrease_counter();
+        this->ptr = nullptr;
         return *this;
     }
+
+    Node* AuxPtr = this->ptr->prev;
+
+    while ( ! AuxPtr->valid ){ // in case we got the end of the list and there is no valid nodes
+        AuxPtr = AuxPtr->prev;
+        if (AuxPtr->prev == nullptr){
+            decrease_counter();
+            this->ptr = nullptr;
+            return *this;
+        }
+    }
+
     // found valid node. update counters and pointer.
     decrease_counter();
     this->ptr = AuxPtr;
@@ -203,21 +214,12 @@ DrawableList::~DrawableList(){
     if ( size == 0 ){ // case of empty list.
         return;
     }
-    Node* PrevAuxNode;
-    Node* AuxNode = head;
-
-    if ( (AuxNode->next == nullptr) && (size == 1) ){ // case of only 1 item in the list.
-        delete AuxNode->item;
-        delete AuxNode;
-        return;
+    Iterator AuxIter = Iterator(*(this->head));
+    AuxIter.decrease_counter();
+    while (AuxIter.ptr != nullptr){
+        erase(AuxIter);
+        AuxIter.ptr = this->head;
     }
-    while ( (AuxNode != nullptr) ){ // case size > 1
-        PrevAuxNode = AuxNode;
-        AuxNode = AuxNode->next;
-        delete PrevAuxNode->item;
-        delete PrevAuxNode;
-    }
-
 }
 
 
@@ -278,7 +280,7 @@ void DrawableList::push_back(Drawable& item){
 	 * @note Must invalidate the iterator.
 	 */
 
-void DrawableList::erase(Iterator& it){
+void DrawableList::erase(Iterator it){
     if ( it.ptr == nullptr ){ // case that node pointer is nullptr
         return;
     }
@@ -357,4 +359,3 @@ Iterator DrawableList::end(){
     Iterator NewIterator = Iterator(*AuxNode);
     return NewIterator;
 }
-

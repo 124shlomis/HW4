@@ -149,7 +149,7 @@ public:
      * @brief Removes an object pointed by the iterator
      * @note Must invalidate the iterator.
      */
-    void erase(Iterator& it);
+    void erase(Iterator it);
 
     /**
      * @brief Returns the size of this

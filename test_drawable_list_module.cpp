@@ -38,9 +38,9 @@ void Letter::draw() {
 }
 
 void Letter::refresh() {
-    bounding_box.x = 2;
+    cout << "refresh called ";
+    bounding_box.x =2;
 }
-
 int Letter::id() {
     return ID_;
 }
