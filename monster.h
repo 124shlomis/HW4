@@ -48,7 +48,7 @@ public:
 	 * @brief Return an ID that is unique to 
 	 * the dynamid type of the drawable object.
 	 */
-	virtual int id() { return 'M'; }
+	virtual int id();
 
 	/**
 	 * @brief Is called whenever any refresh is required

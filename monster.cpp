@@ -57,9 +57,14 @@ void Monster::draw()
 {
 	mini_gui_clear_rect(mg, bounding_box);
 	bounding_box = next_bb;
-	mini_gui_print_rect(mg, bounding_box, APPLE);
+	mini_gui_print_rect(mg, bounding_box, gfx);
 }
 
+
+int Monster::id()
+{
+	return 'M';
+}
 
 // updates monster's graphics according to level
 void Monster::refresh()
@@ -87,6 +92,16 @@ void Monster::refresh()
 		vel = 2;
 		next_bb.height = 3;
 		next_bb.width = 8;
+	}
+
+	// Get world size
+	struct rect world_size = mini_gui_get_screen_size(mg);
+	// Fix position in case of screen overflow
+	if (next_bb.x + next_bb.width >= world_size.width) {
+		next_bb.x = world_size.width - next_bb.width;
+	}
+	if (next_bb.y + next_bb.height >= world_size.height) {
+		next_bb.y = world_size.height - next_bb.height;
 	}
 }
 
@@ -131,7 +146,7 @@ void Monster::step(DrawableList& lst)
 		return;
 	}
 
-	if (initial_level == level)		// refresh graphics if changes were made
+	if (initial_level != level)		// refresh graphics if changes were made
 		refresh();
 }
 

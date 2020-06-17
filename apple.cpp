@@ -4,47 +4,40 @@
 
 
 Apple::Apple(unsigned short x, unsigned short y)
-	: Drawable({ x, y, 1, 1 }), isEaten(false),isDrawn(false) {ID='A';}
+	: Drawable({ x, y, 1, 1 }), isEaten(false), isDrawn(false) {}
 
 // no additional memory allocations in Apple
-Apple::~Apple() = default;
+Apple::~Apple()= default;
 
 
 void Apple::draw() 
 {
-	if (! isDrawn){
-        mini_gui_print_rect(mg, bounding_box, APPLE);
-        isDrawn = true;
+	if (!isDrawn) {
+		mini_gui_print_rect(mg, bounding_box, APPLE);
+		isDrawn = true;
 	}
-
 }
 
 
-void Apple::refresh() 
+void Apple::refresh() {}
+
+int Apple::id()
 {
-	if (isDrawn) {
-        mini_gui_clear_rect(mg, bounding_box);
-    }
-    if (!isEaten) {
-        draw();
-    }
+	return 'A';
 }
 
 
 
 void Apple::step(DrawableList& lst) 
 {
-    for (Iterator iter = lst.begin(); iter.valid(); iter.next()) {
-        if (iter.get_object()->id() == 'M' &&        // if object is Monster
-            iter.get_object()->collide(*this)) {
-            isEaten = true;                            // mark Apple as eaten
-            refresh();
-        }
-    }
+	Iterator iter(lst.begin());
+	
+	do {
+		if (iter.get_object()->id() == 'M' &&		// if object is Monster
+			iter.get_object()->collide(*this)) 
+		{
+			isEaten = true;							// mark Apple as eaten
+		}
+	} while (iter.next().valid());
+	
 }
-
-int  Apple::id() {
-    return Apple::ID;
-}
-
-void Apple::move(direction_t direction) {}
