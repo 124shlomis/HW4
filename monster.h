@@ -4,14 +4,14 @@
 #include "drawable.h"
 
 class Monster : public Drawable {
-
+private:
 	// The level of the monster
 	int level;
 
 	// The velocity of the monster
 	int vel;
 
-	// The direction the moster is moving right now
+	// The direction the monster is moving right now
 	direction_t current_direction;
 
 	// How much to keep the last direction
@@ -33,33 +33,33 @@ public:
 	 */
 	Monster(unsigned short x, unsigned short y, int direction_hold);
 
-	virtual ~Monster();
+	~Monster() override;
 	/**
 	 * @brief Move the object in the direction
 	 */
-	virtual void move(direction_t direction);
+	void move(direction_t direction) override;
 
 	/**
 	 * @brief Draw the object
 	 */
-	virtual void draw();
+	void draw() override;
 
 	/**
 	 * @brief Return an ID that is unique to 
-	 * the dynamid type of the drawable object.
+	 * the dynamic type of the drawable object.
 	 */
-	virtual int id();
+	int id() override;
 
 	/**
 	 * @brief Is called whenever any refresh is required
 	 */
-	virtual void refresh();
+	void refresh() override;
 
 	/**
 	 * @brief Do a step in the 'game of life'
 	 * @param lst A list of all drawable objects in the world
 	 */
-	virtual void step(DrawableList& lst);
+	void step(DrawableList& lst) override;
 
 };
 

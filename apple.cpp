@@ -4,10 +4,11 @@
 
 
 Apple::Apple(unsigned short x, unsigned short y)
-	: Drawable({ x, y, 1, 1 }), isEaten(false), isDrawn(false) {}
+	: Drawable({ x, y, 1, 1 }),
+	  isEaten(false), isDrawn(false) {}
 
 // no additional memory allocations in Apple
-Apple::~Apple()= default;
+Apple::~Apple()= default; // clear rect in parent dtor
 
 
 void Apple::draw() 

@@ -1,5 +1,4 @@
 #include "monster.h"
-#include <string.h>
 #include "drawable_list.h" 
 
 
@@ -11,9 +10,7 @@ Monster::Monster(unsigned short x, unsigned short y, int direction_hold)
 	gfx = MONSTER0;
 }
 
-Monster::~Monster()
-{
-}
+Monster::~Monster() = default;
 
 
 // move Monster. Monster changes direction only if it finished moving in her
@@ -25,31 +22,33 @@ void Monster::move(direction_t direction)
 		current_direction = direction;
 		direction_counter = direction_hold;
 	}
-	struct rect screen = mini_gui_get_screen_size(mg);
-	// update cuurent direction, and checks if within bounderies
-	if (current_direction == left &&
-		next_bb.x + vel + next_bb.width <= screen.x + screen.width)
-	{
-		next_bb.x += vel;
-	}
-	else if (current_direction == right &&
-		next_bb.x - vel + next_bb.width <= screen.x - screen.width)
-	{
-		next_bb.x -= vel;
-	}
-	else if (current_direction == up &&
-		next_bb.y + vel - next_bb.height <= screen.y - screen.height)
-	{
-		next_bb.y -= vel;
-	}
-	else if (next_bb.y + vel + next_bb.height <= screen.y + screen.height)
-	{
-		next_bb.y += vel;
-	}
+	struct rect world_size = mini_gui_get_screen_size(mg);
+	// update current direction, and checks if within boundaries
+    switch (current_direction) {
 
-	
-	--direction_hold;
-	draw();
+        case left:
+            if ( (next_bb.x - vel) > world_size.x ) {
+                next_bb.x -= vel;
+            }
+            break;
+        case right:
+            if ( (next_bb.x + next_bb.width + vel) < (world_size.x + world_size.width) ) {
+                next_bb.x += vel;
+            }
+            break;
+        case up:
+            if ( (next_bb.y - vel) > world_size.y) {
+                next_bb.y -= vel;
+            }
+            break;
+        case down:
+            if ( (next_bb.y + next_bb.height + vel ) < (world_size.y + world_size.height) ){
+                next_bb.y += vel;
+            }
+            break;
+    }
+
+	--direction_counter;
 }
 
 
