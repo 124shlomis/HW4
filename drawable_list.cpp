@@ -67,7 +67,9 @@ void Iterator::decrease_counter(){
     // FREE ALL MEMORY IF NEEDED: counter =0 && and node is invalid.
     if ( (this->ptr->iterator_counter == 0) & (! this->ptr->valid) ){
         delete this->ptr->item;
+        this->ptr->item = nullptr;
         delete this->ptr;
+        this->ptr = nullptr;
     }
 }
 
@@ -90,7 +92,7 @@ void Iterator::increase_counter(){
  */
 
 Drawable* Iterator::get_object(){
-    if ((this->ptr == nullptr) || (! this->ptr->valid) ){
+    if (this->ptr == nullptr ){
         return nullptr;
     }
     return this->ptr->item;
@@ -132,6 +134,10 @@ Iterator& Iterator::set(const Iterator& other){
  */
 
 Iterator& Iterator::next(){
+    if (this->ptr == nullptr){
+        return *this;
+    }
+
     if (this->ptr->next == nullptr){ // case next is null
         decrease_counter();
         this->ptr = nullptr;
@@ -140,15 +146,13 @@ Iterator& Iterator::next(){
 
     Node* AuxPtr = this->ptr->next;
 
-    while ( ! AuxPtr->valid ){ // in case we got the end of the list and there is no valid nodes
+    while ( !(AuxPtr->valid) ){
         AuxPtr = AuxPtr->next;
-        if (AuxPtr->next == nullptr){
-            decrease_counter();
+        if (AuxPtr == nullptr){
             this->ptr = nullptr;
             return *this;
         }
     }
-
     // found valid node. update counters and pointer.
     decrease_counter();
     this->ptr = AuxPtr;
@@ -165,18 +169,20 @@ Iterator& Iterator::next(){
  */
 
 Iterator& Iterator::prev(){ // in case we got the start of the list and there is no valid nodes
+    if (this->ptr == nullptr){
+        return *this;
+    }
+
     if (this->ptr->prev == nullptr){ // case next is null
         decrease_counter();
         this->ptr = nullptr;
         return *this;
     }
-
     Node* AuxPtr = this->ptr->prev;
 
-    while ( ! AuxPtr->valid ){ // in case we got the end of the list and there is no valid nodes
+    while ( !(AuxPtr->valid) ){
         AuxPtr = AuxPtr->prev;
-        if (AuxPtr->prev == nullptr){
-            decrease_counter();
+        if (AuxPtr == nullptr){
             this->ptr = nullptr;
             return *this;
         }
@@ -214,12 +220,18 @@ DrawableList::~DrawableList(){
     if ( size == 0 ){ // case of empty list.
         return;
     }
-    Iterator AuxIter = Iterator(*(this->head));
+    Iterator AuxIter = Iterator(*this->head);
     AuxIter.decrease_counter();
-    while (AuxIter.ptr != nullptr){
+    if (size == 1){
         erase(AuxIter);
-        AuxIter.ptr = this->head;
+        return;
     }
+
+    while (AuxIter.ptr != this->tail){
+        erase(AuxIter);
+        AuxIter.ptr = head;
+    }
+    erase(AuxIter);
 }
 
 
@@ -323,20 +335,16 @@ int DrawableList::get_size() const{
  */
 
 Iterator DrawableList::begin(){
-    Node* AuxNode = head;
-    if (AuxNode == nullptr){ // empty list
+
+    Iterator AuxIter = Iterator(*head);
+
+    if (AuxIter.ptr == nullptr){ // empty list
         return Iterator();
     }
-    while( ! AuxNode->valid ){ // looking for the next valid node
-        AuxNode = AuxNode->next;
-        if (AuxNode == nullptr){
-            return Iterator();
-        }
-    }
-    // returns the first valid node in the list.
-    Iterator NewIterator = Iterator(*AuxNode);
-    return NewIterator;
-
+    if (AuxIter.valid()){
+        return AuxIter;
+    } else
+        return AuxIter.next();
 }
 
 
@@ -345,17 +353,15 @@ Iterator DrawableList::begin(){
  */
 
 Iterator DrawableList::end(){
-    Node* AuxNode = tail;
-    if (AuxNode == nullptr){
-        return Iterator();
+
+    Iterator AuxIter = Iterator(*tail);
+
+    if (AuxIter.ptr == nullptr){ // empty list
+        return Iterator(); // return iterator pointing null
     }
-    while( ! AuxNode->valid ){ // looking for the next valid node
-        AuxNode = AuxNode->prev;
-        if (AuxNode == nullptr){
-            return Iterator();
-        }
-    }
-    // returns the first valid node in the list.
-    Iterator NewIterator = Iterator(*AuxNode);
-    return NewIterator;
+    if (AuxIter.valid()){
+        return AuxIter;
+    } else
+        return AuxIter.prev();
 }
+

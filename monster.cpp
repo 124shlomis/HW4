@@ -14,7 +14,7 @@ Monster::~Monster() = default;
 
 
 // move Monster. Monster changes direction only if it finished moving in her
-// previous direction. moves only if within bounderies of mg (mini gui)
+// previous direction. moves only if within boundaries of mg (mini gui)
 void Monster::move(direction_t direction)
 {
 	// update current direction only if finished moving in that direction
@@ -106,50 +106,54 @@ void Monster::refresh()
 
 
 // checks if this Monster collides with an Apple or a Monster
-// and apdates the colliding Drawables accordingly
-// recieves list of drawables 
+// and Updates the colliding Drawable accordingly
+// receives list of drawable
+
 void Monster::step(DrawableList& lst)
 {
-	Iterator iter(lst.begin());
-	Iterator thisIter(iter);
-	bool isEaten = false;			// indicates if this Monster is eaten
-	int initial_level = level;
-	do {
-		if (iter.get_object() == this) {	// skip this when checking collision
-			thisIter = iter;				// create Iterator tha points to this
-			continue;
-		}
+    for (Iterator iter = lst.begin(); iter.valid() ; iter.next()){
 
-		if (iter.get_object()->collide(*this))			// if there is collision
-		{
-			if (iter.get_object()->id() == 'M') {		// if it's a Monster, find who wins
-				if (level <= ((Monster*)iter.get_object())->level) {
-					((Monster*)iter.get_object())->level += level;
-					break;
-				}
-				else {
-					level += ((Monster*)iter.get_object())->level;
-					lst.erase(iter);
-				}
-			}
-			else if (iter.get_object()->id() == 'A') {	// if it's an Apple, this Monster eats the Apple
-				level++;
-				lst.erase(iter);
-			}
-			
-		}
-	} while (iter.next().valid());
-	
-	if (isEaten) {					// if this Monster was eaten, erase it
-		lst.erase(thisIter);
-		return;
-	}
+        if ( iter.get_object() == this ){ // case the iterator pointing this.
+            Iterator MyIter = Iterator(iter);
+            continue;
+        }
 
-	if (initial_level != level)		// refresh graphics if changes were made
-		refresh();
+        if ( this->collide(*iter.get_object()) ) { // check colliding
+
+            int Draw_ID = iter.get_object()->id();
+
+            switch (Draw_ID) {
+
+                case 'A': // apple
+                    level++;
+                    lst.erase(iter);
+                    break;
+
+                case 'M': // fight!
+                {
+                    auto* FighterMonster = dynamic_cast<Monster*>(iter.get_object());
+
+                    if (FighterMonster->level < this->level ) {
+                        this->level += FighterMonster->level;
+                        lst.erase(iter);
+                        break;
+                    } else {
+                        FighterMonster->level += this->level;
+                        for (Iterator AuxIter = lst.begin();; AuxIter.next()) { // find this and erase it
+                            if (AuxIter.get_object() == this) {
+                                lst.erase(AuxIter);
+                                return;
+                            }
+                        }
+                    }
+                }
+                default:
+                    break;
+            }
+        }
+    }
+    refresh();
 }
-
-
 
 
 
