@@ -1,4 +1,5 @@
 log out1.txt
+seed 3
 size 9 6 
 steps 120
 item monster 2 2 5

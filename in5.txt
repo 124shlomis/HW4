@@ -1,8 +1,9 @@
-log out4.txt
-seed 3
+log out5.txt
+seed 36
 size 32 20 
 steps 300
 item monster 28 1 4
+item apple 4 5
 item monster 21 4 0
 item monster 5 15 0
 item monster 24 8 4
