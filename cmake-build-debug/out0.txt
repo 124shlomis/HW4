@@ -1,0 +1,159 @@
+# Step 0
+mini_gui_print(0, 0, "_")
+mini_gui_print(1, 0, "_")
+mini_gui_print(2, 0, "_")
+mini_gui_print(3, 0, "_")
+mini_gui_print(4, 0, "_")
+mini_gui_print(5, 0, "_")
+mini_gui_print(6, 0, "_")
+mini_gui_print(7, 0, "_")
+mini_gui_print(8, 0, "_")
+mini_gui_print(9, 0, "_")
+mini_gui_print(10, 0, "_")
+mini_gui_print(11, 0, "_")
+mini_gui_print(12, 0, "_")
+mini_gui_print(13, 0, "_")
+mini_gui_print(14, 0, "_")
+mini_gui_print(15, 0, "_")
+mini_gui_print(16, 0, "_")
+mini_gui_print(17, 0, "_")
+mini_gui_print(18, 0, "_")
+mini_gui_print(19, 0, "_")
+mini_gui_print(0, 9, "_")
+mini_gui_print(1, 9, "_")
+mini_gui_print(2, 9, "_")
+mini_gui_print(3, 9, "_")
+mini_gui_print(4, 9, "_")
+mini_gui_print(5, 9, "_")
+mini_gui_print(6, 9, "_")
+mini_gui_print(7, 9, "_")
+mini_gui_print(8, 9, "_")
+mini_gui_print(9, 9, "_")
+mini_gui_print(10, 9, "_")
+mini_gui_print(11, 9, "_")
+mini_gui_print(12, 9, "_")
+mini_gui_print(13, 9, "_")
+mini_gui_print(14, 9, "_")
+mini_gui_print(15, 9, "_")
+mini_gui_print(16, 9, "_")
+mini_gui_print(17, 9, "_")
+mini_gui_print(18, 9, "_")
+mini_gui_print(19, 9, "_")
+mini_gui_print(0, 1, "|")
+mini_gui_print(0, 2, "|")
+mini_gui_print(0, 3, "|")
+mini_gui_print(0, 4, "|")
+mini_gui_print(0, 5, "|")
+mini_gui_print(0, 6, "|")
+mini_gui_print(0, 7, "|")
+mini_gui_print(0, 8, "|")
+mini_gui_print(0, 9, "|")
+mini_gui_print(19, 1, "|")
+mini_gui_print(19, 2, "|")
+mini_gui_print(19, 3, "|")
+mini_gui_print(19, 4, "|")
+mini_gui_print(19, 5, "|")
+mini_gui_print(19, 6, "|")
+mini_gui_print(19, 7, "|")
+mini_gui_print(19, 8, "|")
+mini_gui_print(19, 9, "|")
+mini_gui_print_rect({4,6,1,1},".")
+mini_gui_print_rect({16,4,1,1},".")
+mini_gui_print_rect({19,2,0,1},".")
+mini_gui_print_rect({8,4,1,1},".")
+mini_gui_print_rect({6,8,1,1},".")
+mini_gui_print_rect({5,4,1,1},".")
+mini_gui_print_rect({4,5,1,1},".")
+mini_gui_print_rect({4,2,1,1},".")
+mini_gui_print_rect({5,7,1,1},".")
+mini_gui_print_rect({3,9,1,0},".")
+mini_gui_print_rect({2,8,1,1},".")
+mini_gui_print_rect({4,8,1,1},".")
+mini_gui_print_rect({10,2,1,1},".")
+mini_gui_print_rect({4,9,1,0},".")
+mini_gui_print_rect({9,9,1,0},".")
+mini_gui_print_rect({8,3,1,1},".")
+mini_gui_print_rect({17,3,1,1},".")
+mini_gui_print_rect({2,8,1,1},".")
+mini_gui_print_rect({5,4,1,1},".")
+mini_gui_print_rect({14,2,1,1},".")
+mini_gui_print_rect({10,5,1,1},".")
+mini_gui_print_rect({13,6,1,1},".")
+mini_gui_print_rect({14,8,1,1},".")
+mini_gui_print_rect({2,5,1,1},".")
+mini_gui_print_rect({9,7,1,1},".")
+mini_gui_print_rect({5,6,1,1},".")
+mini_gui_print_rect({13,7,1,1},".")
+mini_gui_print_rect({3,4,1,1},".")
+mini_gui_print_rect({12,2,1,1},".")
+mini_gui_print_rect({15,8,1,1},".")
+# Step 1
+# Step 2
+# Step 3
+# Step 4
+# Step 5
+# Step 6
+# Step 7
+# Step 8
+# Step 9
+# Step 10
+# Step 11
+# Step 12
+# Step 13
+# Step 14
+# Step 15
+# Step 16
+# Step 17
+# Step 18
+# Step 19
+# Step 20
+# Step 21
+# Step 22
+# Step 23
+# Step 24
+# Step 25
+# Step 26
+# Step 27
+# Step 28
+# Step 29
+# Step 30
+# Step 31
+# Step 32
+# Step 33
+# Step 34
+# Step 35
+# Step 36
+# Step 37
+# Step 38
+# Step 39
+# Cleanup
+mini_gui_clear_rect({4,6,1,1})
+mini_gui_clear_rect({16,4,1,1})
+mini_gui_clear_rect({19,2,0,1})
+mini_gui_clear_rect({8,4,1,1})
+mini_gui_clear_rect({6,8,1,1})
+mini_gui_clear_rect({5,4,1,1})
+mini_gui_clear_rect({4,5,1,1})
+mini_gui_clear_rect({4,2,1,1})
+mini_gui_clear_rect({5,7,1,1})
+mini_gui_clear_rect({3,9,1,0})
+mini_gui_clear_rect({2,8,1,1})
+mini_gui_clear_rect({4,8,1,1})
+mini_gui_clear_rect({10,2,1,1})
+mini_gui_clear_rect({4,9,1,0})
+mini_gui_clear_rect({9,9,1,0})
+mini_gui_clear_rect({8,3,1,1})
+mini_gui_clear_rect({17,3,1,1})
+mini_gui_clear_rect({2,8,1,1})
+mini_gui_clear_rect({5,4,1,1})
+mini_gui_clear_rect({14,2,1,1})
+mini_gui_clear_rect({10,5,1,1})
+mini_gui_clear_rect({13,6,1,1})
+mini_gui_clear_rect({14,8,1,1})
+mini_gui_clear_rect({2,5,1,1})
+mini_gui_clear_rect({9,7,1,1})
+mini_gui_clear_rect({5,6,1,1})
+mini_gui_clear_rect({13,7,1,1})
+mini_gui_clear_rect({3,4,1,1})
+mini_gui_clear_rect({12,2,1,1})
+mini_gui_clear_rect({15,8,1,1})
