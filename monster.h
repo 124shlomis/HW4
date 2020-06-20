@@ -2,6 +2,7 @@
 #define MONSTER_H
 
 #include "drawable.h"
+#include "drawable_list.h"
 
 class Monster : public Drawable {
 private:

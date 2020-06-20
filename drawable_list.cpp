@@ -67,9 +67,9 @@ void Iterator::decrease_counter(){
     // FREE ALL MEMORY IF NEEDED: counter =0 && and node is invalid.
     if ( (this->ptr->iterator_counter == 0) & (! this->ptr->valid) ){
         delete this->ptr->item;
-        this->ptr->item = nullptr;
+        this->ptr->item = nullptr; // set item to nullptr
         delete this->ptr;
-        this->ptr = nullptr;
+        this->ptr = nullptr; // set item to nullptr
     }
 }
 
@@ -220,18 +220,10 @@ DrawableList::~DrawableList(){
     if ( size == 0 ){ // case of empty list.
         return;
     }
-    Iterator AuxIter = Iterator(*this->head);
-    AuxIter.decrease_counter();
-    if (size == 1){
-        erase(AuxIter);
-        return;
-    }
 
-    while (AuxIter.ptr != this->tail){
-        erase(AuxIter);
-        AuxIter.ptr = head;
+    for (Iterator AuxIter = (this->begin());AuxIter.valid();AuxIter.next()){
+        erase((AuxIter));
     }
-    erase(AuxIter);
 }
 
 

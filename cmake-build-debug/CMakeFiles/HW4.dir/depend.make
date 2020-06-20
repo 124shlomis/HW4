@@ -5,7 +5,7 @@ CMakeFiles/HW4.dir/apple.cpp.o: ../apple.cpp
 CMakeFiles/HW4.dir/apple.cpp.o: ../apple.h
 CMakeFiles/HW4.dir/apple.cpp.o: ../ascii_objects.h
 CMakeFiles/HW4.dir/apple.cpp.o: ../drawable.h
-CMakeFiles/HW4.dir/apple.cpp.o: ../drawable_list.h
+CMakeFiles/HW4.dir/apple.cpp.o: ../drawable_list-2.h
 CMakeFiles/HW4.dir/apple.cpp.o: ../mini_gui.h
 
 CMakeFiles/HW4.dir/drawable.cpp.o: ../ascii_objects.h

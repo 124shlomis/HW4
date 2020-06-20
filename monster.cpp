@@ -1,14 +1,11 @@
+/* includes */
 #include "monster.h"
-#include "drawable_list.h" 
 
 
 // initialize Monster
 Monster::Monster(unsigned short x, unsigned short y, int direction_hold)
 	: Drawable({ x, y, 1, 1 }), level(1), vel(1), current_direction(left),
-		direction_hold(direction_hold), direction_counter(0), next_bb(bounding_box)
-{
-	gfx = MONSTER0;
-}
+		direction_hold(direction_hold), direction_counter(0), next_bb(bounding_box),gfx(MONSTER0){}
 
 Monster::~Monster() = default;
 
@@ -47,8 +44,11 @@ void Monster::move(direction_t direction)
             }
             break;
     }
+    if (direction_counter>0){
+        --direction_counter;
+    }
 
-	--direction_counter;
+
 }
 
 
@@ -109,12 +109,10 @@ void Monster::refresh()
 // and Updates the colliding Drawable accordingly
 // receives list of drawable
 
-void Monster::step(DrawableList& lst)
-{
+void Monster::step(DrawableList& lst){
     for (Iterator iter = lst.begin(); iter.valid() ; iter.next()){
 
         if ( iter.get_object() == this ){ // case the iterator pointing this.
-            Iterator MyIter = Iterator(iter);
             continue;
         }
 
@@ -129,17 +127,18 @@ void Monster::step(DrawableList& lst)
                     lst.erase(iter);
                     break;
 
-                case 'M': // fight!
+                case 'M': // monster - fight!
                 {
                     auto* FighterMonster = dynamic_cast<Monster*>(iter.get_object());
 
-                    if (FighterMonster->level < this->level ) {
+                    if (FighterMonster->level < this->level ) { // case win
                         this->level += FighterMonster->level;
                         lst.erase(iter);
                         break;
-                    } else {
+                    } else { // case loose
                         FighterMonster->level += this->level;
-                        for (Iterator AuxIter = lst.begin();; AuxIter.next()) { // find this and erase it
+                        FighterMonster->refresh(); // refresh the winner graphics
+                        for (Iterator AuxIter = lst.begin(); AuxIter.valid(); AuxIter.next()) { // find this and erase it
                             if (AuxIter.get_object() == this) {
                                 lst.erase(AuxIter);
                                 return;
@@ -152,11 +151,5 @@ void Monster::step(DrawableList& lst)
             }
         }
     }
-    refresh();
+    refresh(); // refresh graphics
 }
-
-
-
-
-
-

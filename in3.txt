@@ -1,4 +1,5 @@
 log out3.txt
+seed 3
 size 20 10 
 steps 100
 item apple 4 6
