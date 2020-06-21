@@ -123,9 +123,12 @@ void Monster::step(DrawableList& lst){
             switch (Draw_ID) {
 
                 case 'A': // apple
+                {
                     level++;
                     lst.erase(iter);
                     break;
+                }
+
 
                 case 'M': // monster - fight!
                 {
