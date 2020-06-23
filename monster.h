@@ -1,9 +1,12 @@
 #ifndef MONSTER_H
 #define MONSTER_H
 
+/* includes */
 #include "drawable.h"
 #include "drawable_list.h"
 
+
+// Monster Class:
 class Monster : public Drawable {
 private:
 	// The level of the monster

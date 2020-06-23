@@ -3,14 +3,23 @@
 
 
 // initialize Monster
+/**
+ * @brief c'tor: Initiate a level 1 monster in x,y
+ */
 Monster::Monster(unsigned short x, unsigned short y, int direction_hold)
 	: Drawable({ x, y, 1, 1 }), level(1), vel(1), current_direction(left),
 		direction_hold(direction_hold), direction_counter(0), next_bb(bounding_box),gfx(MONSTER0){}
 
+/**
+* @brief d'tor
+*/
 Monster::~Monster() = default;
 
 
-// move Monster. Monster changes direction only if it finished moving in her
+/**
+ * @brief Move the object in the direction
+ */
+// Monster changes direction only if it finished moving in her
 // previous direction. moves only if within boundaries of mg (mini gui)
 void Monster::move(direction_t direction)
 {
@@ -21,7 +30,7 @@ void Monster::move(direction_t direction)
 	}
 	struct rect world_size = mini_gui_get_screen_size(mg);
 	// update current direction, and checks if within boundaries
-    switch (current_direction) {
+    switch (current_direction) { // cases:
 
         case left:
             if ( (next_bb.x - vel) > world_size.x ) {
@@ -47,11 +56,11 @@ void Monster::move(direction_t direction)
     if (direction_counter>0){
         --direction_counter;
     }
-
-
 }
 
-
+/**
+ * @brief Draw the object
+ */
 void Monster::draw()
 {
 	mini_gui_clear_rect(mg, bounding_box);
@@ -59,16 +68,21 @@ void Monster::draw()
 	mini_gui_print_rect(mg, bounding_box, gfx);
 }
 
-
+/**
+ * @brief Return an ID of Monster
+ */
 int Monster::id()
 {
 	return 'M';
 }
 
-// updates monster's graphics according to level
-void Monster::refresh()
-{
-	if (level < 5) {
+/**
+ * @brief Is called whenever any refresh is required
+ */
+
+void Monster::refresh(){
+    // updates monster's graphics according to level
+    if (level < 5) {
 		gfx = MONSTER0;
 		vel = 1;
 		next_bb.height = 1;
@@ -105,11 +119,14 @@ void Monster::refresh()
 }
 
 
-// checks if this Monster collides with an Apple or a Monster
-// and Updates the colliding Drawable accordingly
-// receives list of drawable
 
+/**
+ * @brief Do a step in the 'game of life'
+ * @param lst A list of all drawable objects in the world
+ */
 void Monster::step(DrawableList& lst){
+    // checks if this Monster collides with an Apple or a Monster
+    // and Updates the colliding Drawable accordingly
     for (Iterator iter = lst.begin(); iter.valid() ; iter.next()){
 
         if ( iter.get_object() == this ){ // case the iterator pointing this.
