@@ -1,3 +1,3 @@
 # HW4
 HW4 in mamat course. homework topic: cpp
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LGPfgdGoTs4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo CountPages alpha](https://media.giphy.com/media/LqlD4FHU5f9QAuu3YC/giphy.gif)](https://youtu.be/LGPfgdGoTs4)
